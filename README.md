@@ -9,10 +9,11 @@
 - [x] [#3 Longest Substring Without Repeating Characters(无重复字符的最长子串)](#3)
 - [x] [#4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)](#4)
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
-- [x] [#6 ZigZag Conversion](#6)
-- [ ] [#66 Plus One](#66)
-- [x] [#224 Basic Calculator](#224)
-- [x] [#869 Reordered Power of 2](#869)
+- [x] [#6 ZigZag Conversion(Z 字形变换)](#6)
+- [x] [#66 Plus One(加一)](#66)
+- [x] [#224 Basic Calculator(基本计算器)](#224)
+- [x] [#747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)](#747)
+- [x] [#869 Reordered Power of 2(重新排序得到 2 的幂)](#869)
 
 ---
 
@@ -79,7 +80,7 @@ Explanation(解释): The answer is "b", with the length of 1.
 Input(输入): "pwwkew"
 Output(输出): 3
 Explanation(解释): The answer is "wke", with the length of 3.
-  Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
 [back to top(回到顶部)](#top)
 
@@ -179,7 +180,7 @@ P     I
 
 ---
 
-## <a id="66"></a> #66 Plus One
+## <a id="66"></a> #66 Plus One(加一)
 Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
 
 (给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。)
@@ -209,7 +210,6 @@ Explanation(解释): The array represents the integer 4321.
 ---
 
 ## <a id="224"></a> #224 Basic Calculator(基本计算器)
-
 Implement a basic calculator to evaluate a simple expression string.
 
 (实现一个基本的计算器来计算一个简单的字符串表达式的值。)
@@ -243,7 +243,45 @@ Output(输出): 23
 
 ---
 
-## <a id="869"></a> #869 Reordered Power of 2
+## <a id="747"></a> #747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)
+In a given integer array `nums`, there is always exactly one largest element.
+
+(在一个给定的数组`nums`中，总是存在一个最大元素 。)
+
+Find whether the largest element in the array is at least twice as much as every other number in the array.
+
+(查找数组中的最大元素是否至少是数组中每个其他数字的两倍。)
+
+If it is, return the **index** of the largest element, otherwise return -1.
+
+(如果是，则返回最大元素的索引，否则返回-1。)
+
+**Example(示例) 1:**
+```
+Input(输入): nums = [3, 6, 1, 0]
+Output(输出): 1
+Explanation(解释): 6 is the largest integer, and for every other number in the array x,
+6 is more than twice as big as x.  The index of value 6 is 1, so we return 1.
+```
+**Example(示例) 2:**
+```
+Input(输入): nums = [1, 2, 3, 4]
+Output(输出): -1
+Explanation(解释): 4 isn't at least as big as twice the value of 3, so we return -1.
+```
+**Note(提示):**
+1. `nums` will have a length in the range `[1, 50]`.
+
+  (`nums` 的长度范围在`[1, 50]`.)
+2. Every `nums[i]` will be an integer in the range `[0, 99]`.
+
+  (每个 `nums[i]` 的整数范围在 `[0, 99]`.)
+
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="869"></a> #869 Reordered Power of 2(重新排序得到 2 的幂)
 Starting with a positive integer `N`, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
 (从正整数 `N` 开始，我们按任何顺序（包括原始顺序）将数字重新排序，注意其前导数字不能为零。)
