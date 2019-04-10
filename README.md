@@ -10,8 +10,9 @@
 - [x] [#4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)](#4)
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
 - [x] [#6 ZigZag Conversion](#6)
+- [ ] [#66 Plus One](#66)
 - [x] [#224 Basic Calculator](#224)
-- [ ] [#869 Reordered Power of 2](#869)
+- [x] [#869 Reordered Power of 2](#869)
 
 ---
 
@@ -173,6 +174,35 @@ P     I     N
 A   L S   I G
 Y A   H R
 P     I
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="66"></a> #66 Plus One
+Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
+
+(给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。)
+
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+
+(最高位数字存放在数组的首位， 数组中每个元素只存储一个数字。)
+
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+(你可以假设除了整数 0 之外，这个整数不会以零开头。)
+
+**Example(示例) 1:**
+```
+Input(输入): [1,2,3]
+Output(输出): [1,2,4]
+Explanation(解释): The array represents the integer 123.
+```
+**Example(示例) 2:**
+```
+Input(输入): [4,3,2,1]
+Output(输出): [4,3,2,2]
+Explanation(解释): The array represents the integer 4321.
 ```
 [back to top(回到顶部)](#top)
 
