@@ -10,7 +10,7 @@
 - [x] [#4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)](#4)
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
 - [X] [#6 ZigZag Conversion](#6)
-
+- [ ] [#224 Basic Calculator](#224)
 ---
 
 ## <a id="1"></a> #1 Two Sum(两数之和)
@@ -172,3 +172,36 @@ A   L S   I G
 Y A   H R
 P     I
 ```
+
+---
+
+## <a id="224"></a> #224 Basic Calculator(基本计算器)
+
+Implement a basic calculator to evaluate a simple expression string.
+
+(实现一个基本的计算器来计算一个简单的字符串表达式的值。)
+
+The expression string may contain open `(` and closing parentheses `)`, the plus `+` or minus sign `-`, **non-negative** integers and empty spaces` `.
+
+(字符串表达式可以包含左括号 `(` ，右括号 `)`，加号 `+` ，减号 `-`，**非负** 整数和空格`  `。)
+
+**Example(示例) 1:**
+```
+Input(输入): "1 + 1"
+Output(输出): 2
+```
+**Example(示例) 2:**
+```
+Input(输入): " 2-1 + 2 "
+Output(输出): 3
+```
+**Example(示例) 3:**
+```
+Input(输入): "(1+(4+5+2)-3)+(6+8)"
+Output(输出): 23
+```
+**Note:**
+- You may assume that the given expression is always valid.
+- (你可以假设所给定的表达式都是有效的。)
+- **Do not** use the `eval` built-in library function.
+- (请 **不要** 使用内置的库函数 `eval`。)
