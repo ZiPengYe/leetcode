@@ -37,7 +37,7 @@ const calculate = function(s) {
         while(i+1 < s.length && s[i+1] >= '0' && s[i+1] <= '9') {
           num += s[++i];
         }
-        // 下面这个 (str - 0) 转换为数字是最快的... 比 parseInt(str), +str 都快
+        // 下面这个 (str - 0) 转换为数字在leetcode是最快的... 比 parseInt(str), +str, Number(str) 都快
         result += sign * (num - 0);
     }
   }

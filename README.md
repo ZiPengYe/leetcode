@@ -9,8 +9,10 @@
 - [x] [#3 Longest Substring Without Repeating Characters(无重复字符的最长子串)](#3)
 - [x] [#4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)](#4)
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
-- [X] [#6 ZigZag Conversion](#6)
-- [ ] [#224 Basic Calculator](#224)
+- [x] [#6 ZigZag Conversion](#6)
+- [x] [#224 Basic Calculator](#224)
+- [ ] [#869 Reordered Power of 2](#869)
+
 ---
 
 ## <a id="1"></a> #1 Two Sum(两数之和)
@@ -172,6 +174,7 @@ A   L S   I G
 Y A   H R
 P     I
 ```
+[back to top(回到顶部)](#top)
 
 ---
 
@@ -200,8 +203,51 @@ Output(输出): 3
 Input(输入): "(1+(4+5+2)-3)+(6+8)"
 Output(输出): 23
 ```
-**Note:**
+**Note(说明):**
 - You may assume that the given expression is always valid.
 - (你可以假设所给定的表达式都是有效的。)
 - **Do not** use the `eval` built-in library function.
 - (请 **不要** 使用内置的库函数 `eval`。)
+
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="869"></a> #869 Reordered Power of 2
+Starting with a positive integer `N`, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
+
+(从正整数 `N` 开始，我们按任何顺序（包括原始顺序）将数字重新排序，注意其前导数字不能为零。)
+
+Return `true` if and only if we can do this in a way such that the resulting number is a power of 2.
+
+(如果我们可以通过上述方式得到 2 的幂，返回 `true`；否则，返回 `false`。)
+
+**Example(示例) 1:**
+```
+Input(输入): 1
+Output(输出): true
+```
+**Example(示例) 2:**
+```
+Input(输入): 10
+Output(输出): false
+```
+**Example(示例) 3:**
+```
+Input(输入): 16
+Output(输出): true
+```
+**Example(示例) 4:**
+```
+Input(输入): 24
+Output(输出): false
+```
+**Example(示例) 5:**
+```
+Input(输入): 46
+Output(输出): true
+```
+**Note(提示):**
+1. `1 <= N <= 10^9`
+
+[back to top(回到顶部)](#top)
