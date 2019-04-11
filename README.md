@@ -12,8 +12,13 @@
 - [x] [#6 ZigZag Conversion(Z 字形变换)](#6)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
+- [ ] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
+- [x] [#434 Number of Segments in a String(字符串中的单词数)](#434)
+- [ ] [#467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)](#467)
 - [x] [#747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)](#747)
 - [x] [#869 Reordered Power of 2(重新排序得到 2 的幂)](#869)
+- [ ] [#992 Subarrays with K Different Integers(K 个不同整数的子数组)](#992)
+- [ ] [#1024 Video Stitching](#1024)
 
 ---
 
@@ -243,6 +248,85 @@ Output(输出): 23
 
 ---
 
+## <a id="300"></a> #300 Longest Increasing Subsequence(最长上升子序列)
+Given an unsorted array of integers, find the length of longest increasing subsequence.
+
+(给定一个无序的整数数组，找到其中最长上升子序列的长度。)
+
+**Example(示例):**
+```
+Input(输入): [10,9,2,5,3,7,101,18]
+Output(输出): 4
+Explanation(解释): The longest increasing subsequence is [2,3,7,101], therefore the length is 4. 
+```
+**Note(说明):**
+- There may be more than one LIS combination, it is only necessary for you to return the length.
+(可能会有多种最长上升子序列的组合，你只需要输出对应的长度即可。)
+- Your algorithm should run in O(n2) complexity.
+(你算法的时间复杂度应该为 O(n2) 。)
+
+**Follow up(进阶)**: Could you improve it to O(n log n) time complexity?
+(你能将算法的时间复杂度降低到 O(n log n) 吗?)
+
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="434"></a> #434 Number of Segments in a String(字符串中的单词数)
+Count the number of segments in a string, where a segment is defined to be a contiguous sequence of **non-space** characters.
+
+(统计字符串中的单词个数，这里的单词指的是连续的不是空格的字符。)
+
+Please note that the string does not contain any non-printable characters.
+
+(请注意，你可以假定字符串里不包括任何不可打印的字符。)
+
+**Example(示例):**
+```
+Input(输入): "Hello, my name is John"
+Output(输出): 5
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="467"></a> #467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)
+Consider the string `s` to be the infinite wraparound string of "abcdefghijklmnopqrstuvwxyz", so `s` will look like this:
+
+(把字符串 `s` 看作是“abcdefghijklmnopqrstuvwxyz”的无限环绕字符串，所以 `s` 看起来是这样的：)
+
+"...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....".
+
+Now we have another string `p`. Your job is to find out how many unique non-empty substrings of `p` are present in `s`. In particular, your input is the string `p` and you need to output the number of different non-empty substrings of `p` in the string `s`.
+
+(现在我们有了另一个字符串 `p` 。你需要的是找出 `s` 中有多少个唯一的 `p` 的非空子串，尤其是当你的输入是字符串 `p` ，你需要输出字符串 `s` 中 `p` 的不同的非空子串的数目。 )
+
+Note: `p` consists of only lowercase English letters and the size of p might be over 10000.
+
+(注意: `p` 仅由小写的英文字母组成，p 的大小可能超过 10000。)
+
+**Example(示例) 1:**
+```
+Input(输入): "a"
+Output(输出): 1
+Explanation(解释): Only the substring "a" of string "a" is in the string s.
+```
+**Example(示例) 2:**
+```
+Input(输入): "cac"
+Output(输出): 2
+Explanation(解释): There are two substrings "a", "c" of string "cac" in the string s.
+```
+**Example(示例) 3:**
+```
+Input(输入): "zab"
+Output(输出): 6
+Explanation(解释): There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
+```
+[back to top(回到顶部)](#top)
+
+---
+
 ## <a id="747"></a> #747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)
 In a given integer array `nums`, there is always exactly one largest element.
 
@@ -317,5 +401,85 @@ Output(输出): true
 ```
 **Note(提示):**
 1. `1 <= N <= 10^9`
+
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="992"></a> #992 Subarrays with K Different Integers(K 个不同整数的子数组)
+Given an array `A` of positive integers, call a (contiguous, not necessarily distinct) subarray of `A` good if the number of different integers in that subarray is exactly `K`.
+
+(给定一个正整数数组 `A`，如果 `A` 的某个子数组中不同整数的个数恰好为 `K`，则称 `A` 的这个连续、不一定独立的子数组为好子数组。)
+
+(For example, `[1,2,3,1,2]` has `3` different integers: `1`, `2`, and `3`.)
+
+(例如，`[1,2,3,1,2]` 中有 `3` 个不同的整数：`1`，`2`，以及 `3`。)
+
+Return the number of good subarrays of `A`.
+
+(返回 `A` 中好子数组的数目。)
+
+**Example(示例) 1:**
+```
+Input(输入): A = [1,2,1,2,3], K = 2
+Output(输出): 7
+Explanation(解释): Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2].
+```
+**Example(示例) 2:**
+```
+Input(输入): A = [1,2,1,3,4], K = 3
+Output(输出): 3
+Explanation(解释): Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1,3], [1,3,4].
+```
+**Note(提示):**
+1. `1 <= A.length <= 20000`
+2. `1 <= A[i] <= A.length`
+3. `1 <= K <= A.length`
+
+[back to top(回到顶部)](#top)
+---
+
+## <a id="1024"></a> #1024 Video Stitching
+You are given a series of video clips from a sporting event that lasted T seconds.  These video clips can be overlapping with each other and have varied lengths.
+
+Each video clip clips[i] is an interval: it starts at time clips[i][0] and ends at time clips[i][1].  We can cut these clips into segments freely: for example, a clip [0, 7] can be cut into segments [0, 1] + [1, 3] + [3, 7].
+
+Return the minimum number of clips needed so that we can cut the clips into segments that cover the entire sporting event ([0, T]).  If the task is impossible, return -1.
+
+**Example(示例) 1:**
+```
+Input(输入): clips = [[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], T = 10
+Output(输出): 3
+Explanation(解释):
+We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
+Then, we can reconstruct the sporting event as follows:
+We cut [1,9] into segments [1,2] + [2,8] + [8,9].
+Now we have segments [0,2] + [2,8] + [8,10] which cover the sporting event [0, 10].
+```
+**Example(示例) 2:**
+```
+Input(输入): clips = [[0,1],[1,2]], T = 5
+Output(输出): -1
+Explanation(解释):
+We can't cover [0,5] with only [0,1] and [0,2].
+```
+**Example(示例) 3:**
+```
+Input(输入): clips = [[0,1],[6,8],[0,2],[5,6],[0,4],[0,3],[6,7],[1,3],[4,7],[1,4],[2,5],[2,6],[3,4],[4,5],[5,7],[6,9]], T = 9
+Output(输出): 3
+Explanation(解释):
+We can take clips [0,4], [4,7], and [6,9].
+```
+**Example(示例) 4:**
+```
+Input(输入): clips = [[0,4],[2,8]], T = 5
+Output(输出): 2
+Explanation(解释):
+Notice you can have extra video after the event ends.
+```
+**Note(提示):**
+1. `1 <= clips.length <= 100`
+2. `0 <= clips[i][0], clips[i][1] <= 100`
+3. `0 <= T <= 100`
 
 [back to top(回到顶部)](#top)
