@@ -11,8 +11,9 @@
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
 - [x] [#6 ZigZag Conversion(Z 字形变换)](#6)
 - [x] [#66 Plus One(加一)](#66)
+- [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
-- [ ] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
+- [x] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
 - [x] [#434 Number of Segments in a String(字符串中的单词数)](#434)
 - [ ] [#467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)](#467)
 - [x] [#747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)](#747)
@@ -209,6 +210,28 @@ Explanation(解释): The array represents the integer 123.
 Input(输入): [4,3,2,1]
 Output(输出): [4,3,2,2]
 Explanation(解释): The array represents the integer 4321.
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="88"></a> #88 Merge Sorted Array(合并两个有序数组)
+Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+
+(给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。)
+
+**Note(说明):**
+- The number of elements initialized in nums1 and nums2 are m and n respectively.
+(初始化 nums1 和 nums2 的元素数量分别为 m 和 n。)
+- You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2.
+(你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。)
+
+**Example(示例):**
+```
+Input(输入): 
+nums1 = [1,2,3,0,0,0], m = 3
+nums2 = [2,5,6],       n = 3
+Output(输出): [1,2,2,3,5,6]
 ```
 [back to top(回到顶部)](#top)
 
