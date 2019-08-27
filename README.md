@@ -10,6 +10,7 @@
 - [x] [#4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)](#4)
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
 - [x] [#6 ZigZag Conversion(Z 字形变换)](#6)
+- [x] [#7 Reverse Integer(整数反转)](#7)
 - [x] [#13 Roman to Integer(罗马数字转整数)](#13)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
@@ -187,6 +188,35 @@ P     I
 
 ---
 
+## <a id="7"></a> #7 Reverse Integer(整数反转)
+Given a 32-bit signed integer, reverse digits of an integer.
+
+(给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。)
+
+**Example(示例) 1:**
+```
+Input(输入): 123
+Output(输出): 321
+```
+**Example(示例) 2:**
+```
+Input(输入): -123
+Output(输出): -321
+```
+**Example(示例) 3:**
+```
+Input(输入): 120
+Output(输出): 21
+```
+**Note(说明):**
+Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^(31),  2^(31) − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+(假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−2^(31),  2^(31) − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。)
+
+[back to top(回到顶部)](#top)
+
+---
+
 ## <a id="13"></a> #13 Roman to Integer(罗马数字转整数)
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
@@ -249,6 +279,7 @@ Input(输入): "MCMXCIV"
 Output(输出): 1994
 Explanation(解释): M = 1000, CM = 900, XC = 90 and IV = 4.
 ```
+[back to top(回到顶部)](#top)
 
 ---
 
