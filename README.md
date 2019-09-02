@@ -14,6 +14,7 @@
 - [x] [#9 Palindrome Number(回文数)](#9)
 - [x] [#13 Roman to Integer(罗马数字转整数)](#13)
 - [x] [#14 Longest Common Prefix(最长公共前缀)](#14)
+- [x] [#20 Valid Parentheses(有效的括号)](#20)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -336,6 +337,51 @@ Explanation(解释): There is no common prefix among the input strings.
 **Note(说明):**
 - All given inputs are in lowercase letters `a-z`.
 (所有输入只包含小写字母 `a-z` 。)
+
+---
+
+## <a id="20">#20</a> Valid Parentheses(有效的括号)
+Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+(给定一个只包括 `'('`，`')'`，`'{'`，`'}'`，`'['`，`']'` 的字符串，判断字符串是否有效)
+
+An input string is valid if:
+
+(有效字符串需满足：)
+  1. Open brackets must be closed by the same type of brackets.
+  (左括号必须用相同类型的右括号闭合。)
+  2. Open brackets must be closed in the correct order.
+  (左括号必须以正确的顺序闭合。)
+
+Note that an empty string is also considered valid.
+
+(注意空字符串可被认为是有效字符串。)
+
+**Example(示例) 1:**
+```
+Input(输入): "()"
+Output(输出): true
+```
+**Example(示例) 2:**
+```
+Input(输入): "()[]{}"
+Output(输出): true
+```
+**Example(示例) 3:**
+```
+Input(输入): "(]"
+Output(输出): false
+```
+**Example(示例) 4:**
+```
+Input(输入): "([)]"
+Output(输出): false
+```
+**Example(示例) 5:**
+```
+Input(输入): "{[]}"
+Output(输出): true
+```
 
 ---
 
