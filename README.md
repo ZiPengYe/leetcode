@@ -13,6 +13,7 @@
 - [x] [#7 Reverse Integer(整数反转)](#7)
 - [x] [#9 Palindrome Number(回文数)](#9)
 - [x] [#13 Roman to Integer(罗马数字转整数)](#13)
+- [x] [#14 Longest Common Prefix(最长公共前缀)](#14)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -210,8 +211,7 @@ Input(输入): 120
 Output(输出): 21
 ```
 **Note(说明):**
-Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^(31),  2^(31) − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
-
+- Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^(31),  2^(31) − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 (假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−2^(31),  2^(31) − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。)
 
 [back to top(回到顶部)](#top)
@@ -309,6 +309,33 @@ Output(输出): 1994
 Explanation(解释): M = 1000, CM = 900, XC = 90 and IV = 4.
 ```
 [back to top(回到顶部)](#top)
+
+---
+
+## <a id="14">#14</a> Longest Common Prefix(最长公共前缀)
+Write a function to find the longest common prefix string amongst an array of strings.
+
+(编写一个函数来查找字符串数组中的最长公共前缀。)
+
+If there is no common prefix, return an empty string `""`.
+
+(如果不存在公共前缀，返回空字符串 `""`。)
+
+
+**Example(示例) 1:**
+```
+Input(输入): ["flower","flow","flight"]
+Output(输出): "fl"
+```
+**Example(示例) 4:**
+```
+Input(输入): ["dog","racecar","car"]
+Output(输出): ""
+Explanation(解释): There is no common prefix among the input strings.
+```
+**Note(说明):**
+- All given inputs are in lowercase letters `a-z`.
+(所有输入只包含小写字母 `a-z` 。)
 
 ---
 
