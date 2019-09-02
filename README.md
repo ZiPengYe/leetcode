@@ -11,6 +11,7 @@
 - [x] [#5 Longest Palindromic Substring(最长回文子串)](#5)
 - [x] [#6 ZigZag Conversion(Z 字形变换)](#6)
 - [x] [#7 Reverse Integer(整数反转)](#7)
+- [x] [#9 Palindrome Number(回文数)](#9)
 - [x] [#13 Roman to Integer(罗马数字转整数)](#13)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
@@ -25,7 +26,7 @@
 
 ---
 
-## <a id="1"></a> #1 Two Sum(两数之和)
+## <a id="1">#1</a> Two Sum(两数之和)
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
 (给定一个整数数组 `nums` 和一个目标值 `target`，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。)
@@ -45,7 +46,7 @@ return [0, 1].
 
 ---
 
-## <a id="2"></a> #2 Add Two Numbers(两数相加)
+## <a id="2">#2</a> Add Two Numbers(两数相加)
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order** and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 (给出两个 **非空** 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 **逆序** 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -66,7 +67,7 @@ Explanation(原因): 342 + 465 = 807.
 
 ---
 
-## <a id="3"></a> #3 Longest Substring Without Repeating Characters(无重复字符的最长子串)
+## <a id="3">#3</a> Longest Substring Without Repeating Characters(无重复字符的最长子串)
 Given a string, find the length of the **longest substring** without repeating characters.
 
 (给定一个字符串，请你找出其中不含有重复字符的 **最长子串** 的长度。)
@@ -94,7 +95,7 @@ Note that the answer must be a substring, "pwke" is a subsequence and not a subs
 
 ---
 
-## <a id="4"></a> #4 Median of Two Sorted Arrays(寻找两个有序数组的中位数)
+## <a id="4">#4</a> Median of Two Sorted Arrays(寻找两个有序数组的中位数)
 There are two sorted arrays **nums1** and **nums2** of size m and n respectively.
 
 (给定两个大小为 m 和 n 的有序数组 `nums1` 和 `nums2`。)
@@ -125,7 +126,7 @@ The median is (2 + 3)/2 = 2.5
 
 ---
 
-## <a id="5"></a> #5 Longest Palindromic Substring(最长回文子串)
+## <a id="5">#5</a> Longest Palindromic Substring(最长回文子串)
 Given a string **s**, find the longest palindromic substring in **s**. You may assume that the maximum length of **s** is 1000.
 
 (给定一个字符串 `s`，找到 `s` 中最长的回文子串。你可以假设 `s` 的最大长度为 1000。)
@@ -145,7 +146,7 @@ Output(输出): "bb"
 
 ---
 
-## <a id="6"></a> #6 ZigZag Conversion(Z 字形变换)
+## <a id="6">#6</a> ZigZag Conversion(Z 字形变换)
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
 (比如输入字符串为 `"PAYPALISHIRING"` 行数为 3 时，排列如下：)
@@ -188,7 +189,7 @@ P     I
 
 ---
 
-## <a id="7"></a> #7 Reverse Integer(整数反转)
+## <a id="7">#7</a> Reverse Integer(整数反转)
 Given a 32-bit signed integer, reverse digits of an integer.
 
 (给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。)
@@ -217,7 +218,35 @@ Assume we are dealing with an environment which could only store integers within
 
 ---
 
-## <a id="13"></a> #13 Roman to Integer(罗马数字转整数)
+## <a id="9">#9</a> Palindrome Number(回文数)
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+(判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。)
+
+**Example(示例) 1:**
+```
+Input(输入): 121
+Output(输出): true
+```
+**Example(示例) 2:**
+```
+Input(输入): -121
+Output(输出): false
+Explanation(解释): From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+```
+**Example(示例) 3:**
+```
+Input(输入): 10
+Output(输出): false
+Explanation(解释): Reads 01 from right to left. Therefore it is not a palindrome.
+```
+**Follow up(进阶):**
+Coud you solve it without converting the integer to a string?
+
+(你能不将整数转为字符串来解决这个问题吗？)
+---
+
+## <a id="13">#13</a> Roman to Integer(罗马数字转整数)
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
 (罗马数字包含以下七种字符: `I`， `V`， `X`， `L`，`C`，`D` 和 `M`。)
@@ -283,7 +312,7 @@ Explanation(解释): M = 1000, CM = 900, XC = 90 and IV = 4.
 
 ---
 
-## <a id="66"></a> #66 Plus One(加一)
+## <a id="66">#66</a> Plus One(加一)
 Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
 
 (给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。)
@@ -312,7 +341,7 @@ Explanation(解释): The array represents the integer 4321.
 
 ---
 
-## <a id="88"></a> #88 Merge Sorted Array(合并两个有序数组)
+## <a id="88">#88</a> Merge Sorted Array(合并两个有序数组)
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 
 (给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。)
@@ -334,7 +363,7 @@ Output(输出): [1,2,2,3,5,6]
 
 ---
 
-## <a id="224"></a> #224 Basic Calculator(基本计算器)
+## <a id="224">#224</a> Basic Calculator(基本计算器)
 Implement a basic calculator to evaluate a simple expression string.
 
 (实现一个基本的计算器来计算一个简单的字符串表达式的值。)
@@ -368,7 +397,7 @@ Output(输出): 23
 
 ---
 
-## <a id="300"></a> #300 Longest Increasing Subsequence(最长上升子序列)
+## <a id="300">#300</a> Longest Increasing Subsequence(最长上升子序列)
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
 (给定一个无序的整数数组，找到其中最长上升子序列的长度。)
@@ -392,7 +421,7 @@ Explanation(解释): The longest increasing subsequence is [2,3,7,101], therefor
 
 ---
 
-## <a id="434"></a> #434 Number of Segments in a String(字符串中的单词数)
+## <a id="434">#434</a> Number of Segments in a String(字符串中的单词数)
 Count the number of segments in a string, where a segment is defined to be a contiguous sequence of **non-space** characters.
 
 (统计字符串中的单词个数，这里的单词指的是连续的不是空格的字符。)
@@ -410,7 +439,7 @@ Output(输出): 5
 
 ---
 
-## <a id="467"></a> #467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)
+## <a id="467">#467</a> Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)
 Consider the string `s` to be the infinite wraparound string of "abcdefghijklmnopqrstuvwxyz", so `s` will look like this:
 
 (把字符串 `s` 看作是“abcdefghijklmnopqrstuvwxyz”的无限环绕字符串，所以 `s` 看起来是这样的：)
@@ -447,7 +476,7 @@ Explanation(解释): There are six substrings "z", "a", "b", "za", "ab", "zab" o
 
 ---
 
-## <a id="747"></a> #747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)
+## <a id="747">#747</a> Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)
 In a given integer array `nums`, there is always exactly one largest element.
 
 (在一个给定的数组`nums`中，总是存在一个最大元素 。)
@@ -485,7 +514,7 @@ Explanation(解释): 4 isn't at least as big as twice the value of 3, so we retu
 
 ---
 
-## <a id="869"></a> #869 Reordered Power of 2(重新排序得到 2 的幂)
+## <a id="869">#869</a> Reordered Power of 2(重新排序得到 2 的幂)
 Starting with a positive integer `N`, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
 (从正整数 `N` 开始，我们按任何顺序（包括原始顺序）将数字重新排序，注意其前导数字不能为零。)
@@ -526,7 +555,7 @@ Output(输出): true
 
 ---
 
-## <a id="992"></a> #992 Subarrays with K Different Integers(K 个不同整数的子数组)
+## <a id="992">#992</a> Subarrays with K Different Integers(K 个不同整数的子数组)
 Given an array `A` of positive integers, call a (contiguous, not necessarily distinct) subarray of `A` good if the number of different integers in that subarray is exactly `K`.
 
 (给定一个正整数数组 `A`，如果 `A` 的某个子数组中不同整数的个数恰好为 `K`，则称 `A` 的这个连续、不一定独立的子数组为好子数组。)
@@ -559,7 +588,7 @@ Explanation(解释): Subarrays formed with exactly 3 different integers: [1,2,1,
 [back to top(回到顶部)](#top)
 ---
 
-## <a id="1024"></a> #1024 Video Stitching
+## <a id="1024">#1024</a> Video Stitching
 You are given a series of video clips from a sporting event that lasted T seconds.  These video clips can be overlapping with each other and have varied lengths.
 
 Each video clip clips[i] is an interval: it starts at time clips[i][0] and ends at time clips[i][1].  We can cut these clips into segments freely: for example, a clip [0, 7] can be cut into segments [0, 1] + [1, 3] + [3, 7].
