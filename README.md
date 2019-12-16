@@ -20,7 +20,7 @@
 - [x] [#224 Basic Calculator(基本计算器)](#224)
 - [x] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
 - [x] [#434 Number of Segments in a String(字符串中的单词数)](#434)
-- [ ] [#467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)](#467)
+- [x] [#467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)](#467)
 - [x] [#747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)](#747)
 - [x] [#869 Reordered Power of 2(重新排序得到 2 的幂)](#869)
 - [ ] [#992 Subarrays with K Different Integers(K 个不同整数的子数组)](#992)
