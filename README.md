@@ -23,7 +23,7 @@
 - [x] [#467 Unique Substrings in Wraparound String(环绕字符串中唯一的子字符串)](#467)
 - [x] [#747 Largest Number At Least Twice of Others(至少是其他数字两倍的最大数)](#747)
 - [x] [#869 Reordered Power of 2(重新排序得到 2 的幂)](#869)
-- [ ] [#992 Subarrays with K Different Integers(K 个不同整数的子数组)](#992)
+- [x] [#992 Subarrays with K Different Integers(K 个不同整数的子数组)](#992)
 - [ ] [#1024 Video Stitching](#1024)
 
 ---
