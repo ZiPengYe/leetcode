@@ -15,6 +15,7 @@
 - [x] [#13 Roman to Integer(罗马数字转整数)](#13)
 - [x] [#14 Longest Common Prefix(最长公共前缀)](#14)
 - [x] [#20 Valid Parentheses(有效的括号)](#20)
+- [x] [#21 Merge Two Sorted Lists(合并两个有序链表)](#21)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -381,6 +382,19 @@ Output(输出): false
 ```
 Input(输入): "{[]}"
 Output(输出): true
+```
+
+---
+
+## <a id="21">#21</a> Merge Two Sorted Lists(合并两个有序链表)
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+(将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。)
+
+**Example(示例):**
+```
+Input(输入): 1->2->4, 1->3->4
+Output(输出): 1->1->2->3->4->4
 ```
 
 ---
