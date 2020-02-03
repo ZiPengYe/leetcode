@@ -17,6 +17,7 @@
 - [x] [#20 Valid Parentheses(有效的括号)](#20)
 - [x] [#21 Merge Two Sorted Lists(合并两个有序链表)](#21)
 - [x] [#26 Remove Duplicates from Sorted Array(删除排序数组中的重复项)](#26)
+- [x] [#27 Remove Element(移除元素)](#27)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -247,6 +248,9 @@ Explanation(解释): Reads 01 from right to left. Therefore it is not a palindro
 Coud you solve it without converting the integer to a string?
 
 (你能不将整数转为字符串来解决这个问题吗？)
+
+[back to top(回到顶部)](#top)
+
 ---
 
 ## <a id="13">#13</a> Roman to Integer(罗马数字转整数)
@@ -340,6 +344,8 @@ Explanation(解释): There is no common prefix among the input strings.
 - All given inputs are in lowercase letters `a-z`.
 (所有输入只包含小写字母 `a-z` 。)
 
+[back to top(回到顶部)](#top)
+
 ---
 
 ## <a id="20">#20</a> Valid Parentheses(有效的括号)
@@ -384,6 +390,7 @@ Output(输出): false
 Input(输入): "{[]}"
 Output(输出): true
 ```
+[back to top(回到顶部)](#top)
 
 ---
 
@@ -397,6 +404,7 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 Input(输入): 1->2->4, 1->3->4
 Output(输出): 1->1->2->3->4->4
 ```
+[back to top(回到顶部)](#top)
 
 ---
 
@@ -441,6 +449,63 @@ Internally you can think of this:
 ```cpp
 // nums is passed in by reference. (i.e., without making a copy)
 // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
+int len = removeElement(nums);
+
+// any modification to nums in your function would be known by the caller.
+// 在函数里修改输入数组对于调用者是可见的
+// using the length returned by your function, it prints the first len elements.
+// 根据你的函数返回的长度, 它会打印出数组中该长度范围内的所有元素。
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="27">#27</a> Remove Element(移除元素)
+Given an array nums and a value val, remove all instances of that value [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
+
+(给定一个数组 *nums* 和一个值 *val*，你需要[原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)移除所有数值等于 *val* 的元素，返回移除后数组的新长度。)
+
+Do not allocate extra space for another array, you must do this by **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
+
+(不要使用额外的数组空间，你必须在[原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)**修改输入数组**并在使用 O(1) 额外空间的条件下完成。)
+
+
+**Example(示例) 1:**
+```
+Given nums = [3,2,2,3], val = 3,
+
+Your function should return length = 2, with the first two elements of nums being 2.
+
+It doesn't matter what you leave beyond the returned length.
+```
+**Example(示例) 2:**
+```
+Given nums = [0,1,2,2,3,0,4,2], val = 2,
+
+Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4.
+
+Note that the order of those five elements can be arbitrary.
+
+It doesn't matter what values are set beyond the returned length.
+```
+**Clarification(说明):**
+Confused why the returned value is an integer but your answer is an array?
+
+(为什么返回数值是整数，但输出的答案是数组呢?)
+
+Note that the input array is passed in by reference, which means modification to the input array will be known to the caller as well.
+
+(请注意，输入数组是以“**引用**”方式传递的，这意味着在函数里修改输入数组对于调用者是可见的。)
+
+Internally you can think of this:
+
+(你可以想象内部操作如下:)
+```cpp
+// nums is passed in by reference. (i.e., without making a copy)
+// nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
 int len = removeDuplicates(nums);
 
 // any modification to nums in your function would be known by the caller.
@@ -451,6 +516,7 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
+[back to top(回到顶部)](#top)
 
 ---
 
