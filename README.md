@@ -18,6 +18,7 @@
 - [x] [#21 Merge Two Sorted Lists(合并两个有序链表)](#21)
 - [x] [#26 Remove Duplicates from Sorted Array(删除排序数组中的重复项)](#26)
 - [x] [#27 Remove Element(移除元素)](#27)
+- [x] [#28 Implement strStr()(实现 strStr())](#28)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -435,6 +436,7 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 **Clarification(说明):**
+
 Confused why the returned value is an integer but your answer is an array?
 
 (为什么返回数值是整数，但输出的答案是数组呢?)
@@ -492,6 +494,7 @@ Note that the order of those five elements can be arbitrary.
 It doesn't matter what values are set beyond the returned length.
 ```
 **Clarification(说明):**
+
 Confused why the returned value is an integer but your answer is an array?
 
 (为什么返回数值是整数，但输出的答案是数组呢?)
@@ -516,6 +519,40 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="28">#28</a> Implement strStr()(实现 strStr())
+Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
+
+(实现 [strStr()](https://baike.baidu.com/item/strstr/811469) 函数。)
+
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+(给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回 **-1**。)
+
+
+**Example(示例) 1:**
+```
+Input(输入): haystack = "hello", needle = "ll"
+Output(输出): 2
+```
+**Example(示例) 2:**
+```
+Input(输入): haystack = "aaaaa", needle = "bba"
+Output(输出): -1
+```
+**Clarification(说明):**
+
+What should we return when `needle` is an empty string? This is a great question to ask during an interview.
+
+(当 `needle` 是空字符串时，我们应当返回什么值呢？这是一个在面试中很好的问题。)
+
+For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
+
+(对于本题而言，当 `needle` 是空字符串时我们应当返回 0 。这与C语言的 [strstr()](https://baike.baidu.com/item/strstr/811469) 以及 Java的 [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)) 定义相符。)
+
 [back to top(回到顶部)](#top)
 
 ---
