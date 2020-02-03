@@ -246,6 +246,7 @@ Output(输出): false
 Explanation(解释): Reads 01 from right to left. Therefore it is not a palindrome.
 ```
 **Follow up(进阶):**
+
 Coud you solve it without converting the integer to a string?
 
 (你能不将整数转为字符串来解决这个问题吗？)
