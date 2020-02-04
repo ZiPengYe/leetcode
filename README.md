@@ -20,6 +20,7 @@
 - [x] [#27 Remove Element(移除元素)](#27)
 - [x] [#28 Implement strStr()(实现 strStr())](#28)
 - [x] [#35 Search Insert Position(搜索插入位置)](#35)
+- [x] [#38 Count and Say(外观数列)](#38)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -587,6 +588,54 @@ Output(输出): 4
 ```
 Input(输入): [1,3,5,6], 0
 Output(输出): 0
+```
+[back to top(回到顶部)](#top)
+
+---
+## <a id="38">#38</a> Count and Say(外观数列)]
+The count-and-say sequence is the sequence of integers with the first five terms as following:
+
+(「外观数列」是一个整数序列，从数字 1 开始，序列中的每一项都是对前一项的描述。前五项如下：)
+```
+1.      1
+2.      11
+3.      21
+4.      1211
+5.      111221
+```
+`1` is read off as `"one 1"` or `11`.
+
+(`1` 被读作  `"one 1"`  (`"一个一"`) , 即 `11`。)
+
+`11` is read off as `"two 1s"` or `21`.
+
+(`11` 被读作 `"two 1s"` (`"两个一"`）, 即 `21`。)
+
+`21` is read off as `"one 2`, then `one 1"` or `1211`.
+
+(`21` 被读作 `"one 2"`,  `"one 1"` （`"一个二"` ,  `"一个一"`) , 即 `1211`。)
+
+Given an integer *n* where 1 ≤ *n* ≤ 30, generate the *n*th term of the count-and-say sequence.
+
+(给定一个正整数 *n*（1 ≤ *n* ≤ 30），输出外观数列的第 *n* 项。)
+
+You can do so recursively, in other words from the previous member read off the digits, counting the number of digits in groups of the same digit.
+
+
+Note: Each term of the sequence of integers will be represented as a string.
+
+(注意：整数序列中的每一项将表示为一个字符串。)
+**Example(示例) 1:**
+```
+Input(输入): 1
+Output(输出): "1"
+Explanation(解释): This is the base case.
+```
+**Example(示例) 2:**
+```
+Input(输入): 4
+Output(输出): "1211"
+Explanation(解释): For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 ```
 [back to top(回到顶部)](#top)
 
