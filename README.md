@@ -19,6 +19,7 @@
 - [x] [#26 Remove Duplicates from Sorted Array(删除排序数组中的重复项)](#26)
 - [x] [#27 Remove Element(移除元素)](#27)
 - [x] [#28 Implement strStr()(实现 strStr())](#28)
+- [x] [#35 Search Insert Position(搜索插入位置)](#35)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -554,6 +555,39 @@ For the purpose of this problem, we will return 0 when `needle` is an empty stri
 
 (对于本题而言，当 `needle` 是空字符串时我们应当返回 0 。这与C语言的 [strstr()](https://baike.baidu.com/item/strstr/811469) 以及 Java的 [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)) 定义相符。)
 
+[back to top(回到顶部)](#top)
+
+---
+## <a id="35">#35</a> Search Insert Position(搜索插入位置)
+Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+(给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。)
+
+You may assume no duplicates in the array.
+
+(你可以假设数组中无重复元素。)
+
+
+**Example(示例) 1:**
+```
+Input(输入): [1,3,5,6], 5
+Output(输出): 2
+```
+**Example(示例) 2:**
+```
+Input(输入): [1,3,5,6], 2
+Output(输出): 1
+```
+**Example(示例) 3:**
+```
+Input(输入): [1,3,5,6], 7
+Output(输出): 4
+```
+**Example(示例) 4:**
+```
+Input(输入): [1,3,5,6], 0
+Output(输出): 0
+```
 [back to top(回到顶部)](#top)
 
 ---
