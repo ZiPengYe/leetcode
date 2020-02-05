@@ -22,6 +22,7 @@
 - [x] [#35 Search Insert Position(搜索插入位置)](#35)
 - [x] [#38 Count and Say(外观数列)](#38)
 - [x] [#53 Maximum Subarray(最大子序和)](#53)
+- [x] [#58 Length of Last Word(最后一个单词的长度)](#58)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -660,6 +661,29 @@ Explanation(解释): [4,-1,2,1] has the largest sum = 6.
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 (如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的分治法求解。)
+
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="58">#58</a> Length of Last Word(最后一个单词的长度)
+Given a string s consists of upper/lower-case alphabets and empty space characters `' '`,return the length of last word (last word means the last appearing word if we loop from left to right) in the string.
+
+(给定一个仅包含大小写字母和空格 `' '` 的字符串 `s`，返回其最后一个单词(如果字符串从左向右滚动显示，那么最后一个单词就是最后出现的单词。)的长度。)
+
+If the last word does not exist, return 0.
+
+(如果不存在最后一个单词，请返回 0 。)
+
+**Note(说明):**
+A word is defined as a **maximal substring** consisting of non-space characters only.
+
+(一个单词是指仅由字母组成、不包含任何空格的 **最大子字符串**。)
+**Example(示例) :**
+```
+Input(输入): "Hello World"
+Output(输出): 5
+```
 
 [back to top(回到顶部)](#top)
 
