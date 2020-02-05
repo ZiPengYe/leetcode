@@ -21,6 +21,7 @@
 - [x] [#28 Implement strStr()(实现 strStr())](#28)
 - [x] [#35 Search Insert Position(搜索插入位置)](#35)
 - [x] [#38 Count and Say(外观数列)](#38)
+- [x] [#53 Maximum Subarray(最大子序和)](#53)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
@@ -559,6 +560,7 @@ For the purpose of this problem, we will return 0 when `needle` is an empty stri
 [back to top(回到顶部)](#top)
 
 ---
+
 ## <a id="35">#35</a> Search Insert Position(搜索插入位置)
 Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
@@ -592,6 +594,7 @@ Output(输出): 0
 [back to top(回到顶部)](#top)
 
 ---
+
 ## <a id="38">#38</a> Count and Say(外观数列)]
 The count-and-say sequence is the sequence of integers with the first five terms as following:
 
@@ -637,6 +640,27 @@ Input(输入): 4
 Output(输出): "1211"
 Explanation(解释): For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 ```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="53">#53</a> Maximum Subarray(最大子序和)
+Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+(给定一个整数数组 `nums` ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。)
+
+**Example(示例) :**
+```
+Input(输入): [-2,1,-3,4,-1,2,1,-5,4],
+Output(输出): 6
+Explanation(解释): [4,-1,2,1] has the largest sum = 6.
+```
+**Follow up(进阶):**
+
+If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+
+(如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的分治法求解。)
+
 [back to top(回到顶部)](#top)
 
 ---
