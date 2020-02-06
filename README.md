@@ -25,6 +25,7 @@
 - [x] [#58 Length of Last Word(最后一个单词的长度)](#58)
 - [x] [#66 Plus One(加一)](#66)
 - [x] [#67 Add Binary(二进制求和)](#67)
+- [x] [#69 Sqrt(x)(x 的平方根)](#69)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
 - [x] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
@@ -738,6 +739,35 @@ Output(输出): "100"
 ```
 Input(输入): a = "1010", b = "1011"
 Output(输出): "10101"
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="69">#69</a> Sqrt(x)(x 的平方根)
+Implement `int sqrt(int x)`.
+
+(实现 `int sqrt(int x)` 函数。)
+
+Compute and return the square root of *x*, where *x* is guaranteed to be a non-negative integer.
+
+(计算并返回 *x* 的平方根，其中 *x* 是非负整数。)
+
+Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
+
+(由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。)
+
+
+**Example(示例) 1:**
+```
+Input(输入): 4
+Output(输出): 2
+```
+**Example(示例) 2:**
+```
+Input(输入): 8
+Output(输出): 2
+Explanation(解释): The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
 ```
 [back to top(回到顶部)](#top)
 
