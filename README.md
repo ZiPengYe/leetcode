@@ -24,6 +24,7 @@
 - [x] [#53 Maximum Subarray(最大子序和)](#53)
 - [x] [#58 Length of Last Word(最后一个单词的长度)](#58)
 - [x] [#66 Plus One(加一)](#66)
+- [x] [#67 Add Binary(二进制求和)](#67)
 - [x] [#88 Merge Sorted Array(合并两个有序数组)](#88)
 - [x] [#224 Basic Calculator(基本计算器)](#224)
 - [x] [#300 Longest Increasing Subsequence(最长上升子序列)](#300)
@@ -713,6 +714,30 @@ Explanation(解释): The array represents the integer 123.
 Input(输入): [4,3,2,1]
 Output(输出): [4,3,2,2]
 Explanation(解释): The array represents the integer 4321.
+```
+[back to top(回到顶部)](#top)
+
+---
+
+## <a id="67">#67</a> Add Binary(二进制求和)
+Given two binary strings, return their sum (also a binary string).
+
+(给定两个二进制字符串，返回他们的和（用二进制表示）。)
+
+The input strings are both **non-empty** and contains only characters `1` or `0`.
+
+(输入为**非空**字符串且只包含数字 `1` 和 `0`。)
+
+
+**Example(示例) 1:**
+```
+Input(输入): a = "11", b = "1"
+Output(输出): "100"
+```
+**Example(示例) 2:**
+```
+Input(输入): a = "1010", b = "1011"
+Output(输出): "10101"
 ```
 [back to top(回到顶部)](#top)
 
