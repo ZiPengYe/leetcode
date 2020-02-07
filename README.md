@@ -1,7 +1,4 @@
-[leetcode]: https://leetcode.com/problemset/all/
-# [LeetCode Problems][leetcode]
-
-## menu
+# [menu](https://leetcode.com/problemset/all/)
 - [x] [#1 Two Sum](#1-two-sum)
 - [x] [#2 Add Two Numbers](#2-add-two-numbers)
 - [x] [#3 Longest Substring Without Repeating Characters](#3-longest-substring-without-repeating-characters)
@@ -35,7 +32,7 @@
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 ---
-## #1 Two Sum
+## [#1 Two Sum](https://leetcode.com/problems/two-sum)
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
 You may assume that each input would have **exactly** one solution, and you may not use the same element twice.
@@ -47,9 +44,10 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #2 Add Two Numbers
+## [#2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order** and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -60,9 +58,10 @@ Input
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #3 Longest Substring Without Repeating Characters
+## [#3 Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 Given a string, find the length of the **longest substring** without repeating characters.
 
 **Example 1:**
@@ -84,9 +83,10 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #4 Median of Two Sorted Arrays
+## [#4 Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 There are two sorted arrays **nums1** and **nums2** of size m and n respectively.
 
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
@@ -107,9 +107,10 @@ nums2 = [3, 4]
 
 The median is (2 + 3)/2 = 2.5
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #5 Longest Palindromic Substring
+## [#5 Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 Given a string **s**, find the longest palindromic substring in **s**. You may assume that the maximum length of **s** is 1000.
 
 **Example 1:**
@@ -123,9 +124,10 @@ Note: "aba" is also a valid answer.
 Input: "cbbd"
 Output: "bb"
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #6 ZigZag Conversion
+## [#6 ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 ```
 P   A   H   N
@@ -154,9 +156,10 @@ A   L S   I G
 Y A   H R
 P     I
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #7 Reverse Integer
+## [#7 Reverse Integer](https://leetcode.com/problems/reverse-integer)
 Given a 32-bit signed integer, reverse digits of an integer.
 
 **Example 1:**
@@ -177,9 +180,10 @@ Output: 21
 **Note:**
 - Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^(31),  2^(31) − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #9 Palindrome Number
+## [#9 Palindrome Number](https://leetcode.com/problems/palindrome-number)
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
 **Example 1:**
@@ -203,9 +207,10 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 Coud you solve it without converting the integer to a string?
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #13 Roman to Integer
+## [#13 Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 ```
 Symbol       Value
@@ -252,9 +257,10 @@ Input: "MCMXCIV"
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #14 Longest Common Prefix
+## [#14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string `""`.
@@ -273,9 +279,10 @@ Explanation: There is no common prefix among the input strings.
 **Note:**
 - All given inputs are in lowercase letters `a-z`.
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #20 Valid Parentheses
+## [#20 Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
 An input string is valid if:
@@ -309,9 +316,10 @@ Output: false
 Input: "{[]}"
 Output: true
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #21 Merge Two Sorted Lists
+## [#21 Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
 **Example:**
@@ -319,9 +327,10 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #26 Remove Duplicates from Sorted Array
+## [#26 Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 Given a sorted array nums, remove the duplicates [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only once and return the new length.
 
 Do not allocate extra space for another array, you must do this by **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
@@ -359,9 +368,10 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #27 Remove Element
+## [#27 Remove Element](https://leetcode.com/problems/remove-element)
 Given an array nums and a value val, remove all instances of that value [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
 
 Do not allocate extra space for another array, you must do this by **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
@@ -401,9 +411,10 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #28 Implement strStr()
+## [#28 Implement strStr()](https://leetcode.com/problems/implement-strstr)
 Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
@@ -423,9 +434,10 @@ What should we return when `needle` is an empty string? This is a great question
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #35 Search Insert Position
+## [#35 Search Insert Position](https://leetcode.com/problems/search-insert-position)
 Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
 You may assume no duplicates in the array.
@@ -450,9 +462,10 @@ Output: 4
 Input: [1,3,5,6], 0
 Output: 0
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #38 Count and Say
+## [#38 Count and Say](https://leetcode.com/problems/count-and-say)
 The count-and-say sequence is the sequence of integers with the first five terms as following:
 ```
 1.      1
@@ -485,9 +498,10 @@ Input: 4
 Output: "1211"
 Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #53 Maximum Subarray
+## [#53 Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
 **Example :**
@@ -500,9 +514,10 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #58 Length of Last Word
+## [#58 Length of Last Word](https://leetcode.com/problems/length-of-last-word)
 Given a string s consists of upper/lower-case alphabets and empty space characters `' '`,return the length of last word (last word means the last appearing word if we loop from left to right) in the string.
 
 If the last word does not exist, return 0.
@@ -515,9 +530,10 @@ A word is defined as a **maximal substring** consisting of non-space characters 
 Input: "Hello World"
 Output: 5
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #66 Plus One
+## [#66 Plus One](https://leetcode.com/problems/plus-one)
 Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
 
 The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
@@ -536,9 +552,10 @@ Input: [4,3,2,1]
 Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #67 Add Binary
+## [#67 Add Binary](https://leetcode.com/problems/add-binary)
 Given two binary strings, return their sum (also a binary string).
 
 The input strings are both **non-empty** and contains only characters `1` or `0`.
@@ -553,9 +570,10 @@ Output: "100"
 Input: a = "1010", b = "1011"
 Output: "10101"
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #69 Sqrt(x)
+## [#69 Sqrt(x)](https://leetcode.com/problems/sqrtx)
 Implement `int sqrt(int x)`.
 
 Compute and return the square root of *x*, where *x* is guaranteed to be a non-negative integer.
@@ -573,7 +591,8 @@ Input: 8
 Output: 2
 Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
 ## #70 Climbing Stairs
 You are climbing a stair case. It takes *n* steps to reach to the top.
@@ -599,9 +618,10 @@ Explanation: There are three ways to climb to the top.
 2. 1 step + 2 steps
 3. 2 steps + 1 step
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #88 Merge Sorted Array
+## [#88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 
 **Note:**
@@ -615,9 +635,10 @@ nums1 = [1,2,3,0,0,0], m = 3
 nums2 = [2,5,6],       n = 3
 Output: [1,2,2,3,5,6]
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #224 Basic Calculator
+## [#224 Basic Calculator](https://leetcode.com/problems/basic-calculator)
 Implement a basic calculator to evaluate a simple expression string.
 
 The expression string may contain open `(` and closing parentheses `)`, the plus `+` or minus sign `-`, **non-negative** integers and empty spaces` `.
@@ -641,9 +662,10 @@ Output: 23
 - You may assume that the given expression is always valid.
 - **Do not** use the `eval` built-in library function.
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #300 Longest Increasing Subsequence
+## [#300 Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
 **Example:**
@@ -659,9 +681,10 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 **Follow up**: Could you improve it to O(n log n) time complexity?
 (你能将算法的时间复杂度降低到 O(n log n) 吗?)
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #434 Number of Segments in a String
+## [#434 Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
 Count the number of segments in a string, where a segment is defined to be a contiguous sequence of **non-space** characters.
 
 Please note that the string does not contain any non-printable characters.
@@ -671,9 +694,10 @@ Please note that the string does not contain any non-printable characters.
 Input: "Hello, my name is John"
 Output: 5
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #467 Unique Substrings in Wraparound String
+## [#467 Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)
 Consider the string `s` to be the infinite wraparound string of "abcdefghijklmnopqrstuvwxyz", so `s` will look like this:
 
 "...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....".
@@ -700,9 +724,10 @@ Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ```
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #747 Largest Number At Least Twice of Others
+## [#747 Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)
 In a given integer array `nums`, there is always exactly one largest element.
 
 Find whether the largest element in the array is at least twice as much as every other number in the array.
@@ -726,9 +751,10 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 1. `nums` will have a length in the range `[1, 50]`.
 2. Every `nums[i]` will be an integer in the range `[0, 99]`.
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #869 Reordered Power of 2
+## [#869 Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2)
 Starting with a positive integer `N`, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
 Return `true` if and only if we can do this in a way such that the resulting number is a power of 2.
@@ -761,9 +787,10 @@ Output: true
 **Note:**
 1. `1 <= N <= 10^9`
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #992 Subarrays with K Different Integers
+## [#992 Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers)
 Given an array `A` of positive integers, call a (contiguous, not necessarily distinct) subarray of `A` good if the number of different integers in that subarray is exactly `K`.
 
 (For example, `[1,2,3,1,2]` has `3` different integers: `1`, `2`, and `3`.)
@@ -787,9 +814,10 @@ Explanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1
 2. `1 <= A[i] <= A.length`
 3. `1 <= K <= A.length`
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
+
 ---
-## #1024 Video Stitching
+## [#1024 Video Stitching](https://leetcode.com/problems/video-stitching)
 You are given a series of video clips from a sporting event that lasted T seconds.  These video clips can be overlapping with each other and have varied lengths.
 
 Each video clip clips[i] is an interval: it starts at time clips[i][0] and ends at time clips[i][1].  We can cut these clips into segments freely: for example, a clip [0, 7] can be cut into segments [0, 1] + [1, 3] + [3, 7].
@@ -832,4 +860,4 @@ Notice you can have extra video after the event ends.
 2. `0 <= clips[i][0], clips[i][1] <= 100`
 3. `0 <= T <= 100`
 
-[back to top](#leetcode-problems)
+[back to top](#menu)
