@@ -24,7 +24,7 @@
 - [x] [#66 Plus One](#66-plus-one)
 - [x] [#67 Add Binary](#67-add-binary)
 - [x] [#69 Sqrt(x)](#69-sqrtx)
-- [x] [#70 Climbing Stairs](#70-climbling-stairs)
+- [x] [#70 Climbing Stairs](#70-climbing-stairs)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
