@@ -19,7 +19,7 @@
 - [x] [#28 Implement strStr()](#28-implement-strstr)
 - [x] [#35 Search Insert Position](#35-search-insert-position)
 - [x] [#38 Count and Say](#38-count-and-say)
-- [x] [#53 Maximum Subarray](#53-maximun-subarray)
+- [x] [#53 Maximum Subarray](#53-maximum-subarray)
 - [x] [#58 Length of Last Word](#58-length-of-last-word)
 - [x] [#66 Plus One](#66-plus-one)
 - [x] [#67 Add Binary](#67-add-binary)
