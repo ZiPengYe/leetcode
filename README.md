@@ -679,7 +679,6 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 - Your algorithm should run in O(n2) complexity.
 
 **Follow up**: Could you improve it to O(n log n) time complexity?
-(你能将算法的时间复杂度降低到 O(n log n) 吗?)
 
 [back to top](#menu)
 
