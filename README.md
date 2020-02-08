@@ -22,6 +22,7 @@
 - [x] [#67 Add Binary](#67-add-binary)
 - [x] [#69 Sqrt(x)](#69-sqrtx)
 - [x] [#70 Climbing Stairs](#70-climbing-stairs)
+- [x] [#83 Remove Duplicates from Sorted List](#83-remove-duplicates-from-sorted-list)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -617,6 +618,22 @@ Explanation: There are three ways to climb to the top.
 1. 1 step + 1 step + 1 step
 2. 1 step + 2 steps
 3. 2 steps + 1 step
+```
+[back to top](#menu)
+
+---
+## [#83 Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
+Given a sorted linked list, delete all duplicates such that each element appear only *once*.
+
+**Example 1:**
+```
+Input: 1->1->2
+Output: 1->2
+```
+**Example 2:**
+```
+Input: 1->1->2->3->3
+Output: 1->2->3
 ```
 [back to top](#menu)
 
