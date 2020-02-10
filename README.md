@@ -25,6 +25,7 @@
 - [x] [#83 Remove Duplicates from Sorted List](#83-remove-duplicates-from-sorted-list)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#100 Same Tree](#100-same-tree)
+- [x] [#101 Symmetric Tree](#101-symmetric-tree)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -691,6 +692,32 @@ Input:     1         1
 
 Output: false
 ```
+[back to top](#menu)
+
+---
+## [#101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree)
+Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+
+For example, this binary tree `[1,2,2,3,4,4,3]` is symmetric:
+```
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+```
+But the following `[1,2,2,null,3,null,3]` is not:
+```
+    1
+   / \
+  2   2
+   \   \
+   3    3
+```
+**Note:**
+
+Bonus points if you could solve it both recursively and iteratively.
+
 [back to top](#menu)
 
 ---
