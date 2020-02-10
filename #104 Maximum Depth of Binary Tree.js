@@ -9,6 +9,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
+// TODO 待优化
 const maxDepth = function(root, depth = 0) {
   // 如果没有当前节点, 则返回 深度
   if (!root) return depth;
