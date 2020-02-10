@@ -26,6 +26,7 @@
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#100 Same Tree](#100-same-tree)
 - [x] [#101 Symmetric Tree](#101-symmetric-tree)
+- [x] [#104 Maximum Depth of Binary Tree](#104-maximum-depth-of-binary-tree)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -717,6 +718,28 @@ But the following `[1,2,2,null,3,null,3]` is not:
 **Note:**
 
 Bonus points if you could solve it both recursively and iteratively.
+
+[back to top](#menu)
+
+---
+## [#104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+**Note:** A leaf is a node with no children.
+
+**Example 1:**
+
+Given binary tree `[3,9,20,null,null,15,7]`,
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+return its depth = 3.
 
 [back to top](#menu)
 
