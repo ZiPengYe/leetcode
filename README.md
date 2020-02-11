@@ -28,6 +28,7 @@
 - [x] [#101 Symmetric Tree](#101-symmetric-tree)
 - [x] [#104 Maximum Depth of Binary Tree](#104-maximum-depth-of-binary-tree)
 - [x] [#107 Binary Tree Level Order Traversal II](#107-binary-tree-level-order-traversal-ii)
+- [x] [#108 Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -765,6 +766,26 @@ return its bottom-up level order traversal as:
   [9,20],
   [3]
 ]
+```
+[back to top](#menu)
+
+---
+## [#108 Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)
+Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of *every* node never differ by more than 1.
+
+**Example:**
+```
+Given the sorted array: [-10,-3,0,5,9],
+
+One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
+
+      0
+     / \
+   -3   9
+   /   /
+ -10  5
 ```
 [back to top](#menu)
 
