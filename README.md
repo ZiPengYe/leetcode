@@ -30,6 +30,7 @@
 - [x] [#107 Binary Tree Level Order Traversal II](#107-binary-tree-level-order-traversal-ii)
 - [x] [#108 Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
 - [x] [#110 Balanced Binary Tree](#110-balanced-binary-tree)
+- [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -823,6 +824,28 @@ Given the following tree `[1,2,2,3,3,null,null,4,4]`:
  4   4
 ```
 Return false.
+
+[back to top](#menu)
+
+---
+## [#111 Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+**Note:** A leaf is a node with no children.
+
+**Example:**
+
+Given binary tree `[3,9,20,null,null,15,7]`,
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+return its minimum depth = 2.
 
 [back to top](#menu)
 
