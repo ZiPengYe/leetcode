@@ -31,6 +31,7 @@
 - [x] [#108 Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
 - [x] [#110 Balanced Binary Tree](#110-balanced-binary-tree)
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
+- [x] [#112 Path Sum](#112-path-sum)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -846,6 +847,28 @@ Given binary tree `[3,9,20,null,null,15,7]`,
    15   7
 ```
 return its minimum depth = 2.
+
+[back to top](#menu)
+
+---
+## [#112 Path Sum](https://leetcode.com/problems/path-sum)
+Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
+
+**Note:** A leaf is a node with no children.
+
+**Example:**
+
+Given the below binary tree and `sum = 22`,
+```
+      5
+     / \
+    4   8
+   /   / \
+  11  13  4
+ /  \      \
+7    2      1
+```
+return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
 [back to top](#menu)
 
