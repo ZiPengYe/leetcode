@@ -32,6 +32,7 @@
 - [x] [#110 Balanced Binary Tree](#110-balanced-binary-tree)
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#112 Path Sum](#112-path-sum)
+- [x] [#118 Pascal's Triangle](#118-pascal-s-triangle)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -870,6 +871,28 @@ Given the below binary tree and `sum = 22`,
 ```
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
+[back to top](#menu)
+
+---
+## [#118 Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
+Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's triangle.
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+**Example:**
+```
+Input: 5
+Output:
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
+```
 [back to top](#menu)
 
 ---
