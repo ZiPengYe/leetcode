@@ -32,7 +32,7 @@
 - [x] [#110 Balanced Binary Tree](#110-balanced-binary-tree)
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#112 Path Sum](#112-path-sum)
-- [x] [#118 Pascal's Triangle](#118-pascal-s-triangle)
+- [x] [#118 Pascal's Triangle](#118-pascals-triangle)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
