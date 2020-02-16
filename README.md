@@ -33,6 +33,7 @@
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#112 Path Sum](#112-path-sum)
 - [x] [#118 Pascal's Triangle](#118-pascals-triangle)
+- [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -893,6 +894,27 @@ Output:
  [1,4,6,4,1]
 ]
 ```
+[back to top](#menu)
+
+---
+## [#119 Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
+Given a non-negative index *k* where *k* ≤ 33, return the kth index row of the Pascal's triangle.
+
+Note that the row index starts from 0.
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+
+n Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+**Example:**
+```
+Input: 3
+Output: [1,3,3,1]
+```
+**Follow up:**
+
+Could you optimize your algorithm to use only *O*(k) extra space?
+
 [back to top](#menu)
 
 ---
