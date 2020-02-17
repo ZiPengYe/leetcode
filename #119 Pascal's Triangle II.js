@@ -7,6 +7,7 @@ const store = [
  * @param {number} rowIndex
  * @return {number[]}
  */
+// TODO 待优化
 const getRow = function(rowIndex) {
   for (let i = 2; i <= rowIndex; i++) {
     if (store[i]) continue;
