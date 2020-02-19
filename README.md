@@ -36,6 +36,7 @@
 - [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
 - [x] [#121 Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [x] [#122 Best Time to Buy and Sell Stock II](#122-best-time-to-buy-and-sell-stock-ii)
+- [x] [#125 Valid Palindrome](#125-valid-palindrome)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -970,6 +971,24 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
+```
+[back to top](#menu)
+
+---
+## [#125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+**Note:** For the purpose of this problem, we define empty string as valid palindrome.
+
+**Example 1:**
+```
+Input: "A man, a plan, a canal: Panama"
+Output: true
+```
+**Example 2:**
+```
+Input: "race a car"
+Output: false
 ```
 [back to top](#menu)
 
