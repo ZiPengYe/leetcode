@@ -37,6 +37,7 @@
 - [x] [#121 Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [x] [#122 Best Time to Buy and Sell Stock II](#122-best-time-to-buy-and-sell-stock-ii)
 - [x] [#125 Valid Palindrome](#125-valid-palindrome)
+- [x] [#136 Single Number](#136-single-number)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -989,6 +990,26 @@ Output: true
 ```
 Input: "race a car"
 Output: false
+```
+[back to top](#menu)
+
+---
+## [#136 Single Number](https://leetcode.com/problems/single-number)
+Given a **non-empty** array of integers, every element appears *twice* except for one. Find that single one.
+
+**Note:**
+
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+**Example 1:**
+```
+Input: [2,2,1]
+Output: 1
+```
+**Example 2:**
+```
+Input: [4,1,2,1,2]
+Output: 4
 ```
 [back to top](#menu)
 
