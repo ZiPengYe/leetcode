@@ -38,6 +38,7 @@
 - [x] [#122 Best Time to Buy and Sell Stock II](#122-best-time-to-buy-and-sell-stock-ii)
 - [x] [#125 Valid Palindrome](#125-valid-palindrome)
 - [x] [#136 Single Number](#136-single-number)
+- [x] [#141 Linked List Cycle](#141-linked-list-cycle)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1011,6 +1012,42 @@ Output: 1
 Input: [4,1,2,1,2]
 Output: 4
 ```
+[back to top](#menu)
+
+---
+## [#141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
+Given a linked list, determine if it has a cycle in it.
+
+To represent a cycle in the given linked list, we use an integer `pos` which represents the position (0-indexed) in the linked list where tail connects to. If `pos` is `-1`, then there is no cycle in the linked list.
+
+**Example 1:**
+```
+Input: head = [3,2,0,-4], pos = 1
+Output: true
+Explanation: There is a cycle in the linked list, where tail connects to the second node.
+```
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
+
+**Example 2:**
+```
+Input: head = [1,2], pos = 0
+Output: true
+Explanation: There is a cycle in the linked list, where tail connects to the first node.
+```
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
+
+**Example 3:**
+```
+Input: head = [1], pos = -1
+Output: false
+Explanation: There is no cycle in the linked list.
+```
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
+
+**Follow up:**
+
+Can you solve it using *O(1)* (i.e. constant) memory?
+
 [back to top](#menu)
 
 ---
