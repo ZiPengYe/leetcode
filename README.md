@@ -39,6 +39,7 @@
 - [x] [#125 Valid Palindrome](#125-valid-palindrome)
 - [x] [#136 Single Number](#136-single-number)
 - [x] [#141 Linked List Cycle](#141-linked-list-cycle)
+- [x] [#155 Min Stack](#141-min-stack)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1048,6 +1049,27 @@ Explanation: There is no cycle in the linked list.
 
 Can you solve it using *O(1)* (i.e. constant) memory?
 
+[back to top](#menu)
+
+---
+## [#155 Min Stack](https://leetcode.com/problems/min-stack)
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+- push(x) -- Push element x onto stack.
+- pop() -- Removes the element on top of the stack.
+- top() -- Get the top element.
+- getMin() -- Retrieve the minimum element in the stack.
+
+**Example:**
+```
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();   --> Returns -3.
+minStack.pop();
+minStack.top();      --> Returns 0.
+minStack.getMin();   --> Returns -2.
+```
 [back to top](#menu)
 
 ---
