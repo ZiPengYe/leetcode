@@ -1,12 +1,6 @@
 /**
+ * 直接 异或运算, 相同的抵消, 最后剩下的就是不同的.(其实可能会溢出..)
  * @param {number[]} nums
  * @return {number}
  */
-const singleNumber = function(nums) {
-  // 排序
-  nums = nums.sort((a, b) => a - b);
-  // 两个两个遍历
-  for (let i = 0; i < nums.length; i += 2) {
-    if (nums[i] !== nums[i + 1]) return nums[i]; 
-  }
-};
+const singleNumber = nums => nums.reduce((acc, cur) => acc ^ cur, 0);
