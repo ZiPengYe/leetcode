@@ -67,6 +67,7 @@
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
+- [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 ---
@@ -1792,6 +1793,31 @@ Output: true
 ```
 **Note:**
 1. `1 <= N <= 10^9`
+
+[back to top](#menu)
+
+---
+## [#876 Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
+Given a non-empty, singly linked list with head node `head`, return a middle node of linked list.
+
+If there are two middle nodes, return the second middle node.
+
+**Example 1:**
+```
+Input: [1,2,3,4,5]
+Output: Node 3 from this list (Serialization: [3,4,5])
+The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
+Note that we returned a ListNode object ans, such that:
+ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.
+```
+**Example 2:**
+```
+Input: [1,2,3,4,5,6]
+Output: Node 4 from this list (Serialization: [4,5,6])
+Since the list has two middle nodes with values 3 and 4, we return the second one.
+```
+**Note:**
+- The number of nodes in the given list will be between `1` and `100`.
 
 [back to top](#menu)
 
