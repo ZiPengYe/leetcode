@@ -46,6 +46,7 @@
 - [x] [#168 Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [x] [#169 Majority Element](#169-majority-element)
 - [x] [#171 Excel Sheet Column Number](#171-excel-sheet-column-number)
+- [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1235,6 +1236,24 @@ Output: 28
 ```
 Input: "ZY"
 Output: 701
+```
+[back to top](#menu)
+
+---
+## [#172 Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)
+Given an integer *n*, return the number of trailing zeroes in *n*!.
+
+**Example 1:**
+```
+Input: 3
+Output: 0
+Explanation: 3! = 6, no trailing zero.
+```
+**Example 2:**
+```
+Input: 5
+Output: 1
+Explanation: 5! = 120, one trailing zero.
 ```
 [back to top](#menu)
 
