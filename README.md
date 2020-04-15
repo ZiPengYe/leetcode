@@ -49,6 +49,7 @@
 - [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
 - [x] [#175 Combine Two Tables](#175-combine-two-tables)
 - [x] [#176 Second Highest Salary](#176-second-highest-salary)
+- [x] [#181 Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1309,6 +1310,29 @@ For example, given the above Employee table, the query should return `200` as th
 +---------------------+
 | 200                 |
 +---------------------+
+```
+[back to top](#menu)
+
+---
+## [#181 Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers)
+The `Employee` table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id.
+```
++----+-------+--------+-----------+
+| Id | Name  | Salary | ManagerId |
++----+-------+--------+-----------+
+| 1  | Joe   | 70000  | 3         |
+| 2  | Henry | 80000  | 4         |
+| 3  | Sam   | 60000  | NULL      |
+| 4  | Max   | 90000  | NULL      |
++----+-------+--------+-----------+
+```
+Given the `Employee` table, write a SQL query that finds out employees who earn more than their managers. For the above table, Joe is the only employee who earns more than his manager.
+```
++----------+
+| Employee |
++----------+
+| Joe      |
++----------+
 ```
 [back to top](#menu)
 
