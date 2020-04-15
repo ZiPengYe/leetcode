@@ -45,6 +45,7 @@
 - [x] [#167 Two Sum II - Input array is sorted](#167-two-sum-ii-input-array-is-sorted)
 - [x] [#168 Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [x] [#169 Majority Element](#169-majority-element)
+- [x] [#171 Excel Sheet Column Number](#171-excel-sheet-column-number)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1202,6 +1203,38 @@ Output: 3
 ```
 Input: [2,2,1,1,1,2,2]
 Output: 2
+```
+[back to top](#menu)
+
+---
+## [#171 Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number)
+Given a column title as appear in an Excel sheet, return its corresponding column number.
+
+For example:
+```
+    A -> 1
+    B -> 2
+    C -> 3
+    ...
+    Z -> 26
+    AA -> 27
+    AB -> 28 
+    ...
+```
+**Example 1:**
+```
+Input: "A"
+Output: 1
+```
+**Example 2:**
+```
+Input: "AB"
+Output: 28
+```
+**Example 3:**
+```
+Input: "ZY"
+Output: 701
 ```
 [back to top](#menu)
 
