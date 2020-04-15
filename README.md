@@ -47,6 +47,7 @@
 - [x] [#169 Majority Element](#169-majority-element)
 - [x] [#171 Excel Sheet Column Number](#171-excel-sheet-column-number)
 - [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
+- [x] [#175 Combine Two Tables](#175-combine-two-tables)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1254,6 +1255,37 @@ Explanation: 3! = 6, no trailing zero.
 Input: 5
 Output: 1
 Explanation: 5! = 120, one trailing zero.
+```
+[back to top](#menu)
+
+---
+## [#175 Combine Two Tables](https://leetcode.com/problems/combine-two-tables)
+Table: `Person`
+```
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| PersonId    | int     |
+| FirstName   | varchar |
+| LastName    | varchar |
++-------------+---------+
+PersonId is the primary key column for this table.
+```
+Table: `Address`
+```
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| AddressId   | int     |
+| PersonId    | int     |
+| City        | varchar |
+| State       | varchar |
++-------------+---------+
+AddressId is the primary key column for this table.
+```
+Write a SQL query for a report that provides the following information for each person in the Person table, regardless if there is an address for each of those people:
+```
+FirstName, LastName, City, State
 ```
 [back to top](#menu)
 
