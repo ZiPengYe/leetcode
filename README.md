@@ -55,7 +55,8 @@
 - [x] [#189 Rotate Array](#189-rotate-array)
 - [x] [#190 Reverse Bits](#190-reverse-bits)
 - [x] [#191 Number of 1 Bits](#191-number-of-1-bits)
-- [x] [#193 Valid Phone Numbers](#193-balid-phone-numbers)
+- [x] [#193 Valid Phone Numbers](#193-valid-phone-numbers)
+- [x] [#195 Tenth Line](#195-tenth-line)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1507,6 +1508,35 @@ Your script should output the following valid phone numbers:
 987-123-4567
 (123) 456-7890
 ```
+[back to top](#menu)
+
+---
+## [#195 Tenth Line](https://leetcode.com/problems/tenth-line)
+Given a text file `file.txt`, print just the 10th line of the file.
+
+**Example:**
+
+Assume that `file.txt` has the following content:
+```
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+```
+Your script should output the tenth line, which is:
+```
+Line 10
+```
+**Note:**
+1. If the file contains less than 10 lines, what should you output?
+2. There's at least three different solutions. Try to explore all possibilities.
+
 [back to top](#menu)
 
 ---
