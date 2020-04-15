@@ -43,6 +43,7 @@
 - [x] [#155 Min Stack](#141-min-stack)
 - [x] [#160 Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
 - [x] [#167 Two Sum II - Input array is sorted](#167-two-sum-ii-input-array-is-sorted)
+- [x] [#168 Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1150,6 +1151,38 @@ The function twoSum should return indices of the two numbers such that they add 
 Input: numbers = [2,7,11,15], target = 9
 Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
+```
+[back to top](#menu)
+
+---
+## [#168 Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+For example:
+```
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB 
+    ...
+```
+**Example 1:**
+```
+Input: 1
+Output: "A"
+```
+**Example 2:**
+```
+Input: 28
+Output: "AB"
+```
+**Example 3:**
+```
+Input: 701
+Output: "ZY"
 ```
 [back to top](#menu)
 
