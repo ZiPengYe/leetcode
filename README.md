@@ -51,6 +51,7 @@
 - [x] [#176 Second Highest Salary](#176-second-highest-salary)
 - [x] [#181 Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
 - [x] [#182 Duplicate Emails](#182-duplicate-emails)
+- [x] [#183 Customers Who Never Order](#183-customers-who-never-order)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1359,6 +1360,41 @@ For example, your query should return the following for the above table:
 ```
 **NOTE:**All emails are in lowercase.
 
+[back to top](#menu)
+
+---
+## [#183 Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order)
+Suppose that a website contains two tables, the `Customers` table and the `Orders` table. Write a SQL query to find all customers who never order anything.
+
+Table: `Customers`.
+```
++----+-------+
+| Id | Name  |
++----+-------+
+| 1  | Joe   |
+| 2  | Henry |
+| 3  | Sam   |
+| 4  | Max   |
++----+-------+
+```
+Table: `Orders`.
+```
++----+------------+
+| Id | CustomerId |
++----+------------+
+| 1  | 3          |
+| 2  | 1          |
++----+------------+
+```
+Using the above tables as example, return the following:
+```
++-----------+
+| Customers |
++-----------+
+| Henry     |
+| Max       |
++-----------+
+```
 [back to top](#menu)
 
 ---
