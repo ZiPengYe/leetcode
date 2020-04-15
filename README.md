@@ -58,6 +58,7 @@
 - [x] [#193 Valid Phone Numbers](#193-valid-phone-numbers)
 - [x] [#195 Tenth Line](#195-tenth-line)
 - [x] [#196 Delete Duplicate Emails](#196-delete-duplicate-emails)
+- [x] [#202 Happy Number](#202-happy-number)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1566,6 +1567,26 @@ For example, after running your query, the above `Person` table should have the 
 
 Your output is the whole `Person` table after executing your sql. Use `delete` statement.
 
+[back to top](#menu)
+
+---
+## [#202 Happy Number](https://leetcode.com/problems/happy-number)
+Write an algorithm to determine if a number `n` is "happy".
+
+A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it **loops endlessly in a cycle** which does not include 1. Those numbers for which this process **ends in 1** are happy numbers.
+
+Return True if `n` is a happy number, and False if not.
+
+**Example:**
+```
+Input: 19
+Output: true
+Explanation: 
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1
+```
 [back to top](#menu)
 
 ---
