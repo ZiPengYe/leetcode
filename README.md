@@ -58,6 +58,7 @@
 - [x] [#193 Valid Phone Numbers](#193-valid-phone-numbers)
 - [x] [#195 Tenth Line](#195-tenth-line)
 - [x] [#196 Delete Duplicate Emails](#196-delete-duplicate-emails)
+- [x] [#197 Rising Temperature](#197-rising-temperature)
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1571,6 +1572,30 @@ For example, after running your query, the above `Person` table should have the 
 
 Your output is the whole `Person` table after executing your sql. Use `delete` statement.
 
+[back to top](#menu)
+
+---
+## [#197 Rising Temperature](https://leetcode.com/problems/rising-temperature)
+Given a `Weather` table, write a SQL query to find all dates' Ids with higher temperature compared to its previous (yesterday's) dates.
+```
++---------+------------------+------------------+
+| Id(INT) | RecordDate(DATE) | Temperature(INT) |
++---------+------------------+------------------+
+|       1 |       2015-01-01 |               10 |
+|       2 |       2015-01-02 |               25 |
+|       3 |       2015-01-03 |               20 |
+|       4 |       2015-01-04 |               30 |
++---------+------------------+------------------+
+```
+For example, return the following Ids for the above `Weather` table:
+```
++----+
+| Id |
++----+
+|  2 |
+|  4 |
++----+
+```
 [back to top](#menu)
 
 ---
