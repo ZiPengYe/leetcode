@@ -60,6 +60,7 @@
 - [x] [#196 Delete Duplicate Emails](#196-delete-duplicate-emails)
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
+- [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
@@ -1613,6 +1614,21 @@ Output: 23
 **Note:**
 - You may assume that the given expression is always valid.
 - **Do not** use the `eval` built-in library function.
+
+[back to top](#menu)
+
+---
+## [#283 Move Zeroes](https://leetcode.com/problems/move-zeroes)
+Given an array `nums`, write a function to move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+
+**Example:**
+```
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+```
+**Note:**
+1. You must do this **in-place** without making a copy of the array.
+2. Minimize the total number of operations.
 
 [back to top](#menu)
 
