@@ -57,6 +57,7 @@
 - [x] [#191 Number of 1 Bits](#191-number-of-1-bits)
 - [x] [#193 Valid Phone Numbers](#193-valid-phone-numbers)
 - [x] [#195 Tenth Line](#195-tenth-line)
+- [x] [#196 Delete Duplicate Emails](#196-delete-duplicate-emails)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1536,6 +1537,34 @@ Line 10
 **Note:**
 1. If the file contains less than 10 lines, what should you output?
 2. There's at least three different solutions. Try to explore all possibilities.
+
+[back to top](#menu)
+
+---
+## [#196 Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)
+Write a SQL query to **delete** all duplicate email entries in a table named `Person`, keeping only unique emails based on its *smallest* **Id**.
+```
++----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
+| 3  | john@example.com |
++----+------------------+
+Id is the primary key column for this table.
+```
+For example, after running your query, the above `Person` table should have the following rows:
+```
++----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
++----+------------------+
+```
+**Note:**
+
+Your output is the whole `Person` table after executing your sql. Use `delete` statement.
 
 [back to top](#menu)
 
