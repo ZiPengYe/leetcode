@@ -55,6 +55,7 @@
 - [x] [#189 Rotate Array](#189-rotate-array)
 - [x] [#190 Reverse Bits](#190-reverse-bits)
 - [x] [#191 Number of 1 Bits](#191-number-of-1-bits)
+- [x] [#193 Valid Phone Numbers](#193-balid-phone-numbers)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1483,6 +1484,29 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 
 If this function is called many times, how would you optimize it?
 
+[back to top](#menu)
+
+---
+## [#193 Valid Phone Numbers](https://leetcode.com/problems/basic-calculator)
+Given a text file `file.txt` that contains list of phone numbers (one per line), write a one liner bash script to print all valid phone numbers.
+
+You may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)
+
+You may also assume each line in the text file must not contain leading or trailing white spaces.
+
+**Example:**
+
+Assume that `file.txt` has the following content:
+```
+987-123-4567
+123 456 7890
+(123) 456-7890
+```
+Your script should output the following valid phone numbers:
+```
+987-123-4567
+(123) 456-7890
+```
 [back to top](#menu)
 
 ---
