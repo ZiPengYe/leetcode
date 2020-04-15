@@ -48,6 +48,7 @@
 - [x] [#171 Excel Sheet Column Number](#171-excel-sheet-column-number)
 - [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
 - [x] [#175 Combine Two Tables](#175-combine-two-tables)
+- [x] [#176 Second Highest Salary](#176-second-highest-salary)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1286,6 +1287,28 @@ AddressId is the primary key column for this table.
 Write a SQL query for a report that provides the following information for each person in the Person table, regardless if there is an address for each of those people:
 ```
 FirstName, LastName, City, State
+```
+[back to top](#menu)
+
+---
+## [#176 Second Highest Salary](https://leetcode.com/problems/second-highest-salary)
+Write a SQL query to get the second highest salary from the `Employee` table.
+```
++----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+```
+For example, given the above Employee table, the query should return `200` as the second highest salary. If there is no second highest salary, then the query should return `null`.
+```
++---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
 ```
 [back to top](#menu)
 
