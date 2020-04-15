@@ -50,6 +50,7 @@
 - [x] [#175 Combine Two Tables](#175-combine-two-tables)
 - [x] [#176 Second Highest Salary](#176-second-highest-salary)
 - [x] [#181 Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
+- [x] [#182 Duplicate Emails](#182-duplicate-emails)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1334,6 +1335,30 @@ Given the `Employee` table, write a SQL query that finds out employees who earn 
 | Joe      |
 +----------+
 ```
+[back to top](#menu)
+
+---
+## [#182 Duplicate Emails](https://leetcode.com/problems/duplicate-emails)
+Write a SQL query to find all duplicate emails in a table named `Person`.
+```
++----+---------+
+| Id | Email   |
++----+---------+
+| 1  | a@b.com |
+| 2  | c@d.com |
+| 3  | a@b.com |
++----+---------+
+```
+For example, your query should return the following for the above table:
+```
++---------+
+| Email   |
++---------+
+| a@b.com |
++---------+
+```
+**NOTE:**All emails are in lowercase.
+
 [back to top](#menu)
 
 ---
