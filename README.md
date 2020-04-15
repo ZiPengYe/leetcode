@@ -42,6 +42,7 @@
 - [x] [#141 Linked List Cycle](#141-linked-list-cycle)
 - [x] [#155 Min Stack](#141-min-stack)
 - [x] [#160 Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
+- [x] [#167 Two Sum II - Input array is sorted](#167-two-sum-ii-input-array-is-sorted)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1132,6 +1133,24 @@ Explanation: The two lists do not intersect, so return null.
 - You may assume there are no cycles anywhere in the entire linked structure.
 - Your code should preferably run in O(n) time and use only O(1) memory.
 
+[back to top](#menu)
+
+---
+## [#167 Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
+Given an array of integers that is already ***sorted in ascending order***, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+
+**Note:**
+- Your returned answers (both index1 and index2) are not zero-based.
+- You may assume that each input would have *exactly* one solution and you may not use the *same* element twice.
+
+**Example:**
+```
+Input: numbers = [2,7,11,15], target = 9
+Output: [1,2]
+Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
+```
 [back to top](#menu)
 
 ---
