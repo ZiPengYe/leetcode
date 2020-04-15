@@ -16,6 +16,7 @@
 - [x] [#28 Implement strStr()](#28-implement-strstr)
 - [x] [#35 Search Insert Position](#35-search-insert-position)
 - [x] [#38 Count and Say](#38-count-and-say)
+- [x] [#49 Group Anagrams](#49-group-anagrams)
 - [x] [#53 Maximum Subarray](#53-maximum-subarray)
 - [x] [#58 Length of Last Word](#58-length-of-last-word)
 - [x] [#66 Plus One](#66-plus-one)
@@ -515,6 +516,26 @@ Input: 4
 Output: "1211"
 Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 ```
+[back to top](#menu)
+
+---
+## [49 Group Anagrams](https://leetcode.com/problems/group-anagrams)
+Given an array of strings, group anagrams together.
+
+**Example:**
+```
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+Output:
+[
+  ["ate","eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+```
+**Note:**
+- All inputs will be in lowercase.
+- The order of your output does not matter.
+
 [back to top](#menu)
 
 ---
