@@ -61,6 +61,7 @@
 - [x] [#197 Rising Temperature](#197-rising-temperature)
 - [x] [#198 House Robber](#198-house-robber)
 - [x] [#202 Happy Number](#202-happy-number)
+- [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -1638,6 +1639,17 @@ Explanation:
 8^2 + 2^2 = 68
 6^2 + 8^2 = 100
 1^2 + 0^2 + 0^2 = 1
+```
+[back to top](#menu)
+
+---
+## [#203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
+Remove all elements from a linked list of integers that have value ***val***.
+
+**Example:**
+```
+Input:  1->2->6->3->4->5->6, val = 6
+Output: 1->2->3->4->5
 ```
 [back to top](#menu)
 
