@@ -69,6 +69,7 @@
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
+- [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
@@ -1785,6 +1786,35 @@ Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ```
+[back to top](#menu)
+
+---
+## [#678 Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)
+Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
+1. Any left parenthesis `'('` must have a corresponding right parenthesis `')'`.
+2. Any right parenthesis `')'` must have a corresponding left parenthesis `'('`.
+3. Left parenthesis `'('` must go before the corresponding right parenthesis `')'`.
+4. `'*'` could be treated as a single right parenthesis `')'` or a single left parenthesis `'('` or an empty string.
+5. An empty string is also valid.
+
+**Example 1:**
+```
+Input: "()"
+Output: True
+```
+**Example 2:**
+```
+Input: "(*)"
+Output: True
+```
+**Example 3:**
+```
+Input: "(*))"
+Output: True
+```
+**Note:**
+1. The string size will be in the range [1, 100].
+
 [back to top](#menu)
 
 ---
