@@ -62,6 +62,7 @@
 - [x] [#198 House Robber](#198-house-robber)
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
+- [x] [#204 Count Primes](#204-count-primes)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -1650,6 +1651,18 @@ Remove all elements from a linked list of integers that have value ***val***.
 ```
 Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
+```
+[back to top](#menu)
+
+---
+## [#204 Count Primes](https://leetcode.com/problems/count-primes)
+Count the number of prime numbers less than a non-negative number, ***n***.
+
+**Example:**
+```
+Input: 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 ```
 [back to top](#menu)
 
