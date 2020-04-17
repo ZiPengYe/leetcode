@@ -64,6 +64,7 @@
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#204 Count Primes](#204-count-primes)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
+- [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -1690,6 +1691,25 @@ Output: 23
 **Note:**
 - You may assume that the given expression is always valid.
 - **Do not** use the `eval` built-in library function.
+
+[back to top](#menu)
+
+---
+## [#238 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
+Given an array `nums` of *n* integers where *n* > 1,  return an array `output` such that `output[i]` is equal to the product of all the elements of `nums` except `nums[i]`.
+
+**Example:**
+```
+Input:  [1,2,3,4]
+Output: [24,12,8,6]
+```
+**Constraint:** It's guaranteed that the product of the elements of any prefix or suffix of the array (including the whole array) fits in a 32 bit integer.
+
+**Note:** Please solve it **without division** and in O(*n*).
+
+**Follow up:**
+
+Could you solve it with constant space complexity? (The output array **does not** count as extra space for the purpose of space complexity analysis.)
 
 [back to top](#menu)
 
