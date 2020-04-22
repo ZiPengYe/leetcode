@@ -14,6 +14,7 @@
 - [x] [#26 Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [x] [#27 Remove Element](#27-remove-element)
 - [x] [#28 Implement strStr()](#28-implement-strstr)
+- [x] [#33 Search in Rotated Sorted Array](#33-search-in-rotated-sorted-array)
 - [x] [#35 Search Insert Position](#35-search-insert-position)
 - [x] [#38 Count and Say](#38-count-and-say)
 - [x] [#49 Group Anagrams](#49-group-anagrams)
@@ -480,6 +481,30 @@ What should we return when `needle` is an empty string? This is a great question
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
 
+[back to top](#menu)
+
+---
+## [#33 Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+
+(i.e., `[0,1,2,4,5,6,7]` might become `[4,5,6,7,0,1,2]`).
+
+You are given a target value to search. If found in the array return its index, otherwise return `-1`.
+
+You may assume no duplicate exists in the array.
+
+Your algorithm's runtime complexity must be in the order of *O*(log *n*).
+
+**Example 1:**
+```
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+```
+**Example 2:**
+```
+Input: nums = [4,5,6,7,0,1,2], target = 3
+Output: -1
+```
 [back to top](#menu)
 
 ---
