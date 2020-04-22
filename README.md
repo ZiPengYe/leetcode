@@ -78,6 +78,7 @@
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
+- [x] [#1008 Construct Binary Search Tree from Preorder Traversal](#1008-construct-binary-search-tree-from-preorder-traversal)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
 ---
@@ -2041,6 +2042,25 @@ Explanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1
 1. `1 <= A.length <= 20000`
 2. `1 <= A[i] <= A.length`
 3. `1 <= K <= A.length`
+
+[back to top](#menu)
+
+---
+## [#1008 Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)
+Return the root node of a binary **search** tree that matches the given `preorder` traversal.
+
+*(Recall that a binary search tree is a binary tree where for every node, any descendant of `node.left` has a value `<` `node.val`, and any descendant of `node.right` has a value `>` `node.val`.  Also recall that a preorder traversal displays the value of the `node` first, then traverses `node.left`, then traverses `node.right`.)*
+
+**Example 1:**
+```
+Input: [8,5,1,7,10,12]
+Output: [8,5,10,1,7,null,12]
+```
+![Output](https://assets.leetcode.com/uploads/2019/03/06/1266.png)
+
+**Note:**
+1. `1 <= preorder.length <= 100`
+2. The values of `preorder` are distinct.
 
 [back to top](#menu)
 
