@@ -62,6 +62,7 @@
 - [x] [#196 Delete Duplicate Emails](#196-delete-duplicate-emails)
 - [x] [#197 Rising Temperature](#197-rising-temperature)
 - [x] [#198 House Robber](#198-house-robber)
+- [x] [#200 Number of Islands](#200-number-of-islands)
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#204 Count Primes](#204-count-primes)
@@ -1667,6 +1668,32 @@ Input: [2,7,9,3,1]
 Output: 12
 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
              Total amount you can rob = 2 + 9 + 1 = 12.
+```
+[back to top](#menu)
+
+---
+## [#200 Number of Islands](https://leetcode.com/problems/number-of-islands)
+Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+**Example 1:**
+```
+Input:
+11110
+11010
+11000
+00000
+
+Output: 1
+```
+**Example 2:**
+```
+Input:
+11000
+11000
+00100
+00011
+
+Output: 3
 ```
 [back to top](#menu)
 
