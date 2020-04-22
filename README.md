@@ -20,6 +20,7 @@
 - [x] [#49 Group Anagrams](#49-group-anagrams)
 - [x] [#53 Maximum Subarray](#53-maximum-subarray)
 - [x] [#58 Length of Last Word](#58-length-of-last-word)
+- [x] [#64 Minimum Path Sum](#64-minimum-path-sum)
 - [x] [#66 Plus One](#66-plus-one)
 - [x] [#67 Add Binary](#67-add-binary)
 - [x] [#69 Sqrt(x)](#69-sqrtx)
@@ -620,6 +621,25 @@ A word is defined as a **maximal substring** consisting of non-space characters 
 ```
 Input: "Hello World"
 Output: 5
+```
+[back to top](#menu)
+
+---
+## [#64 Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
+Given a *m* x *n* grid filled with non-negative numbers, find a path from top left to bottom right which *minimizes* the sum of all numbers along its path.
+
+**Note:** You can only move either down or right at any point in time.
+
+**Example:**
+```
+Input:
+[
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]
+Output: 7
+Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
 [back to top](#menu)
 
