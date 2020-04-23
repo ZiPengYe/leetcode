@@ -72,6 +72,7 @@
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
+- [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
@@ -1860,6 +1861,21 @@ Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ```
+[back to top](#menu)
+
+---
+## [#560 Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)
+Given an array of integers and an integer **k**, you need to find the total number of continuous subarrays whose sum equals to **k**.
+
+**Example 1:**
+```
+Input:nums = [1,1,1], k = 2
+Output: 2
+```
+**Note:**
+1. The length of the array is in range [1, 20,000].
+2. The range of numbers in the array is [-1000, 1000] and the range of the integer **k** is [-1e7, 1e7].
+
 [back to top](#menu)
 
 ---
