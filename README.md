@@ -76,6 +76,7 @@
 - [x] [#221 Maximal Square](#221-maximal-square)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#225 Implement Stack using Queues](#225-implement-stack-using-queues)
+- [x] [#226 Invert Binary Tree](#226-invert-binary-tree)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -1979,6 +1980,35 @@ stack.empty(); // returns false
 - You must use *only* standard operations of a queue -- which means only `push to back`, `peek/pop from front`, `size`, and `is empty` operations are valid.
 - Depending on your language, queue may not be supported natively. You may simulate a queue by using a list or deque (double-ended queue), as long as you use only standard operations of a queue.
 - You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).
+
+[back to top](#menu)
+
+---
+## [#226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+Invert a binary tree.
+
+**Example:**
+
+Input:
+```
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+```
+Output:
+```
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+```
+**Trivia:**
+
+This problem was inspired by [this original tweet](https://twitter.com/mxcl/status/608682016205344768) by [Max Howell](https://twitter.com/mxcl):
+> Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
 
 [back to top](#menu)
 
