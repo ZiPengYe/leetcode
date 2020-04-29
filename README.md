@@ -72,6 +72,7 @@
 - [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
 - [x] [#217 Contains Duplicate](#217-contains-duplicate)
+- [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1886,6 +1887,27 @@ Output: false
 ```
 Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
+```
+[back to top](#menu)
+
+---
+## [#219 Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
+Given an array of integers and an integer *k*, find out whether there are two distinct indices *i* and *j* in the array such that **nums[i]** = **nums[j]** and the **absolute** difference between *i* and *j* is at most *k*.
+
+**Example 1:**
+```
+Input: nums = [1,2,3,1], k = 3
+Output: true
+```
+**Example 2:**
+```
+Input: nums = [1,0,1,1], k = 1
+Output: true
+```
+**Example 3:**
+```
+Input: nums = [1,2,3,1,2,3], k = 2
+Output: false
 ```
 [back to top](#menu)
 
