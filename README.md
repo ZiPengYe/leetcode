@@ -70,6 +70,7 @@
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#204 Count Primes](#204-count-primes)
 - [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
+- [x] [#206 Reverse Linked List](#206-reverse-linked-list)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1845,6 +1846,22 @@ Output: true
 **Note:**
 
 You may assume both ***s*** and ***t*** have the same length.
+
+[back to top](#menu)
+
+---
+## [#206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+Reverse a singly linked list.
+
+**Example:**
+```
+Input: 1->2->3->4->5->NULL
+Output: 5->4->3->2->1->NULL
+```
+
+**Follow up:**
+
+A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 [back to top](#menu)
 
