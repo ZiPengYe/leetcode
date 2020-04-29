@@ -71,6 +71,7 @@
 - [x] [#204 Count Primes](#204-count-primes)
 - [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
+- [x] [#217 Contains Duplicate](#217-contains-duplicate)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1863,6 +1864,29 @@ Output: 5->4->3->2->1->NULL
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
+[back to top](#menu)
+
+---
+## [#217 Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
+Given an array of integers, find if the array contains any duplicates.
+
+Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+
+**Example 1:**
+```
+Input: [1,2,3,1]
+Output: true
+```
+**Example 2:**
+```
+Input: [1,2,3,4]
+Output: false
+```
+**Example 3:**
+```
+Input: [1,1,1,3,3,4,3,2,4,2]
+Output: true
+```
 [back to top](#menu)
 
 ---
