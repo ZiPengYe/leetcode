@@ -65,6 +65,7 @@
 - [x] [#197 Rising Temperature](#197-rising-temperature)
 - [x] [#198 House Robber](#198-house-robber)
 - [x] [#200 Number of Islands](#200-number-of-islands)
+- [x] [#201 Bitwise AND of Numbers Range](#201-bitwise-and-of-numbers-range)
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#204 Count Primes](#204-count-primes)
@@ -1755,6 +1756,22 @@ Input:
 00011
 
 Output: 3
+```
+[back to top](#menu)
+
+---
+## [#201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)
+Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
+
+**Example 1:**
+```
+Input: [5,7]
+Output: 4
+```
+**Example 2:**
+```
+Input: [0,1]
+Output: 0
 ```
 [back to top](#menu)
 
