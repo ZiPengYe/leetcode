@@ -19,6 +19,7 @@
 - [x] [#38 Count and Say](#38-count-and-say)
 - [x] [#49 Group Anagrams](#49-group-anagrams)
 - [x] [#53 Maximum Subarray](#53-maximum-subarray)
+- [x] [#55 Jump Game](#55-jump-game)
 - [x] [#58 Length of Last Word](#58-length-of-last-word)
 - [x] [#64 Minimum Path Sum](#64-minimum-path-sum)
 - [x] [#66 Plus One](#66-plus-one)
@@ -609,6 +610,32 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 **Follow up:**
 
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+
+[back to top](#menu)
+
+---
+## [#55 Jump Game](https://leetcode.com/problems/jump-game)
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length at that position.
+
+Determine if you are able to reach the last index.
+
+**Example 1:**
+```
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+```
+**Example 2:**
+```
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+```
+**Constraints::**
+- `1 <= nums.length <= 3 * 10^4`
+- `0 <= nums[i][j] <= 10^5`
 
 [back to top](#menu)
 
