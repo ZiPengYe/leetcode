@@ -69,6 +69,7 @@
 - [x] [#202 Happy Number](#202-happy-number)
 - [x] [#203 Remove Linked List Elements](#203-remove-linked-list-elements)
 - [x] [#204 Count Primes](#204-count-primes)
+- [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1816,6 +1817,35 @@ Input: 10
 Output: 4
 Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 ```
+[back to top](#menu)
+
+---
+## [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
+Given two strings ***s*** and ***t***, determine if they are isomorphic.
+
+Two strings are isomorphic if the characters in ***s*** can be replaced to get ***t***.
+
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
+
+**Example 1:**
+```
+Input: s = "egg", t = "add"
+Output: true
+```
+**Example 2:**
+```
+Input: s = "foo", t = "bar"
+Output: false
+```
+**Example 3:**
+```
+Input: s = "paper", t = "title"
+Output: true
+```
+**Note:**
+
+You may assume both ***s*** and ***t*** have the same length.
+
 [back to top](#menu)
 
 ---
