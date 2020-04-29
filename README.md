@@ -77,6 +77,7 @@
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#225 Implement Stack using Queues](#225-implement-stack-using-queues)
 - [x] [#226 Invert Binary Tree](#226-invert-binary-tree)
+- [x] [#231 Power of Two](#231-power-of-two)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2010,6 +2011,29 @@ Output:
 This problem was inspired by [this original tweet](https://twitter.com/mxcl/status/608682016205344768) by [Max Howell](https://twitter.com/mxcl):
 > Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
 
+[back to top](#menu)
+
+---
+## [#231 Power of Two](https://leetcode.com/problems/power-of-two)
+Given an integer, write a function to determine if it is a power of two.
+
+**Example 1:**
+```
+Input: 1
+Output: true 
+Explanation: 2^0 = 1
+```
+**Example 2:**
+```
+Input: 16
+Output: true
+Explanation: 2^4 = 16
+```
+**Example 3:**
+```
+Input: 218
+Output: false
+```
 [back to top](#menu)
 
 ---
