@@ -73,6 +73,7 @@
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
 - [x] [#217 Contains Duplicate](#217-contains-duplicate)
 - [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
+- [x] [#221 Maximal Square](#221-maximal-square)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
@@ -1908,6 +1909,23 @@ Output: true
 ```
 Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
+```
+[back to top](#menu)
+
+---
+## [#221 Maximal Square](https://leetcode.com/problems/maximal-square)
+Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+
+**Example:**
+```
+Input: 
+
+1 0 1 0 0
+1 0 1 1 1
+1 1 1 1 1
+1 0 0 1 0
+
+Output: 4
 ```
 [back to top](#menu)
 
