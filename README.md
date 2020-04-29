@@ -75,6 +75,7 @@
 - [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
 - [x] [#221 Maximal Square](#221-maximal-square)
 - [x] [#224 Basic Calculator](#224-basic-calculator)
+- [x] [#225 Implement Stack using Queues](#225-implement-stack-using-queues)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -1953,6 +1954,31 @@ Output: 23
 **Note:**
 - You may assume that the given expression is always valid.
 - **Do not** use the `eval` built-in library function.
+
+[back to top](#menu)
+
+---
+## [#225 Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
+Implement the following operations of a stack using queues.
+- push(x) -- Push element x onto stack.
+- pop() -- Removes the element on top of the stack.
+- top() -- Get the top element.
+- empty() -- Return whether the stack is empty.
+
+**Example:**
+```
+MyStack stack = new MyStack();
+
+stack.push(1);
+stack.push(2);  
+stack.top();   // returns 2
+stack.pop();   // returns 2
+stack.empty(); // returns false
+```
+**Notes:**
+- You must use *only* standard operations of a queue -- which means only `push to back`, `peek/pop from front`, `size`, and `is empty` operations are valid.
+- Depending on your language, queue may not be supported natively. You may simulate a queue by using a list or deque (double-ended queue), as long as you use only standard operations of a queue.
+- You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).
 
 [back to top](#menu)
 
