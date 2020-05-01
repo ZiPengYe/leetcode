@@ -40,6 +40,7 @@
 - [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
 - [x] [#121 Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [x] [#122 Best Time to Buy and Sell Stock II](#122-best-time-to-buy-and-sell-stock-ii)
+- [x] [#124 Binary Tree Maximum Path Sum](#124-binary-tree-maximum-path-sum)
 - [x] [#125 Valid Palindrome](#125-valid-palindrome)
 - [x] [#136 Single Number](#136-single-number)
 - [x] [#141 Linked List Cycle](#141-linked-list-cycle)
@@ -1112,6 +1113,36 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
+```
+[back to top](#menu)
+
+---
+## [#124 Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
+Given a **non-empty** binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain **at least one node** and does not need to go through the root.
+
+**Example 1:**
+```
+Input: [1,2,3]
+
+       1
+      / \
+     2   3
+
+Output: 6
+```
+**Example 2:**
+```
+Input: [-10,9,20,null,null,15,7]
+
+   -10
+   / \
+  9  20
+    /  \
+   15   7
+
+Output: 42
 ```
 [back to top](#menu)
 
