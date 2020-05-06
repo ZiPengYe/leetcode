@@ -81,6 +81,7 @@
 - [x] [#231 Power of Two](#231-power-of-two)
 - [x] [#232 Implement Queue using Stacks](#232-implement-queue-using-stacks)
 - [x] [#234 Palindrome Linked List](#234-palindrome-linked-list)
+- [x] [#235 Lowest Common Ancestor of a Binary Search Tree](#235-lowest-common-ancestor-of-a-binary-search-tree)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2113,6 +2114,34 @@ Output: true
 **Follow up:**
 
 Could you do it in O(n) time and O(1) space?
+
+[back to top](#menu)
+
+---
+## [#235 Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
+
+According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow **a node to be a descendant of itself**).”
+
+Given binary search tree:  root = [6,2,8,0,4,7,9,null,null,3,5]
+
+![](https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png)
+
+**Example 1:**
+```
+Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+Output: 6
+Explanation: The LCA of nodes 2 and 8 is 6.
+```
+**Example 2:**
+```
+Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+Output: 2
+Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+```
+**Note:**
+- All of the nodes' values will be unique.
+- p and q are different and both values will exist in the BST.
 
 [back to top](#menu)
 
