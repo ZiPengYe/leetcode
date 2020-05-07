@@ -85,6 +85,7 @@
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
+- [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
@@ -2195,6 +2196,22 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 - Your algorithm should run in O(n2) complexity.
 
 **Follow up**: Could you improve it to O(n log n) time complexity?
+
+[back to top](#menu)
+
+---
+## [#387 First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+
+**Examples:**
+```
+s = "leetcode"
+return 0.
+
+s = "loveleetcode",
+return 2.
+```
+**Note:** You may assume the string contain only lowercase letters.
 
 [back to top](#menu)
 
