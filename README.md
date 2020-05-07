@@ -83,6 +83,7 @@
 - [x] [#234 Palindrome Linked List](#234-palindrome-linked-list)
 - [x] [#235 Lowest Common Ancestor of a Binary Search Tree](#235-lowest-common-ancestor-of-a-binary-search-tree)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
+- [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#383 Ransom Note](#383-ransom-note)
@@ -2167,6 +2168,26 @@ Output: [24,12,8,6]
 
 Could you solve it with constant space complexity? (The output array **does not** count as extra space for the purpose of space complexity analysis.)
 
+[back to top](#menu)
+
+---
+## [#278 First Bad Version](https://leetcode.com/problems/first-bad-version)
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+Suppose you have n versions `[1, 2, ..., n]` and you want to find out the first bad one, which causes all the following ones to be bad.
+
+You are given an API `bool isBadVersion(version)` which will return whether `version` is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+
+**Example:**
+```
+Given n = 5, and version = 4 is the first bad version.
+
+call isBadVersion(3) -> false
+call isBadVersion(5) -> true
+call isBadVersion(4) -> true
+
+Then 4 is the first bad version. 
+```
 [back to top](#menu)
 
 ---
