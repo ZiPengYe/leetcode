@@ -88,6 +88,7 @@
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
+- [x] [#476 Number Complement](#476-number-complement)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
@@ -2254,6 +2255,30 @@ Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ```
+[back to top](#menu)
+
+---
+## [#476 Number Complement](https://leetcode.com/problems/number-complement)
+Given a **positive** integer `num`, output its complement number. The complement strategy is to flip the bits of its binary representation.
+
+**Example 1:**
+```
+Input: num = 5
+Output: 2
+Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
+```
+**Example 2:**
+```
+Input: num = 1
+Output: 0
+Explanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
+```
+**Constraints:**
+- The given integer `num` is guaranteed to fit within the range of a 32-bit signed integer.
+- `num >= 1`
+- You could assume no leading zero bit in the integer’s binary representation.
+- This question is the same as 1009: <https://leetcode.com/problems/complement-of-base-10-integer/>
+
 [back to top](#menu)
 
 ---
