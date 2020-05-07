@@ -93,6 +93,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
+- [x] [#771 Jewels and Stones](#771-jewels-and-stones)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
@@ -2376,6 +2377,28 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 **Note:**
 1. `nums` will have a length in the range `[1, 50]`.
 2. Every `nums[i]` will be an integer in the range `[0, 99]`.
+
+[back to top](#menu)
+
+---
+## [#771 Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)
+You're given strings `J` representing the types of stones that are jewels, and `S` representing the stones you have.  Each character in `S` is a type of stone you have.  You want to know how many of the stones you have are also jewels.
+
+The letters in `J` are guaranteed distinct, and all characters in `J` and `S` are letters. Letters are case sensitive, so `"a"` is considered a different type of stone from `"A"`.
+
+**Example 1:**
+```
+Input: J = "aA", S = "aAAbbbb"
+Output: 3
+```
+**Example 2:**
+```
+Input: J = "z", S = "ZZ"
+Output: 0
+```
+**Note:**
+- `S` and `J` will consist of letters and have length at most 50.
+- The characters in `J` are distinct.
 
 [back to top](#menu)
 
