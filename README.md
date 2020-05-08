@@ -84,6 +84,7 @@
 - [x] [#235 Lowest Common Ancestor of a Binary Search Tree](#235-lowest-common-ancestor-of-a-binary-search-tree)
 - [x] [#237 Delete Node in a Linked List](#237-delete-node-in-a-linked-list)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
+- [x] [#242 Valid Anagram](#242-valid-anagram)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2196,6 +2197,30 @@ Output: [24,12,8,6]
 **Follow up:**
 
 Could you solve it with constant space complexity? (The output array **does not** count as extra space for the purpose of space complexity analysis.)
+
+[back to top](#menu)
+
+---
+## [#242 Valid Anagram](https://leetcode.com/problems/valid-anagram)
+Given two strings *s* and *t* , write a function to determine if *t* is an anagram of *s*.
+
+**Example 1:**
+```
+Input: s = "anagram", t = "nagaram"
+Output: true
+```
+**Example 2:**
+```
+Input: s = "rat", t = "car"
+Output: false
+```
+**Note:**
+
+You may assume the string contains only lowercase alphabets.
+
+**Follow up:**
+
+What if the inputs contain unicode characters? How would you adapt your solution to such case?
 
 [back to top](#menu)
 
