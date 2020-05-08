@@ -87,6 +87,7 @@
 - [x] [#242 Valid Anagram](#242-valid-anagram)
 - [x] [#257 Binary Tree Paths](#257-binary-tree-paths)
 - [x] [#258 Add Digits](#258-add-digits)
+- [x] [#263 Ugly Number](#263-ugly-number)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2263,6 +2264,36 @@ Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
 **Follow up:**
 
 Could you do it without any loop/recursion in O(1) runtime?
+
+[back to top](#menu)
+
+---
+## [#263 Ugly Number](https://leetcode.com/problems/ugly-number)
+Write a program to check whether a given number is an ugly number.
+
+Ugly numbers are **positive numbers** whose prime factors only include `2, 3, 5`.
+
+**Example 1:**
+```
+Input: 6
+Output: true
+Explanation: 6 = 2 × 3
+```
+**Example 2:**
+```
+Input: 8
+Output: true
+Explanation: 8 = 2 × 2 × 2
+```
+**Example 3:**
+```
+Input: 14
+Output: false 
+Explanation: 14 is not ugly since it includes another prime factor 7.
+```
+**Note:**
+1. `1` is typically treated as an ugly number.
+2. Input is within the 32-bit signed integer range: [−2^31,  2^31 − 1].
 
 [back to top](#menu)
 
