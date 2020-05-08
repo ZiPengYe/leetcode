@@ -85,6 +85,7 @@
 - [x] [#237 Delete Node in a Linked List](#237-delete-node-in-a-linked-list)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#242 Valid Anagram](#242-valid-anagram)
+- [x] [#257 Binary Tree Paths](#257-binary-tree-paths)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2222,6 +2223,28 @@ You may assume the string contains only lowercase alphabets.
 
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
 
+[back to top](#menu)
+
+---
+## [#257 Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)
+Given a binary tree, return all root-to-leaf paths.
+
+**Note:** A leaf is a node with no children.
+
+**Example:**
+```
+Input:
+
+   1
+ /   \
+2     3
+ \
+  5
+
+Output: ["1->2->5", "1->3"]
+
+Explanation: All root-to-leaf paths are: 1->2->5, 1->3
+```
 [back to top](#menu)
 
 ---
