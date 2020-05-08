@@ -86,6 +86,7 @@
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
 - [x] [#242 Valid Anagram](#242-valid-anagram)
 - [x] [#257 Binary Tree Paths](#257-binary-tree-paths)
+- [x] [#258 Add Digits](#258-add-digits)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
@@ -2245,6 +2246,24 @@ Output: ["1->2->5", "1->3"]
 
 Explanation: All root-to-leaf paths are: 1->2->5, 1->3
 ```
+[back to top](#menu)
+
+---
+## [#258 Add Digits](https://leetcode.com/problems/add-digits)
+Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit.
+
+**Example:**
+```
+Input: 38
+Output: 2 
+Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. 
+             Since 2 has only one digit, return it.
+```
+
+**Follow up:**
+
+Could you do it without any loop/recursion in O(1) runtime?
+
 [back to top](#menu)
 
 ---
