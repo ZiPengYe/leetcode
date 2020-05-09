@@ -91,6 +91,7 @@
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#290 Word Pattern](#290-word-pattern)
+- [x] [#292 Nim Game](#292-nim-game)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
@@ -2364,6 +2365,22 @@ Output: false
 
 You may assume `pattern` contains only lowercase letters, and `str` contains lowercase letters that may be separated by a single space.
 
+[back to top](#menu)
+
+---
+## [#292 Nim Game](https://leetcode.com/problems/nim-game)
+You are playing the following Nim Game with your friend: There is a heap of stones on the table, each time one of you take turns to remove 1 to 3 stones. The one who removes the last stone will be the winner. You will take the first turn to remove the stones.
+
+Both of you are very clever and have optimal strategies for the game. Write a function to determine whether you can win the game given the number of stones in the heap.
+
+**Example:**
+```
+Input: 4
+Output: false 
+Explanation: If there are 4 stones in the heap, then you will never win the game;
+             No matter 1, 2, or 3 stones you remove, the last stone will always be 
+             removed by your friend.
+```
 [back to top](#menu)
 
 ---
