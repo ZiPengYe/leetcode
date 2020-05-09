@@ -109,6 +109,7 @@
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
+- [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
 - [x] [First Unique Number](#first-unique-number)
 ---
@@ -2836,6 +2837,32 @@ Explanation: There is no such common subsequence, so the result is 0.
 - `1 <= text1.length <= 1000`
 - `1 <= text2.length <= 1000`
 - The input strings consist of lowercase English characters only.
+
+[back to top](#menu)
+
+---
+## [#1232 Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line)
+You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg)
+```
+Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+Output: true
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg)
+```
+Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+Output: false
+```
+**Constraints:**
+- `2 <= coordinates.length <= 1000`
+- `coordinates[i].length == 2`
+- `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
+- `coordinates` contains no duplicate point.
 
 [back to top](#menu)
 

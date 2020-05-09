@@ -108,6 +108,7 @@
 - [x] [#1008 先序遍历构造二叉树](#1008-先序遍历构造二叉树)
 - [x] [#1046 最后一块石头的重量](#1046-最后一块石头的重量)
 - [x] [#1143 最长公共子序列](#1143-最长公共子序列)
+- [x] [#1232 缀点成线](#1232-缀点成线)
 ---
 ## [#1 两数之和](https://leetcode-cn.com/problems/two-sum)
 给定一个整数数组 `nums` 和一个目标值 `target`，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
@@ -2764,6 +2765,34 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next 
 - `1 <= text1.length <= 1000`
 - `1 <= text2.length <= 1000`
 - 输入的字符串只含有小写英文字符。
+
+[回到顶部](#菜单)
+
+---
+## [#1232 缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line)
+在一个 XY 坐标系中有一些点，我们用数组 `coordinates` 来分别记录它们的坐标，其中 `coordinates[i] = [x, y]` 表示横坐标为 `x`、纵坐标为 `y` 的点。
+
+请你来判断，这些点是否在该坐标系中属于同一条直线上，是则返回 `true`，否则请返回 `false`。
+
+**示例 1:**
+
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/19/untitled-diagram-2.jpg)
+```
+输入：coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+输出：true
+```
+**示例 2:**
+
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/19/untitled-diagram-1.jpg)
+```
+输入：coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+输出：false
+```
+**提示:**
+- `2 <= coordinates.length <= 1000`
+- `coordinates[i].length == 2`
+- `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
+- `coordinates` 中不含重复的点
 
 [回到顶部](#菜单)
 
