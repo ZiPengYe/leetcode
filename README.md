@@ -90,6 +90,7 @@
 - [x] [#263 Ugly Number](#263-ugly-number)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
+- [x] [#290 Word Pattern](#290-word-pattern)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
@@ -2330,6 +2331,38 @@ Output: [1,3,12,0,0]
 **Note:**
 1. You must do this **in-place** without making a copy of the array.
 2. Minimize the total number of operations.
+
+[back to top](#menu)
+
+---
+## [#290 Word Pattern](https://leetcode.com/problems/word-pattern)
+Given a [pattern] and a string `str`, find if `str` follows the same pattern.
+
+Here **follow** means a full match, such that there is a bijection between a letter in `pattern` and a **non-empty** word in `str`.
+
+**Example 1:**
+```
+Input: pattern = "abba", str = "dog cat cat dog"
+Output: true
+```
+**Example 2:**
+```
+Input:pattern = "abba", str = "dog cat cat fish"
+Output: false
+```
+**Example 3:**
+```
+Input: pattern = "aaaa", str = "dog cat cat dog"
+Output: false
+```
+**Example 4:**
+```
+Input: pattern = "abba", str = "dog dog dog dog"
+Output: false
+```
+**Notes:**
+
+You may assume `pattern` contains only lowercase letters, and `str` contains lowercase letters that may be separated by a single space.
 
 [back to top](#menu)
 
