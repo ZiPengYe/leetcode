@@ -93,6 +93,7 @@
 - [x] [#290 Word Pattern](#290-word-pattern)
 - [x] [#292 Nim Game](#292-nim-game)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
+- [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
@@ -2399,6 +2400,24 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 **Follow up**: Could you improve it to O(n log n) time complexity?
 
+[back to top](#menu)
+
+---
+## [#369 Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)
+Given a positive integer *num*, write a function which returns True if *num* is a perfect square else False.
+
+**Note:** **Do not** use any built-in library function such as `sqrt`.
+
+**Example 1:**
+```
+Input: 16
+Output: true
+```
+**Example 2:**
+```
+Input: 14
+Output: false
+```
 [back to top](#menu)
 
 ---
