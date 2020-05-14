@@ -101,6 +101,7 @@
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
+- [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#733 Flood Fill](#733-flood-fill)
@@ -2579,6 +2580,23 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 - You could assume no leading zero bit in the integer’s binary representation.
 - This question is the same as 1009: <https://leetcode.com/problems/complement-of-base-10-integer/>
 
+[back to top](#menu)
+
+---
+## [#540 Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
+You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
+
+**Example 1:**
+```
+Input: [1,1,2,3,3,4,4,8,8]
+Output: 2
+```
+**Example 2:**
+```
+Input: [3,3,7,7,10,11,11]
+Output: 10
+```
+**Note:** Your solution should run in O(log n) time and O(1) space.
 [back to top](#menu)
 
 ---
