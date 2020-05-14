@@ -72,6 +72,7 @@
 - [x] [#204 计数质数](#204-计数质数)
 - [x] [#205 同构字符串](#205-同构字符串)
 - [x] [#206 反转链表](#206-反转链表)
+- [x] [#208 实现 Trie (前缀树)](#208-实现-trie-前缀树)
 - [x] [#217 存在重复元素](#217-存在重复元素)
 - [x] [#219 存在重复元素 II](#219-存在重复元素-ii)
 - [x] [#221 最大正方形](#221-最大正方形)
@@ -1921,6 +1922,27 @@ Id 是这个表的主键。
 **进阶:**
 
 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
+
+[回到顶部](#菜单)
+
+---
+## [#208 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree)
+实现一个 Trie (前缀树)，包含 `insert`, `search`, 和 `startsWith` 这三个操作。
+
+**示例:**
+```
+Trie trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");   // 返回 true
+trie.search("app");     // 返回 false
+trie.startsWith("app"); // 返回 true
+trie.insert("app");   
+trie.search("app");     // 返回 true
+```
+**说明:**
+- 你可以假设所有的输入都是由小写字母 `a-z` 构成的。
+- 保证所有输入均为非空字符串。
 
 [回到顶部](#菜单)
 

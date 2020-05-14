@@ -72,6 +72,7 @@
 - [x] [#204 Count Primes](#204-count-primes)
 - [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
+- [x] [#208 Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [x] [#217 Contains Duplicate](#217-contains-duplicate)
 - [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
 - [x] [#221 Maximal Square](#221-maximal-square)
@@ -1921,6 +1922,27 @@ Output: 5->4->3->2->1->NULL
 **Follow up:**
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?
+
+[back to top](#menu)
+
+---
+## [#208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)
+Implement a trie with `insert`, `search`, and `startsWith` methods.
+
+**Example:**
+```
+Trie trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");   // returns true
+trie.search("app");     // returns false
+trie.startsWith("app"); // returns true
+trie.insert("app");   
+trie.search("app");     // returns true
+```
+**Note:**
+- You may assume that all inputs are consist of lowercase letters `a-z`.
+- All inputs are guaranteed to be non-empty strings.
 
 [back to top](#menu)
 
