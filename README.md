@@ -97,6 +97,7 @@
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
+- [x] [#402 Remove K Digits](#402-remove-k-digits)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
@@ -2483,6 +2484,35 @@ s = "loveleetcode",
 return 2.
 ```
 **Note:** You may assume the string contain only lowercase letters.
+
+[back to top](#menu)
+
+---
+## [#402 Remove K Digits](https://leetcode.com/problems/remove-k-digits)
+Given a non-negative integer *num* represented as a string, remove *k* digits from the number so that the new number is the smallest possible.
+
+**Note:**
+- The length of *num* is less than 10002 and will be ≥ *k*.
+- The given *num* does not contain any leading zero.
+
+**Example 1:**
+```
+Input: num = "1432219", k = 3
+Output: "1219"
+Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
+```
+**Example 2:**
+```
+Input: num = "10200", k = 1
+Output: "200"
+Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
+```
+**Example 3:**
+```
+Input: num = "10", k = 2
+Output: "0"
+Explanation: Remove all the digits from the number and it is left with nothing which is 0.
+```
 
 [back to top](#menu)
 
