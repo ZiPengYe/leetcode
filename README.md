@@ -110,6 +110,7 @@
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
+- [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [x] [#997 Find the Town Judge](#997-find-the-town-judge)
@@ -2819,6 +2820,50 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 ```
 **Note:**
 - The number of nodes in the given list will be between `1` and `100`.
+
+[back to top](#menu)
+
+---
+## [#918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray)
+Given a **circular array C** of integers represented by `A`, find the maximum possible sum of a non-empty subarray of **C**.
+
+Here, a *circular array* means the end of the array connects to the beginning of the array.  (Formally, `C[i] = A[i]` when `0 <= i < A.length`, and `C[i+A.length] = C[i]` when `i >= 0`.)
+
+Also, a subarray may only include each element of the fixed buffer `A` at most once.  (Formally, for a subarray `C[i], C[i+1], ..., C[j]`, there does not exist `i <= k1, k2 <= j` with `k1 % A.length = k2 % A.length`.)
+
+**Example 1:**
+```
+Input: [1,-2,3,-2]
+Output: 3
+Explanation: Subarray [3] has maximum sum 3
+```
+**Example 2:**
+```
+Input: [5,-3,5]
+Output: 10
+Explanation: Subarray [5,5] has maximum sum 5 + 5 = 10
+```
+**Example 3:**
+```
+Input: [3,-1,2,-1]
+Output: 4
+Explanation: Subarray [2,-1,3] has maximum sum 2 + (-1) + 3 = 4
+```
+**Example 4:**
+```
+Input: [3,-2,2,-3]
+Output: 3
+Explanation: Subarray [3] and [3,-2,2] both have maximum sum 3
+```
+**Example 5:**
+```
+Input: [-2,-3,-1]
+Output: -1
+Explanation: Subarray [-1] has maximum sum -1
+```
+**Note:**
+1. `-30000 <= A[i] <= 30000`
+2. `1 <= A.length <= 30000`
 
 [back to top](#menu)
 
