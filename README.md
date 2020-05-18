@@ -105,6 +105,7 @@
 - [x] [#476 Number Complement](#476-number-complement)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
+- [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#733 Flood Fill](#733-flood-fill)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
@@ -2671,6 +2672,27 @@ Output: 2
 **Note:**
 1. The length of the array is in range [1, 20,000].
 2. The range of numbers in the array is [-1000, 1000] and the range of the integer **k** is [-1e7, 1e7].
+
+[back to top](#menu)
+
+---
+## [#567 Permutation in String](https://leetcode.com/problems/permutation-in-string)
+Given two strings **s1** and **s2**, write a function to return true if **s2** contains the permutation of **s1**. In other words, one of the first string's permutations is the **substring** of the second string.
+
+**Example 1:**
+```
+Input: s1 = "ab" s2 = "eidbaooo"
+Output: True
+Explanation: s2 contains one permutation of s1 ("ba").
+```
+**Example 2:**
+```
+Input:s1= "ab" s2 = "eidboaoo"
+Output: False
+```
+**Note:**
+1. The input strings only contain lower case letters.
+2. The length of both given strings is in range [1, 10,000].
 
 [back to top](#menu)
 
