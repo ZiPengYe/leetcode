@@ -94,6 +94,7 @@
 - [x] [#290 Word Pattern](#290-word-pattern)
 - [x] [#292 Nim Game](#292-nim-game)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
+- [x] [#328 Odd Even Linked List](#328-odd-even-linked-list)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
@@ -2426,6 +2427,28 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 - Your algorithm should run in O(n2) complexity.
 
 **Follow up**: Could you improve it to O(n log n) time complexity?
+
+[back to top](#menu)
+
+---
+## [#328 Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
+
+You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.
+
+**Example 1:**
+```
+Input: 1->2->3->4->5->NULL
+Output: 1->3->5->2->4->NULL
+```
+**Example 2:**
+```
+Input: 2->1->3->5->6->4->7->NULL
+Output: 2->3->6->7->1->5->4->NULL
+```
+**Note:**
+- The relative order inside both the even and odd groups should remain as it was in the input.
+- The first node is considered odd, the second node even and so on ...
 
 [back to top](#menu)
 
