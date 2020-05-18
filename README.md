@@ -100,6 +100,7 @@
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
+- [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
@@ -2551,6 +2552,41 @@ Please note that the string does not contain any non-printable characters.
 ```
 Input: "Hello, my name is John"
 Output: 5
+```
+[back to top](#menu)
+
+---
+## [#438 Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
+Given a string **s** and a **non-empty** string **p**, find all the start indices of **p**'s anagrams in **s**.
+
+Strings consists of lowercase English letters only and the length of both strings **s** and **p** will not be larger than 20,100.
+
+The order of output does not matter.
+
+**Example 1:**
+```
+Input:
+s: "cbaebabacd" p: "abc"
+
+Output:
+[0, 6]
+
+Explanation:
+The substring with start index = 0 is "cba", which is an anagram of "abc".
+The substring with start index = 6 is "bac", which is an anagram of "abc".
+```
+**Example 2:**
+```
+Input:
+s: "abab" p: "ab"
+
+Output:
+[0, 1, 2]
+
+Explanation:
+The substring with start index = 0 is "ab", which is an anagram of "ab".
+The substring with start index = 1 is "ba", which is an anagram of "ab".
+The substring with start index = 2 is "ab", which is an anagram of "ab".
 ```
 [back to top](#menu)
 
