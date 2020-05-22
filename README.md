@@ -101,6 +101,7 @@
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
+- [x] [#451 Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
@@ -2589,6 +2590,48 @@ Explanation:
 The substring with start index = 0 is "ab", which is an anagram of "ab".
 The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
+```
+[back to top](#menu)
+
+---
+## [#451 Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)
+Given a string, sort it in decreasing order based on the frequency of characters.
+
+**Example 1:**
+```
+Input:
+"tree"
+
+Output:
+"eert"
+
+Explanation:
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+```
+**Example 2:**
+```
+Input:
+"cccaaa"
+
+Output:
+"cccaaa"
+
+Explanation:
+Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
+Note that "cacaca" is incorrect, as the same characters must be together.
+```
+**Example 3:**
+```
+Input:
+"Aabb"
+
+Output:
+"bbAa"
+
+Explanation:
+"bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
 ```
 [back to top](#menu)
 
