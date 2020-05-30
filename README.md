@@ -104,6 +104,7 @@
 - [x] [#451 Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
+- [x] [#525 Contiguous Array](#525-contiguous-array)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
@@ -2684,6 +2685,26 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 - `num >= 1`
 - You could assume no leading zero bit in the integer’s binary representation.
 - This question is the same as 1009: <https://leetcode.com/problems/complement-of-base-10-integer/>
+
+[back to top](#menu)
+
+---
+## [#525 Contiguous Array](https://leetcode.com/problems/contiguous-array)
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+
+**Example 1:**
+```
+Input: [0,1]
+Output: 2
+Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+```
+**Example 2:**
+```
+Input: [0,1,0]
+Output: 2
+Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+```
+**Note:** The length of the given binary array will not exceed 50,000.
 
 [back to top](#menu)
 
