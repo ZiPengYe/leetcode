@@ -107,6 +107,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
+- [x] [#720 Longest Word in Dictionary](#720-longest-word-in-dictionary)
 - [x] [#733 Flood Fill](#733-flood-fill)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#771 Jewels and Stones](#771-jewels-and-stones)
@@ -2722,6 +2723,31 @@ Output: True
 ```
 **Note:**
 1. The string size will be in the range [1, 100].
+
+[back to top](#menu)
+
+---
+## [#720 Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary)
+Given a list of strings `words` representing an English Dictionary, find the longest word in `words` that can be built one character at a time by other words in `words`. If there is more than one possible answer, return the longest word with the smallest lexicographical order.
+
+If there is no answer, return the empty string.
+
+**Example 1:**
+```
+Input: words = ["w","wo","wor","worl", "world"]
+Output: "world"
+Explanation: The word "world" can be built one character at a time by "w", "wo", "wor", and "worl".
+```
+**Example 2:**
+```
+Input: words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
+Output: "apple"
+Explanation: Both "apply" and "apple" can be built from other words in the dictionary. However, "apple" is lexicographically smaller than "apply".
+```
+**Note:**
+- All the strings in the input will only contain lowercase letters.
+- The length of `words` will be in the range `[1, 1000]`.
+- The length of `words[i]` will be in the range `[1, 30]`.
 
 [back to top](#menu)
 
