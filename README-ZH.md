@@ -104,6 +104,7 @@
 - [x] [#467 环绕字符串中唯一的子字符串](#467-环绕字符串中唯一的子字符串)
 - [x] [#476 数字的补数](#476-数字的补数)
 - [x] [#540 有序数组中的单一元素](#540-有序数组中的单一元素)
+- [x] [#547 省份数量](#547-省份数量)
 - [x] [#560 和为K的子数组](#560-和为K的子数组)
 - [x] [#567 字符串的排列](#567-字符串的排列)
 - [x] [#678 有效的括号字符串](#678-有效的括号字符串)
@@ -1302,6 +1303,7 @@ minStack.getMin();   --> 返回 -2.
 在节点 c1 开始相交。
 
 **示例 1:**
+
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_1.png)
 ```
 输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
@@ -1309,6 +1311,7 @@ minStack.getMin();   --> 返回 -2.
 输入解释：相交节点的值为 8 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [4,1,8,4,5]，链表 B 为 [5,0,1,8,4,5]。在 A 中，相交节点前有 2 个节点；在 B 中，相交节点前有 3 个节点。
 ```
 **示例 2:**
+
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_2.png)
 ```
 输入：intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
@@ -1316,6 +1319,7 @@ minStack.getMin();   --> 返回 -2.
 输入解释：相交节点的值为 2 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [0,9,1,2,4]，链表 B 为 [3,2,4]。在 A 中，相交节点前有 3 个节点；在 B 中，相交节点前有 1 个节点。
 ```
 **示例 3:**
+
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/160_example_3.png)
 ```
 输入：intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
@@ -2636,6 +2640,40 @@ s: "abab" p: "ab"
 输出: 10
 ```
 **注意:** 您的方案应该在 O(log n)时间复杂度和 O(1)空间复杂度中运行。
+
+[回到顶部](#菜单)
+
+---
+## [#547 省份数量](https://leetcode-cn.com/problems/number-of-provinces)
+有 `n` 个城市，其中一些彼此相连，另一些没有相连。如果城市 `a` 与城市 `b` 直接相连，且城市 `b` 与城市 `c` 直接相连，那么城市 `a` 与城市 `c` 间接相连。
+
+**省份** 是一组直接或间接相连的城市，组内不含其他没有相连的城市。
+
+给你一个 `n x n` 的矩阵 `isConnected` ，其中 `isConnected[i][j] = 1` 表示第 `i` 个城市和第 `j` 个城市直接相连，而 `isConnected[i][j] = 0` 表示二者不直接相连。
+
+返回矩阵中 **省份** 的数量。
+
+**示例 1:**
+
+![](https://assets.leetcode.com/uploads/2020/12/24/graph1.jpg)
+```
+输入: isConnected = [[1,1,0],[1,1,0],[0,0,1]]
+输出: 2
+```
+**示例 2:**
+
+![](https://assets.leetcode.com/uploads/2020/12/24/graph2.jpg)
+```
+输入: isConnected = [[1,0,0],[0,1,0],[0,0,1]]
+输出: 3
+```
+**提示:**
+- `1 <= n <= 200`
+- `n == isConnected.length`
+- `n == isConnected[i].length`
+- `isConnected[i][j]` 为 `1` 或 `0`.
+- `isConnected[i][i] == 1`
+- `isConnected[i][j] == isConnected[j][i]`
 
 [回到顶部](#菜单)
 
