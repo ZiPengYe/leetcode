@@ -124,6 +124,7 @@
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
+- [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
 - [x] [First Unique Number](#first-unique-number)
@@ -3152,6 +3153,7 @@ For all leaves in the tree, consider the numbers represented by the path from th
 Return *the sum of these numbers*. The answer is **guaranteed** to fit in a **32-bits** integer.
 
 **Example 1:**
+
 ![](https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png)
 ```
 Input: root = [1,0,1,0,1,0,1]
@@ -3282,6 +3284,46 @@ Explanation: There is no such common subsequence, so the result is 0.
 - `1 <= text1.length <= 1000`
 - `1 <= text2.length <= 1000`
 - The input strings consist of lowercase English characters only.
+
+[back to top](#menu)
+
+---
+## [#1147 Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)
+You are given a string `text`. You should split it to k substrings `(subtext1, subtext2, ..., subtextk)` such that:
+- `subtexti` is a **non-empty** string.
+- The concatenation of all the substrings is equal to `text` (i.e., `subtext1 + subtext2 + ... + subtextk == text`).
+- `subtexti == subtextk - i + 1` for all valid values of `i` (i.e., `1 <= i <= k`).
+
+Return the largest possible value of `k`.
+
+**Example 1:**
+```
+Input: text = "ghiabcdefhelloadamhelloabcdefghi"
+Output: 7
+Explanation: We can split the string on "(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)".
+```
+**Example 2:**
+```
+Input: text = "merchant"
+Output: 1
+Explanation: We can split the string on "(merchant)".
+```
+**Example 3:**
+```
+Input: text = "antaprezatepzapreanta"
+Output: 11
+Explanation: We can split the string on "(a)(nt)(a)(pre)(za)(tpe)(za)(pre)(a)(nt)(a)".
+```
+**Example 4:**
+```
+Input: text = "aaa"
+Output: 3
+Explanation: We can split the string on "(a)(a)(a)".
+```
+
+**Constraints:**
+- `1 <= text.length <= 1000`
+- `text` consists only of lowercase English characters.
 
 [back to top](#menu)
 
