@@ -120,6 +120,7 @@
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [x] [#997 Find the Town Judge](#997-find-the-town-judge)
 - [x] [#1008 Construct Binary Search Tree from Preorder Traversal](#1008-construct-binary-search-tree-from-preorder-traversal)
+- [x] [#1022 Sum of Root To Leaf Binary Numbers](#1022-sum-of-root-to-leaf-binary-numbers)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
@@ -3139,6 +3140,43 @@ Output: [8,5,10,1,7,null,12]
 **Note:**
 1. `1 <= preorder.length <= 100`
 2. The values of `preorder` are distinct.
+
+[back to top](#menu)
+
+---
+## [#1022 Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)
+You are given the `root` of a binary tree where each node has a value `0` or `1`.  Each root-to-leaf path represents a binary number starting with the most significant bit.  For example, if the path is `0 -> 1 -> 1 -> 0 -> 1`, then this could represent `01101` in binary, which is `13`.
+
+For all leaves in the tree, consider the numbers represented by the path from the root to that leaf.
+
+Return *the sum of these numbers*. The answer is **guaranteed** to fit in a **32-bits** integer.
+
+**Example 1:**
+![](https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png)
+```
+Input: root = [1,0,1,0,1,0,1]
+Output: 22
+Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+```
+**Example 2:**
+```
+Input: root = [0]
+Output: 0
+```
+**Example 3:**
+```
+Input: root = [1]
+Output: 1
+```
+**Example 4:**
+```
+Input: root = [1,1]
+Output: 3
+```
+
+**Constraints:**
+- The number of nodes in the tree is in the range **[1, 1000]**.
+- `Node.val` is `0` or `1`.
 
 [back to top](#menu)
 
