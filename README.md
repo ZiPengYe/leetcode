@@ -127,6 +127,7 @@
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
 - [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
+- [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
 - [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
@@ -3386,6 +3387,23 @@ Output: false
 - `coordinates[i].length == 2`
 - `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
 - `coordinates` contains no duplicate point.
+
+[back to top](#menu)
+
+---
+## [#1302 Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum)
+Given a binary tree, return the sum of values of its deepest leaves.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/07/31/1483_ex1.png)
+```
+Input: root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
+Output: 15
+```
+**Constraints:**
+- The number of nodes in the tree is between `1` and `10^4`.
+- The value of nodes is between `1` and `100`.
 
 [back to top](#menu)
 
