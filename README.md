@@ -113,6 +113,7 @@
 - [x] [#733 Flood Fill](#733-flood-fill)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#771 Jewels and Stones](#771-jewels-and-stones)
+- [x] [#781 Rabbits in Forest](#781-rabbits-in-forest)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
@@ -2883,6 +2884,39 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 **Note:**
 1. `nums` will have a length in the range `[1, 50]`.
 2. Every `nums[i]` will be an integer in the range `[0, 99]`.
+
+[back to top](#menu)
+
+---
+## [#781 Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest)
+In a forest, each rabbit has some color. Some subset of rabbits (possibly all of them) tell you how many other rabbits have the same color as them. Those `answers` are placed in an array.
+
+Return the minimum number of rabbits that could be in the forest.
+
+**Example 1:**
+```
+Input: answers = [1, 1, 2]
+Output: 5
+Explanation:
+The two rabbits that answered "1" could both be the same color, say red.
+The rabbit than answered "2" can't be red or the answers would be inconsistent.
+Say the rabbit that answered "2" was blue.
+Then there should be 2 other blue rabbits in the forest that didn't answer into the array.
+The smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn't.
+```
+**Example 2:**
+```
+Input: answers = [10, 10, 10]
+Output: 11
+```
+**Example 3:**
+```
+Input: answers = []
+Output: 0
+```
+**Note:**
+1. `answers` will have length at most `1000`.
+2. Each `answers[i]` will be an integer in the range `[0, 999]`.
 
 [back to top](#menu)
 
