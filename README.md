@@ -131,6 +131,7 @@
 - [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
 - [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
+- [x] [#1732 Find the Highest Altitude](#1732-find-the-highest-altitude)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
 - [x] [First Unique Number](#first-unique-number)
 ---
@@ -3532,6 +3533,32 @@ Explanation: The optimal subarray here is [5,2,1] or [1,2,5].
 **Constraints:**
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^4`
+
+[back to top](#menu)
+
+---
+## [#1732 Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)
+There is a biker going on a road trip. The road trip consists of `n + 1` points at different altitudes. The biker starts his trip on point `0` with altitude equal `0`.
+
+You are given an integer array `gain` of length `n` where `gain[i]` is the `net gain in altitude` between points `i​​​​​​` and `i + 1` for all (`0 <= i < n`). Return *the **highest altitude** of a point*.
+
+**Example 1:**
+```
+Input: gain = [-5,1,5,0,-7]
+Output: 1
+Explanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
+```
+**Example 2:**
+```
+Input: gain = [-4,-3,-2,-1,4,3,2]
+Output: 0
+Explanation: The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.
+```
+
+**Constraints:**
+- `n == gain.length`
+- `1 <= n <= 100`
+- `-100 <= gain[i] <= 100`
 
 [back to top](#menu)
 
