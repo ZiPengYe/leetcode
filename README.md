@@ -110,6 +110,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#575 Distribute Candies](#575-distribute-candies)
+- [x] [#645 Set Mismatch](#445-set-mismatch)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#720 Longest Word in Dictionary](#720-longest-word-in-dictionary)
 - [x] [#733 Flood Fill](#733-flood-fill)
@@ -2849,6 +2850,30 @@ Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 can
 - `2 <= n <= 10^4` 
 - `n` is even.
 - `-10^5 <= candyType[i] <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#645 Set Mismatch](https://leetcode.com/problems/set-mismatch)
+You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in **repetition of one** number and **loss of another** number.
+
+You are given an integer array `nums` representing the data status of this set after the error.
+
+Find the number that occurs twice and the number that is missing and return *them in the form of an array*.
+
+**Example 1:**
+```
+Input: nums = [1,2,2,4]
+Output: [2,3]
+```
+**Example 2:**
+```
+Input: nums = [1,1]
+Output: [1,2]
+```
+**Constraints:**
+- `2 <= nums.length <= 10^4`
+- `1 <= nums[i] <= 10^4`
 
 [back to top](#menu)
 
