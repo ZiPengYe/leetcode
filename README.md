@@ -118,6 +118,7 @@
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#771 Jewels and Stones](#771-jewels-and-stones)
 - [x] [#781 Rabbits in Forest](#781-rabbits-in-forest)
+- [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
@@ -1385,7 +1386,7 @@ For example:
     ...
     26 -> Z
     27 -> AA
-    28 -> AB 
+    28 -> AB
     ...
 ```
 **Example 1:**
@@ -1435,7 +1436,7 @@ For example:
     ...
     Z -> 26
     AA -> 27
-    AB -> 28 
+    AB -> 28
     ...
 ```
 **Example 1:**
@@ -1625,7 +1626,7 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 ```
 Input: [-1,-100,3,99] and k = 2
 Output: [3,99,-1,-100]
-Explanation: 
+Explanation:
 rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 ```
@@ -1873,7 +1874,7 @@ Return True if `n` is a happy number, and False if not.
 ```
 Input: 19
 Output: true
-Explanation: 
+Explanation:
 1^2 + 9^2 = 82
 8^2 + 2^2 = 68
 6^2 + 8^2 = 100
@@ -2020,7 +2021,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest square contai
 
 **Example:**
 ```
-Input: 
+Input:
 
 1 0 1 0 0
 1 0 1 1 1
@@ -2119,7 +2120,7 @@ Given an integer, write a function to determine if it is a power of two.
 **Example 1:**
 ```
 Input: 1
-Output: true 
+Output: true
 Explanation: 2^0 = 1
 ```
 **Example 2:**
@@ -2308,8 +2309,8 @@ Given a non-negative integer `num`, repeatedly add all its digits until the resu
 **Example:**
 ```
 Input: 38
-Output: 2 
-Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. 
+Output: 2
+Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
              Since 2 has only one digit, return it.
 ```
 
@@ -2340,7 +2341,7 @@ Explanation: 8 = 2 × 2 × 2
 **Example 3:**
 ```
 Input: 14
-Output: false 
+Output: false
 Explanation: 14 is not ugly since it includes another prime factor 7.
 ```
 **Note:**
@@ -2403,7 +2404,7 @@ call isBadVersion(3) -> false
 call isBadVersion(5) -> true
 call isBadVersion(4) -> true
 
-Then 4 is the first bad version. 
+Then 4 is the first bad version.
 ```
 [back to top](#menu)
 
@@ -2463,9 +2464,9 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 **Example:**
 ```
 Input: 4
-Output: false 
+Output: false
 Explanation: If there are 4 stones in the heap, then you will never win the game;
-             No matter 1, 2, or 3 stones you remove, the last stone will always be 
+             No matter 1, 2, or 3 stones you remove, the last stone will always be
              removed by your friend.
 ```
 [back to top](#menu)
@@ -2886,7 +2887,7 @@ Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 can
 ```
 **Constraints:**
 - `n == candyType.length`
-- `2 <= n <= 10^4` 
+- `2 <= n <= 10^4`
 - `n` is even.
 - `-10^5 <= candyType[i] <= 10^5`
 
@@ -3082,6 +3083,32 @@ Output: 0
 [back to top](#menu)
 
 ---
+## [#823 Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors)
+Given an array of unique integers, `arr`, where each integer `arr[i]` is strictly greater than `1`.
+
+We make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node's value should be equal to the product of the values of its children.
+
+Return *the number of binary trees we can make*. The answer may be too large so return the answer **modulo** `10^9 + 7`.
+
+**Example 1:**
+```
+Input: arr = [2,4]
+Output: 3
+Explanation: We can make these trees: [2], [4], [4, 2, 2]
+```
+**Example 2:**
+```
+Input: arr = [2,4,5,10]
+Output: 7
+Explanation: We can make these trees: [2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2].
+```
+**Constraints:**
+- `1 <= arr.length <= 1000`
+- `2 <= arr[i] <= 10^9`
+
+[back to top](#menu)
+
+---
 ## [#844 Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 Given two strings `S` and `T`, return if they are equal when both are typed into empty text editors. `#` means a backspace character.
 
@@ -3188,7 +3215,7 @@ We are given two arrays `A` and `B` of words.  Each word is a string of lowercas
 
 Now, say that word `b` is a subset of word `a` if every letter in `b` occurs in `a`, **including multiplicity**.  For example, `"wrr"` is a subset of `"warrior"`, but is not a subset of `"world"`.
 
-Now say a word `a` from `A` is *universal* if for every `b` in `B`, `b` is a subset of `a`. 
+Now say a word `a` from `A` is *universal* if for every `b` in `B`, `b` is a subset of `a`.
 
 Return a list of all universal words in `A`.  You can return the words in any order.
 **Example 1:**
@@ -3496,7 +3523,7 @@ At the end, there is at most 1 stone left.  Return the weight of this stone (or 
 ```
 Input: [2,7,4,1,8,1]
 Output: 1
-Explanation: 
+Explanation:
 We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
 we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
 we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
@@ -3518,7 +3545,7 @@ If there is no common subsequence, return 0.
 
 **Example 1:**
 ```
-Input: text1 = "abcde", text2 = "ace" 
+Input: text1 = "abcde", text2 = "ace"
 Output: 3  
 Explanation: The longest common subsequence is "ace" and its length is 3.
 ```
@@ -3638,38 +3665,38 @@ Return *the indices of the `k` **weakest** rows in the matrix ordered from weake
 
 **Example 1:**
 ```
-Input: mat = 
+Input: mat =
 [[1,1,0,0,0],
  [1,1,1,1,0],
  [1,0,0,0,0],
  [1,1,0,0,0],
- [1,1,1,1,1]], 
+ [1,1,1,1,1]],
 k = 3
 Output: [2,0,3]
-Explanation: 
-The number of soldiers in each row is: 
-- Row 0: 2 
-- Row 1: 4 
-- Row 2: 1 
-- Row 3: 2 
-- Row 4: 5 
+Explanation:
+The number of soldiers in each row is:
+- Row 0: 2
+- Row 1: 4
+- Row 2: 1
+- Row 3: 2
+- Row 4: 5
 The rows ordered from weakest to strongest are [2,0,3,1,4].
 ```
 **Example 2:**
 ```
-Input: mat = 
+Input: mat =
 [[1,0,0,0],
  [1,1,1,1],
  [1,0,0,0],
- [1,0,0,0]], 
+ [1,0,0,0]],
 k = 2
 Output: [0,2]
-Explanation: 
-The number of soldiers in each row is: 
-- Row 0: 1 
-- Row 1: 4 
-- Row 2: 1 
-- Row 3: 1 
+Explanation:
+The number of soldiers in each row is:
+- Row 0: 1
+- Row 1: 4
+- Row 2: 1
+- Row 3: 1
 The rows ordered from weakest to strongest are [0,2,3,1].
 ```
 
@@ -3799,13 +3826,13 @@ Implement the `FirstUnique` class:
 
 **Example 1:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","showFirstUnique","add","showFirstUnique","add","showFirstUnique"]
 [[[2,3,5]],[],[5],[],[2],[],[3],[]]
-Output: 
+Output:
 [null,2,null,2,null,3,null,-1]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([2,3,5]);
 firstUnique.showFirstUnique(); // return 2
 firstUnique.add(5);            // the queue is now [2,3,5,5]
@@ -3817,13 +3844,13 @@ firstUnique.showFirstUnique(); // return -1
 ```
 **Example 2:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","add","add","add","add","showFirstUnique"]
 [[[7,7,7,7,7,7]],[],[7],[3],[3],[7],[17],[]]
-Output: 
+Output:
 [null,-1,null,null,null,null,null,17]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([7,7,7,7,7,7]);
 firstUnique.showFirstUnique(); // return -1
 firstUnique.add(7);            // the queue is now [7,7,7,7,7,7,7]
@@ -3835,13 +3862,13 @@ firstUnique.showFirstUnique(); // return 17
 ```
 **Example 3:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","showFirstUnique"]
 [[[809]],[],[809],[]]
-Output: 
+Output:
 [null,809,null,-1]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([809]);
 firstUnique.showFirstUnique(); // return 809
 firstUnique.add(809);          // the queue is now [809,809]
