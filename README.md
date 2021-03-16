@@ -106,6 +106,7 @@
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
 - [x] [#506 Relative Ranks](#506-relative-ranks)
+- [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#547 Number of Provinces](#547-number-of-provinces)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
@@ -2770,6 +2771,16 @@ Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
 - `1 <= n <= 10^4`
 - `0 <= score[i] <= 10^6`
 - All the values in `score` are **unique**.
+
+[back to top](#menu)
+
+---
+## [#535 Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl)
+> Note: This is a companion problem to the [System Design](https://leetcode.com/discuss/interview-question/system-design/) problem: [Design TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/).
+
+TinyURL is a URL shortening service where you enter a URL such as `https://leetcode.com/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`.
+
+Design the `encode` and `decode` methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
 
 [back to top](#menu)
 
