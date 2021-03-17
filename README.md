@@ -114,6 +114,7 @@
 - [x] [#575 Distribute Candies](#575-distribute-candies)
 - [x] [#645 Set Mismatch](#445-set-mismatch)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
+- [x] [#714 Best Time to Buy and Sell Stock with Transaction Fee](#714-best-time-to-buy-and-sell-stock-with-transaction-fee)
 - [x] [#720 Longest Word in Dictionary](#720-longest-word-in-dictionary)
 - [x] [#733 Flood Fill](#733-flood-fill)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
@@ -2955,6 +2956,36 @@ Output: True
 ```
 **Note:**
 1. The string size will be in the range [1, 100].
+
+[back to top](#menu)
+
+---
+## [#714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day, and an integer `fee` representing a transaction fee.
+
+Find the maximum profit you can achieve. You may complete as many transactions as you like, but you need to pay the transaction fee for each transaction.
+
+**Note:** You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+
+**Example 1:**
+```
+Input: prices = [1,3,2,8,4,9], fee = 2
+Output: 8
+Explanation: The maximum profit can be achieved by:
+- Buying at prices[0] = 1
+- Selling at prices[3] = 8
+- Buying at prices[4] = 4
+- Selling at prices[5] = 9
+The total profit is ((8 - 1) - 2) + ((9 - 4) - 2) = 8.
+```
+**Example 2:**
+```
+Input: prices = [1,3,7,5,10,3], fee = 3
+Output: 6
+```
+**Constraints:**
+- `1 < prices.length <= 5 * 10^4`
+- `0 < prices[i], fee < 5 * 10^4`
 
 [back to top](#menu)
 
