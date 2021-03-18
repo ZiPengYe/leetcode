@@ -105,6 +105,7 @@
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#476 Number Complement](#476-number-complement)
+- [x] [#478 Generate Random Point in a Circle](#478-generate-random-point-in-a-circle)
 - [x] [#506 Relative Ranks](#506-relative-ranks)
 - [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
@@ -2739,6 +2740,36 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 - `num >= 1`
 - You could assume no leading zero bit in the integer’s binary representation.
 - This question is the same as 1009: <https://leetcode.com/problems/complement-of-base-10-integer/>
+
+[back to top](#menu)
+
+---
+## [#478 Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle)
+Given the radius and x-y positions of the center of a circle, write a function `randPoint` which generates a uniform random point in the circle.
+
+Note:
+
+  1. input and output values are in [floating-point](https://www.webopedia.com/TERM/F/floating_point_number.html).
+  2. radius and x-y position of the center of the circle is passed into the class constructor.
+  3. a point on the circumference of the circle is considered to be in the circle.
+  4. `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order.
+
+**Example 1:**
+```
+Input: 
+["Solution","randPoint","randPoint","randPoint"]
+[[1,0,0],[],[],[]]
+Output: [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
+```
+**Example 2:**
+```
+Input: 
+["Solution","randPoint","randPoint","randPoint"]
+[[10,5,-7.5],[],[],[]]
+Output: [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
+```
+**Explanation of Input Syntax:**
+The input is two lists: the subroutines called and their arguments. `Solution`'s constructor has three arguments, the radius, x-position of the center, and y-position of the center of the circle. `randPoint` has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 
 [back to top](#menu)
 
