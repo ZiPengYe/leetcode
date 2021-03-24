@@ -125,6 +125,7 @@
 - [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
+- [x] [#870 Advantage Shuffle](#870-advantage-shuffle)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#916 Word Subsets](#916-word-subsets)
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
@@ -3291,6 +3292,29 @@ Output: true
 ```
 **Note:**
 1. `1 <= N <= 10^9`
+
+[back to top](#menu)
+
+---
+## [#870 Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle)
+Given two arrays `A` and `B` of equal size, the *advantage of `A` with respect to `B`* is the number of indices `i` for which `A[i] > B[i]`.
+
+Return **any** permutation of `A` that maximizes its advantage with respect to `B`.
+
+**Example 1:**
+```
+Input: A = [2,7,11,15], B = [1,10,4,11]
+Output: [2,11,7,15]
+```
+**Example 2:**
+```
+Input: A = [12,24,8,32], B = [13,25,32,11]
+Output: [24,32,8,12]
+```
+**Note:**
+  1. `1 <= A.length = B.length <= 10000`
+  2. `0 <= A[i] <= 10^9`
+  3. `0 <= B[i] <= 10^9`
 
 [back to top](#menu)
 
