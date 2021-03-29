@@ -103,6 +103,7 @@
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
 - [x] [#417 Pacific Atlantic Water Flow](#417-pacific-atlantic-water-flow)
+- [x] [#423 Reconstruct Original Digits from English](#423-reconstruct-original-digits-from-english)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
@@ -2709,7 +2710,30 @@ Return:
 
 [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).
 ```
- 
+
+[back to top](#menu)
+
+---
+## [#423 Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)
+Given a **non-empty** string containing an out-of-order English representation of digits `0-9`, output the digits in ascending order.
+
+**Note:**
+  1. Input contains only lowercase English letters.
+  2. Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as "abc" or "zerone" are not permitted.
+  3. Input length is less than 50,000.
+
+**Example 1:**
+```
+Input: "owoztneoer"
+
+Output: "012"
+```
+**Example 2:**
+```
+Input: "fviefuro"
+
+Output: "45"
+```
 [back to top](#menu)
 
 ---
