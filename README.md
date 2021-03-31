@@ -145,6 +145,7 @@
 - [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
 - [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
+- [x] [#1306 Jump Game III](#1306-jump-game-iii)
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
 - [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
 - [x] [#1721 Swapping Nodes in a Linked List](#1721-swapping-nodes-in-a-linked-list)
@@ -3956,6 +3957,42 @@ Output: 15
 **Constraints:**
 - The number of nodes in the tree is between `1` and `10^4`.
 - The value of nodes is between `1` and `100`.
+
+[back to top](#menu)
+
+---
+## [#1306 Jump Game III](https://leetcode.com/problems/jump-game-iii)
+Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach to **any** index with value 0.
+
+Notice that you can not jump outside of the array at any time.
+
+**Example 1:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 5
+Output: true
+Explanation: 
+All possible ways to reach at index 3 with value 0 are: 
+index 5 -> index 4 -> index 1 -> index 3 
+index 5 -> index 6 -> index 4 -> index 1 -> index 3 
+```
+**Example 2:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 0
+Output: true 
+Explanation: 
+One possible way to reach at index 3 with value 0 is: 
+index 0 -> index 4 -> index 1 -> index 3
+```
+**Example 3:**
+```
+Input: arr = [3,0,2,1,2], start = 2
+Output: false
+Explanation: There is no way to reach at index 1 with value 0.
+```
+**Constraints:**
+  - `1 <= arr.length <= 5 * 10^4`
+  - `0 <= arr[i] < arr.length`
+  - `0 <= start < arr.length`
 
 [back to top](#menu)
 
