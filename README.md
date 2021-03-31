@@ -97,6 +97,7 @@
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#322 Coin Change](#322-coin-change)
 - [x] [#328 Odd Even Linked List](#328-odd-even-linked-list)
+- [x] [#354 Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
 - [x] [#383 Ransom Note](#383-ransom-note)
@@ -2556,6 +2557,34 @@ Output: 2->3->6->7->1->5->4->NULL
 **Note:**
 - The relative order inside both the even and odd groups should remain as it was in the input.
 - The first node is considered odd, the second node even and so on ...
+
+[back to top](#menu)
+
+---
+## [#354 Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes)
+You are given a 2D array of integers `envelopes` where `envelopes[i] = [wi, hi]` represents the width and the height of an envelope.
+
+One envelope can fit into another if and only if both the width and height of one envelope is greater than the width and height of the other envelope.
+
+Return *the maximum number of envelopes can you Russian doll (i.e., put one inside the other)*.
+
+**Note:** You cannot rotate an envelope.
+
+**Example 1:**
+```
+Input: envelopes = [[5,4],[6,4],[6,7],[2,3]]
+Output: 3
+Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
+```
+**Example 2:**
+```
+Input: envelopes = [[1,1],[1,1],[1,1]]
+Output: 1
+```
+**Constraints:**
+  - `1 <= envelopes.length <= 5000`
+  - `envelopes[i].length == 2`
+  - `1 <= wi, hi <= 10^4`
 
 [back to top](#menu)
 
