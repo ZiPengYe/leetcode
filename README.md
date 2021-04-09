@@ -136,6 +136,7 @@
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#916 Word Subsets](#916-word-subsets)
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
+- [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
 - [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
@@ -3659,6 +3660,38 @@ Explanation: Subarray [-1] has maximum sum -1
 1. `-30000 <= A[i] <= 30000`
 2. `1 <= A.length <= 30000`
 
+[back to top](#menu)
+
+---
+## [#953 Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)
+In an alien language, surprisingly they also use english lowercase letters, but possibly in a different `order`. The `order` of the alphabet is some permutation of lowercase letters.
+
+Given a sequence of `words` written in the alien language, and the `order` of the alphabet, return `true` if and only if the given `words` are sorted lexicographicaly in this alien language.
+
+**Example 1:**
+```
+Input: words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
+Output: true
+Explanation: As 'h' comes before 'l' in this language, then the sequence is sorted.
+```
+**Example 2:**
+```
+Input: words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
+Output: false
+Explanation: As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
+```
+**Example 3:**
+```
+Input: words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
+Output: false
+Explanation: The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character which is less than any other character (More info).
+```
+[More info](https://en.wikipedia.org/wiki/Lexicographical_order)
+**Constraints:**
+  - `1 <= words.length <= 100`
+  - `1 <= words[i].length <= 20`
+  - `order.length == 26`
+  - All characters in `words[i]` and `order` are English lowercase letters.
 [back to top](#menu)
 
 ---
