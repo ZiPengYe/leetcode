@@ -9,6 +9,7 @@
 - [x] [#9 Palindrome Number](#9-palindrome-number)
 - [x] [#13 Roman to Integer](#13-roman-to-integer)
 - [x] [#14 Longest Common Prefix](#14-longest-common-prefix)
+- [x] [#17 Letter Combinations of a Phone Number](#17-letter-combinations-of-a-phone-number)
 - [x] [#20 Valid Parentheses](#20-valid-parentheses)
 - [x] [#21 Merge Two Sorted Lists](#21-merge-two-sorted-lists)
 - [x] [#26 Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -402,6 +403,35 @@ Explanation: There is no common prefix among the input strings.
 ```
 **Note:**
 - All given inputs are in lowercase letters `a-z`.
+
+[back to top](#menu)
+
+---
+## [#17 Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. Return the answer in **any order**.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+
+**Example 1:**
+```
+Input: digits = "23"
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+```
+**Example 2:**
+```
+Input: digits = ""
+Output: []
+```
+**Example 3:**
+```
+Input: digits = "2"
+Output: ["a","b","c"]
+```
+**Constraints:**
+  - `0 <= digits.length <= 4`
+  - `digits[i]` is a digit in the range `['2', '9']`.
 
 [back to top](#menu)
 
