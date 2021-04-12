@@ -56,6 +56,7 @@
 - [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
 - [x] [#175 Combine Two Tables](#175-combine-two-tables)
 - [x] [#176 Second Highest Salary](#176-second-highest-salary)
+- [x] [#179 Largest Number](#179-largest-number)
 - [x] [#181 Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
 - [x] [#182 Duplicate Emails](#182-duplicate-emails)
 - [x] [#183 Customers Who Never Order](#183-customers-who-never-order)
@@ -1610,6 +1611,39 @@ For example, given the above Employee table, the query should return `200` as th
 | 200                 |
 +---------------------+
 ```
+
+[back to top](#menu)
+
+---
+## [#179 Largest Number](https://leetcode.com/problems/largest-number)
+Given a list of non-negative integers `nums`, arrange them such that they form the largest number.
+
+**Note:** The result may be very large, so you need to return a string instead of an integer.
+
+**Example 1:**
+```
+Input: nums = [10,2]
+Output: "210"
+```
+**Example 2:**
+```
+Input: nums = [3,30,34,5,9]
+Output: "9534330"
+```
+**Example 3:**
+```
+Input: nums = [1]
+Output: "1"
+```
+**Example 4:**
+```
+Input: nums = [10]
+Output: "10"
+```
+**Constraints:**
+  - `1 <= nums.length <= 100`
+  - `0 <= nums[i] <= 10^9`
+
 [back to top](#menu)
 
 ---
