@@ -143,6 +143,7 @@
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
 - [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
 - [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
+- [x] [#977 Squares of a Sorted Array](#977-squares-of-a-sorted-array)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [x] [#997 Find the Town Judge](#997-find-the-town-judge)
@@ -3878,6 +3879,29 @@ Explanation: The tree's pre-order traversal already matches voyage, so no nodes 
   - `1 <= Node.val`, `voyage[i] <= n`
   - All the values in the tree are **unique**.
   - All the values in `voyage` are **unique**.
+
+[back to top](#menu)
+
+---
+## [#977 Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)
+Given an integer array `nums` sorted in **non-decreasing** order, return *an array of **the squares of each number** sorted in non-decreasing order*.
+
+**Example 1:**
+```
+Input: nums = [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+Explanation: After squaring, the array becomes [16,1,0,9,100].
+After sorting, it becomes [0,1,9,16,100].
+```
+**Example 2:**
+```
+Input: nums = [-7,-3,2,3,11]
+Output: [4,9,9,49,121]
+```
+**Constraints:**
+  - `1 <= nums.length <= 10^4`
+  - `-10^4 <= nums[i] <= 10^4`
+  - `nums` is sorted in **non-decreasing** order.
 
 [back to top](#menu)
 
