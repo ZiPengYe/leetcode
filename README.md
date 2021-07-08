@@ -113,11 +113,13 @@
 - [x] [#423 Reconstruct Original Digits from English](#423-reconstruct-original-digits-from-english)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
+- [x] [#451 Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#474 Ones and Zeroes](#474-ones-and-zeroes)
 - [x] [#476 Number Complement](#476-number-complement)
 - [x] [#478 Generate Random Point in a Circle](#478-generate-random-point-in-a-circle)
 - [x] [#506 Relative Ranks](#506-relative-ranks)
+- [x] [#525 Contiguous Array](#525-contiguous-array)
 - [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#547 Number of Provinces](#547-number-of-provinces)
@@ -142,6 +144,7 @@
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
 - [x] [#870 Advantage Shuffle](#870-advantage-shuffle)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
+- [x] [#901 Online Stock Span](#901-online-stock-span)
 - [x] [#916 Word Subsets](#916-word-subsets)
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
 - [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
@@ -1406,7 +1409,7 @@ Explanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.
 ```
 Input: nums = [11,13,15,17]
 Output: 11
-Explanation: The original array was [11,13,15,17] and it was rotated 4 times. 
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 ```
 **Constraints:**
   - `n == nums.length`
@@ -2925,7 +2928,7 @@ Find the list of grid coordinates where water can flow to both the Pacific and A
 ```
 Given the following 5x5 matrix:
 
-  Pacific ~   ~   ~   ~   ~ 
+  Pacific ~   ~   ~   ~   ~
        ~  1   2   2   3  (5) *
        ~  3   2   3  (4) (4) *
        ~  2   4  (5)  3   1  *
@@ -3008,6 +3011,48 @@ Explanation:
 The substring with start index = 0 is "ab", which is an anagram of "ab".
 The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
+```
+[back to top](#menu)
+
+---
+## [#451 Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)
+Given a string, sort it in decreasing order based on the frequency of characters.
+
+**Example 1:**
+```
+Input:
+"tree"
+
+Output:
+"eert"
+
+Explanation:
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+```
+**Example 2:**
+```
+Input:
+"cccaaa"
+
+Output:
+"cccaaa"
+
+Explanation:
+Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
+Note that "cacaca" is incorrect, as the same characters must be together.
+```
+**Example 3:**
+```
+Input:
+"Aabb"
+
+Output:
+"bbAa"
+
+Explanation:
+"bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
 ```
 [back to top](#menu)
 
@@ -3107,14 +3152,14 @@ Note:
 
 **Example 1:**
 ```
-Input: 
+Input:
 ["Solution","randPoint","randPoint","randPoint"]
 [[1,0,0],[],[],[]]
 Output: [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
 ```
 **Example 2:**
 ```
-Input: 
+Input:
 ["Solution","randPoint","randPoint","randPoint"]
 [[10,5,-7.5],[],[],[]]
 Output: [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
@@ -3154,6 +3199,24 @@ Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
 - `1 <= n <= 10^4`
 - `0 <= score[i] <= 10^6`
 - All the values in `score` are **unique**.
+
+[back to top](#menu)
+## [#525 Contiguous Array](https://leetcode.com/problems/contiguous-array)
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+
+**Example 1:**
+```
+Input: [0,1]
+Output: 2
+Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+```
+**Example 2:**
+```
+Input: [0,1,0]
+Output: 2
+Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+```
+**Note:** The length of the given binary array will not exceed 50,000.
 
 [back to top](#menu)
 
@@ -3337,7 +3400,7 @@ Output: [1,2]
 
 ---
 ## [#667 Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii)
-Given two integers `n` and `k`, you need to construct a list which contains `n` different positive integers ranging from `1` to `n` and obeys the following requirement: 
+Given two integers `n` and `k`, you need to construct a list which contains `n` different positive integers ranging from `1` to `n` and obeys the following requirement:
 Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly `k` distinct integers.
 
 If there are multiple answers, print any of them.
@@ -3688,7 +3751,7 @@ Now, return `answer`, where `answer[x] = y` if `y` is the least quiet person (th
 ```
 Input: richer = [[1,0],[2,1],[3,1],[3,7],[4,3],[5,3],[6,3]], quiet = [3,2,5,4,6,1,7,0]
 Output: [5,5,2,5,4,5,6,7]
-Explanation: 
+Explanation:
 answer[0] = 5.
 Person 5 has more money than 3, which has more money than 1, which has more money than 0.
 The only person who is quieter (has lower quiet[x]) is person 7, but
@@ -3797,6 +3860,37 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 [back to top](#menu)
 
 ---
+## [#901 Online Stock Span](https://leetcode.com/problems/online-stock-span)
+Write a class `StockSpanner` which collects daily price quotes for some stock, and returns the span of that stock's price for the current day.
+
+The span of the stock's price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today's price.
+
+For example, if the price of a stock over the next 7 days were `[100, 80, 60, 70, 60, 75, 85]`, then the stock spans would be `[1, 1, 1, 2, 1, 4, 6]`.
+
+**Example 1:**
+```
+Input: ["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]
+Output: [null,1,1,1,2,1,4,6]
+Explanation:
+First, S = StockSpanner() is initialized.  Then:
+S.next(100) is called and returns 1,
+S.next(80) is called and returns 1,
+S.next(60) is called and returns 1,
+S.next(70) is called and returns 2,
+S.next(60) is called and returns 1,
+S.next(75) is called and returns 4,
+S.next(85) is called and returns 6.
+
+Note that (for example) S.next(75) returned 4, because the last 4 prices
+(including today's price of 75) were less than or equal to today's price.
+```
+**Note:**
+  1. Calls to `StockSpanner.next(int price)` will have `1 <= price <= 10^5`.
+  2. There will be at most `10000` calls to `StockSpanner.next` per test case.
+  3. There will be at most `150000` calls to `StockSpanner.next` across all test cases.
+  4. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
+
+---
 ## [#916 Word Subsets](https://leetcode.com/problems/word-subsets)
 We are given two arrays `A` and `B` of words.  Each word is a string of lowercase letters.
 
@@ -3805,6 +3899,7 @@ Now, say that word `b` is a subset of word `a` if every letter in `b` occurs in 
 Now say a word `a` from `A` is *universal* if for every `b` in `B`, `b` is a subset of `a`.
 
 Return a list of all universal words in `A`.  You can return the words in any order.
+
 **Example 1:**
 ```
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["e","o"]
@@ -4350,17 +4445,17 @@ Notice that you can not jump outside of the array at any time.
 ```
 Input: arr = [4,2,3,0,3,1,2], start = 5
 Output: true
-Explanation: 
-All possible ways to reach at index 3 with value 0 are: 
-index 5 -> index 4 -> index 1 -> index 3 
-index 5 -> index 6 -> index 4 -> index 1 -> index 3 
+Explanation:
+All possible ways to reach at index 3 with value 0 are:
+index 5 -> index 4 -> index 1 -> index 3
+index 5 -> index 6 -> index 4 -> index 1 -> index 3
 ```
 **Example 2:**
 ```
 Input: arr = [4,2,3,0,3,1,2], start = 0
-Output: true 
-Explanation: 
-One possible way to reach at index 3 with value 0 is: 
+Output: true
+Explanation:
+One possible way to reach at index 3 with value 0 is:
 index 0 -> index 4 -> index 1 -> index 3
 ```
 **Example 3:**
