@@ -4,8 +4,14 @@
  * @return {number}
  */
 const searchInsert = function(nums, target) {
-  const { length } = nums;
-  const ans = nums.findIndex(e => e >= target);
-  if (ans !== -1) return ans;
-  return length;
+  let [left, right] = [0, nums.length];
+  while (left <= right) {
+    const mid = left + ((right - left) >> 1);
+    if (target > nums[mid]) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+  return left;
 };
