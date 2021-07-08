@@ -2,17 +2,18 @@
  * @param {string} s
  * @return {number}
  */
-const lengthOfLongestSubstring = function(s) {
-  // 最大长度, 字符串下标指针
-  let max = 0, p = 0;
-  // 遍历字符串
-  for(let i = 0; i < s.length; i++) {
-    // 当前指针 往后找 当前字符 的 下标
-    const index = s.indexOf(s[i], p);
-    // 如果 字符出现重复 则 指针往前推进
-    if (index !== -1 && index < i) p = index + 1;
-    // 长度为 下标到指针的距离
-    max = Math.max(max, index - p + 1);
+const lengthOfLongestSubstring = (s) => {
+  // 记录出现字符的下标
+  const map = {};
+  let max = 0, start = 0;
+  for (let end = 0, len = s.length; end < len; ++end) {
+    const char = s.charAt(end);
+    if (char in map) {
+      // 如果出现过, 则左边指针右移
+      start = Math.max(map[char] + 1, start);
+    }
+    max = Math.max(max, end - start + 1);
+    map[char] = end;
   }
   return max;
 };
