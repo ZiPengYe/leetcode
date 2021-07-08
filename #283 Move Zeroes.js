@@ -3,14 +3,13 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 const moveZeroes = (nums) => {
-  const { length } = nums;
-  const trimZero = nums.filter(val => val);
-  trimZero.forEach((val, idx) => {
-    if (nums[idx] !== val) {
-      nums[idx] = val;
+  const len = nums.length;
+  let [left, right] = [0, 0];
+  while (right < len) {
+    if (nums[right] !== 0) {
+      [nums[left], nums[right]] = [nums[right], nums[left]];
+      ++left;
     }
-  });
-  for (let i = trimZero.length; i < length; i++) {
-    nums[i] = 0;
+    ++right;
   }
 }
