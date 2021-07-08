@@ -120,6 +120,7 @@
 - [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
 - [x] [#547 Number of Provinces](#547-number-of-provinces)
+- [x] [#557 Reverse Words in a String III](#557-reverse-words-in-a-string-iii)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#575 Distribute Candies](#575-distribute-candies)
@@ -3182,6 +3183,29 @@ Output: 3
 - `isConnected[i][j]` is `1` or `0`.
 - `isConnected[i][i] == 1`
 - `isConnected[i][j] == isConnected[j][i]`
+
+[back to top](#menu)
+
+---
+## [#557 Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii)
+Given a string `s`, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+**Example 1:**
+```
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+```
+**Example 2:**
+```
+Input: s = "God Ding"
+Output: "doG gniD"
+```
+**Constraints:**
+  - `1 <= s.length <= 5 * 10^4`
+  - `s` contains printable **ASCII** characters.
+  - `s` does not contain any leading or trailing spaces.
+  - There is **at least one** word in `s`.
+  - All the words in `s` are separated by a single space.
 
 [back to top](#menu)
 
