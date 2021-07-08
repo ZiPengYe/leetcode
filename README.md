@@ -100,6 +100,7 @@
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
 - [x] [#322 Coin Change](#322-coin-change)
 - [x] [#328 Odd Even Linked List](#328-odd-even-linked-list)
+- [x] [#344 Reverse String](#344-reverse-string)
 - [x] [#354 Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
@@ -2671,6 +2672,28 @@ Output: 2->3->6->7->1->5->4->NULL
 **Note:**
 - The relative order inside both the even and odd groups should remain as it was in the input.
 - The first node is considered odd, the second node even and so on ...
+
+[back to top](#menu)
+
+---
+## [#344 Reverse String](https://leetcode.com/problems/reverse-string)
+Write a function that reverses a string. The input string is given as an array of characters `s`.
+
+**Example 1:**
+```
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+```
+**Example 2:**
+```
+Input: s = ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+```
+**Constraints:**
+  - `1 <= s.length <= 10^5`
+  - `s[i]` is a [printable ascii character](https://en.wikipedia.org/wiki/ASCII#Printable_characters).
+
+**Follow up:** Do not allocate extra space for another array. You must do this by modifying the input array [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with `O(1)` extra memory.
 
 [back to top](#menu)
 
