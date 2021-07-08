@@ -10,6 +10,7 @@
 - [x] [#13 Roman to Integer](#13-roman-to-integer)
 - [x] [#14 Longest Common Prefix](#14-longest-common-prefix)
 - [x] [#17 Letter Combinations of a Phone Number](#17-letter-combinations-of-a-phone-number)
+- [x] [#19 Remove Nth Node From End of List](#19-remove-nth-node-from-end-of-list)
 - [x] [#20 Valid Parentheses](#20-valid-parentheses)
 - [x] [#21 Merge Two Sorted Lists](#21-merge-two-sorted-lists)
 - [x] [#26 Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -441,6 +442,37 @@ Output: ["a","b","c"]
 **Constraints:**
   - `0 <= digits.length <= 4`
   - `digits[i]` is a digit in the range `['2', '9']`.
+
+[back to top](#menu)
+
+---
+## [#19 Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
+Given the `head` of a linked list, remove the `n^th` node from the end of the list and return its head.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
+```
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+```
+**Example 2:**
+```
+Input: head = [1], n = 1
+Output: []
+```
+**Example 3:**
+```
+Input: head = [1,2], n = 1
+Output: [1]
+```
+**Constraints:**
+  - The number of nodes in the list is `sz`.
+  - `1 <= sz <= 30`
+  - `0 <= Node.val <= 100`
+  - `1 <= n <= sz`
+
+**Follow up:** Could you do this in one pass?
 
 [back to top](#menu)
 
