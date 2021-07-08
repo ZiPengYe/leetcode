@@ -103,6 +103,7 @@
 - [x] [#354 Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
+- [x] [#378 Kth Smallest Element in a Sorted Matrix](#378-kth-smallest-element-in-a-sorted-matrix)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
@@ -2749,6 +2750,33 @@ Output: 2
 **Constraints:**
 - `1 <= nums.length <= 1000`
 - `0 <= nums[i] <= 1000`
+
+[back to top](#menu)
+
+---
+## [#378 Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
+Given an `n x n` `matrix` where each of the rows and columns are sorted in ascending order, return the `k^th` smallest element in the matrix.
+
+Note that it is the `k^th` smallest element **in the sorted order**, not the `k^th` **distinct** element.
+
+**Example 1:**
+```
+Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
+Output: 13
+Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15], and the 8th smallest number is 13
+```
+**Example 2:**
+```
+Input: matrix = [[-5]], k = 1
+Output: -5
+```
+**Constraints:**
+- `n == matrix.length`
+- `n == matrix[i].length`
+- `1 <= n <= 300`
+- `-10^9 <= matrix[i][j] <= 10^9`
+- All the rows and columns of `matrix` are **guaranteed** to be sorted in **non-decreasing order**.
+- `1 <= k <= n^2`
 
 [back to top](#menu)
 
