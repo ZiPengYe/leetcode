@@ -9,6 +9,7 @@
 - [x] [#9 Palindrome Number](#9-palindrome-number)
 - [x] [#13 Roman to Integer](#13-roman-to-integer)
 - [x] [#14 Longest Common Prefix](#14-longest-common-prefix)
+- [x] [#17 Letter Combinations of a Phone Number](#17-letter-combinations-of-a-phone-number)
 - [x] [#20 Valid Parentheses](#20-valid-parentheses)
 - [x] [#21 Merge Two Sorted Lists](#21-merge-two-sorted-lists)
 - [x] [#26 Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -45,6 +46,7 @@
 - [x] [#136 Single Number](#136-single-number)
 - [x] [#141 Linked List Cycle](#141-linked-list-cycle)
 - [x] [#146 LRU Cache](#146-lru-cache)
+- [x] [#153 Find Minimum in Rotated Sorted Array](#153-find-minimum-in-rotated-sorted-array)
 - [x] [#155 Min Stack](#155-min-stack)
 - [x] [#160 Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
 - [x] [#167 Two Sum II - Input array is sorted](#167-two-sum-ii-input-array-is-sorted)
@@ -54,6 +56,7 @@
 - [x] [#172 Factorial Trailing Zeroes](#172-factorial-trailing-zeroes)
 - [x] [#175 Combine Two Tables](#175-combine-two-tables)
 - [x] [#176 Second Highest Salary](#176-second-highest-salary)
+- [x] [#179 Largest Number](#179-largest-number)
 - [x] [#181 Employees Earning More Than Their Managers](#181-employees-earning-more-than-their-managers)
 - [x] [#182 Duplicate Emails](#182-duplicate-emails)
 - [x] [#183 Customers Who Never Order](#183-customers-who-never-order)
@@ -89,42 +92,75 @@
 - [x] [#257 Binary Tree Paths](#257-binary-tree-paths)
 - [x] [#258 Add Digits](#258-add-digits)
 - [x] [#263 Ugly Number](#263-ugly-number)
+- [x] [#268 Missing Number](#268-missing-number)
 - [x] [#278 First Bad Version](#278-first-bad-version)
 - [x] [#283 Move Zeroes](#283-move-zeroes)
 - [x] [#290 Word Pattern](#290-word-pattern)
 - [x] [#292 Nim Game](#292-nim-game)
 - [x] [#300 Longest Increasing Subsequence](#300-longest-increasing-subsequence)
+- [x] [#322 Coin Change](#322-coin-change)
 - [x] [#328 Odd Even Linked List](#328-odd-even-linked-list)
+- [x] [#354 Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
+- [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
 - [x] [#383 Ransom Note](#383-ransom-note)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
+- [x] [#417 Pacific Atlantic Water Flow](#417-pacific-atlantic-water-flow)
+- [x] [#423 Reconstruct Original Digits from English](#423-reconstruct-original-digits-from-english)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
 - [x] [#451 Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
+- [x] [#474 Ones and Zeroes](#474-ones-and-zeroes)
 - [x] [#476 Number Complement](#476-number-complement)
+- [x] [#478 Generate Random Point in a Circle](#478-generate-random-point-in-a-circle)
+- [x] [#506 Relative Ranks](#506-relative-ranks)
 - [x] [#525 Contiguous Array](#525-contiguous-array)
+- [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
+- [x] [#547 Number of Provinces](#547-number-of-provinces)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
+- [x] [#575 Distribute Candies](#575-distribute-candies)
+- [x] [#645 Set Mismatch](#445-set-mismatch)
+- [x] [#667 Beautiful Arrangement II](#667-beautiful-arrangement-ii)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
+- [x] [#714 Best Time to Buy and Sell Stock with Transaction Fee](#714-best-time-to-buy-and-sell-stock-with-transaction-fee)
+- [x] [#720 Longest Word in Dictionary](#720-longest-word-in-dictionary)
 - [x] [#733 Flood Fill](#733-flood-fill)
 - [x] [#747 Largest Number At Least Twice of Others](#747-largest-number-at-least-twice-of-others)
 - [x] [#771 Jewels and Stones](#771-jewels-and-stones)
+- [x] [#781 Rabbits in Forest](#781-rabbits-in-forest)
+- [x] [#783 Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
+- [x] [#851 Loud and Rich](#851-loud-and-rich)
 - [x] [#869 Reordered Power of 2](#869-reordered-power-of-2)
+- [x] [#870 Advantage Shuffle](#870-advantage-shuffle)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#901 Online Stock Span](#901-online-stock-span)
+- [x] [#916 Word Subsets](#916-word-subsets)
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
+- [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
+- [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [x] [#997 Find the Town Judge](#997-find-the-town-judge)
 - [x] [#1008 Construct Binary Search Tree from Preorder Traversal](#1008-construct-binary-search-tree-from-preorder-traversal)
+- [x] [#1022 Sum of Root To Leaf Binary Numbers](#1022-sum-of-root-to-leaf-binary-numbers)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
+- [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
+- [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
+- [x] [#1306 Jump Game III](#1306-jump-game-iii)
+- [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
+- [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
+- [x] [#1704 Determine if String Halves Are Alike](#1704-determine-if-string-halves-are-alike)
+- [x] [#1721 Swapping Nodes in a Linked List](#1721-swapping-nodes-in-a-linked-list)
+- [x] [#1732 Find the Highest Altitude](#1732-find-the-highest-altitude)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
 - [x] [First Unique Number](#first-unique-number)
 ---
@@ -374,6 +410,35 @@ Explanation: There is no common prefix among the input strings.
 ```
 **Note:**
 - All given inputs are in lowercase letters `a-z`.
+
+[back to top](#menu)
+
+---
+## [#17 Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. Return the answer in **any order**.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+
+**Example 1:**
+```
+Input: digits = "23"
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+```
+**Example 2:**
+```
+Input: digits = ""
+Output: []
+```
+**Example 3:**
+```
+Input: digits = "2"
+Output: ["a","b","c"]
+```
+**Constraints:**
+  - `0 <= digits.length <= 4`
+  - `digits[i]` is a digit in the range `['2', '9']`.
 
 [back to top](#menu)
 
@@ -1277,6 +1342,45 @@ cache.get(1);       // returns -1 (not found)
 cache.get(3);       // returns 3
 cache.get(4);       // returns 4
 ```
+
+[back to top](#menu)
+
+---
+## [#153 Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
+Suppose an array of length `n` sorted in ascending order is **rotated** between `1` and `n` times. For example, the array `nums = [0,1,2,4,5,6,7]` might become:
+
+  - `[4,5,6,7,0,1,2]` if it was rotated `4` times.
+  - `[0,1,2,4,5,6,7]` if it was rotated `7` times.
+
+Notice that **rotating** an array `[a[0], a[1], a[2], ..., a[n-1]]` 1 time results in the array `[a[n-1], a[0], a[1], a[2], ..., a[n-2]]`.
+
+Given the sorted rotated array `nums` of **unique** elements, return *the minimum element of this array*.
+
+**Example 1:**
+```
+Input: nums = [3,4,5,1,2]
+Output: 1
+Explanation: The original array was [1,2,3,4,5] rotated 3 times.
+```
+**Example 2:**
+```
+Input: nums = [4,5,6,7,0,1,2]
+Output: 0
+Explanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.
+```
+**Example 3:**
+```
+Input: nums = [11,13,15,17]
+Output: 11
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
+```
+**Constraints:**
+  - `n == nums.length`
+  - `1 <= n <= 5000`
+  - `-5000 <= nums[i] <= 5000`
+  - All the integers of `nums` are **unique**.
+  - `nums` is sorted and rotated between `1` and `n` times.
+
 [back to top](#menu)
 
 ---
@@ -1311,6 +1415,7 @@ For example, the following two linked lists:
 begin to intersect at node c1.
 
 **Example 1:**
+
 ![](https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png)
 ```
 Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
@@ -1318,6 +1423,7 @@ Output: Reference of the node with value = 8
 Input Explanation: The intersected node's value is 8 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [4,1,8,4,5]. From the head of B, it reads as [5,0,1,8,4,5]. There are 2 nodes before the intersected node in A; There are 3 nodes before the intersected node in B.
 ```
 **Example 2:**
+
 ![](https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png)
 ```
 Input: intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
@@ -1325,6 +1431,7 @@ Output: Reference of the node with value = 2
 Input Explanation: The intersected node's value is 2 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [0,9,1,2,4]. From the head of B, it reads as [3,2,4]. There are 3 nodes before the intersected node in A; There are 1 node before the intersected node in B.
 ```
 **Example 3:**
+
 ![](https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png)
 ```
 Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
@@ -1370,7 +1477,7 @@ For example:
     ...
     26 -> Z
     27 -> AA
-    28 -> AB 
+    28 -> AB
     ...
 ```
 **Example 1:**
@@ -1420,7 +1527,7 @@ For example:
     ...
     Z -> 26
     AA -> 27
-    AB -> 28 
+    AB -> 28
     ...
 ```
 **Example 1:**
@@ -1509,6 +1616,39 @@ For example, given the above Employee table, the query should return `200` as th
 | 200                 |
 +---------------------+
 ```
+
+[back to top](#menu)
+
+---
+## [#179 Largest Number](https://leetcode.com/problems/largest-number)
+Given a list of non-negative integers `nums`, arrange them such that they form the largest number.
+
+**Note:** The result may be very large, so you need to return a string instead of an integer.
+
+**Example 1:**
+```
+Input: nums = [10,2]
+Output: "210"
+```
+**Example 2:**
+```
+Input: nums = [3,30,34,5,9]
+Output: "9534330"
+```
+**Example 3:**
+```
+Input: nums = [1]
+Output: "1"
+```
+**Example 4:**
+```
+Input: nums = [10]
+Output: "10"
+```
+**Constraints:**
+  - `1 <= nums.length <= 100`
+  - `0 <= nums[i] <= 10^9`
+
 [back to top](#menu)
 
 ---
@@ -1610,7 +1750,7 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 ```
 Input: [-1,-100,3,99] and k = 2
 Output: [3,99,-1,-100]
-Explanation: 
+Explanation:
 rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 ```
@@ -1858,7 +1998,7 @@ Return True if `n` is a happy number, and False if not.
 ```
 Input: 19
 Output: true
-Explanation: 
+Explanation:
 1^2 + 9^2 = 82
 8^2 + 2^2 = 68
 6^2 + 8^2 = 100
@@ -2005,7 +2145,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest square contai
 
 **Example:**
 ```
-Input: 
+Input:
 
 1 0 1 0 0
 1 0 1 1 1
@@ -2104,7 +2244,7 @@ Given an integer, write a function to determine if it is a power of two.
 **Example 1:**
 ```
 Input: 1
-Output: true 
+Output: true
 Explanation: 2^0 = 1
 ```
 **Example 2:**
@@ -2293,8 +2433,8 @@ Given a non-negative integer `num`, repeatedly add all its digits until the resu
 **Example:**
 ```
 Input: 38
-Output: 2 
-Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. 
+Output: 2
+Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
              Since 2 has only one digit, return it.
 ```
 
@@ -2325,12 +2465,50 @@ Explanation: 8 = 2 × 2 × 2
 **Example 3:**
 ```
 Input: 14
-Output: false 
+Output: false
 Explanation: 14 is not ugly since it includes another prime factor 7.
 ```
 **Note:**
 1. `1` is typically treated as an ugly number.
 2. Input is within the 32-bit signed integer range: [−2^31,  2^31 − 1].
+
+[back to top](#menu)
+
+---
+## [#268 Missing Number](https://leetcode.com/problems/missing-number)
+Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return *the only number in the range that is missing from the array*.
+
+**Follow up:** Could you implement a solution using only `O(1)` extra space complexity and `O(n)` runtime complexity?
+
+**Example 1:**
+```
+Input: nums = [3,0,1]
+Output: 2
+Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+```
+**Example 2:**
+```
+Input: nums = [0,1]
+Output: 2
+Explanation: n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums.
+```
+**Example 3:**
+```
+Input: nums = [9,6,4,2,3,5,7,0,1]
+Output: 8
+Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
+```
+**Example 4:**
+```
+Input: nums = [0]
+Output: 1
+Explanation: n = 1 since there is 1 number, so all numbers are in the range [0,1]. 1 is the missing number in the range since it does not appear in nums.
+```
+**Constraints:**
+- `n == nums.length`
+- `1 <= n <= 10^4`
+- `0 <= nums[i] <= n`
+- All the numbers of `nums` are **unique**.
 
 [back to top](#menu)
 
@@ -2350,7 +2528,7 @@ call isBadVersion(3) -> false
 call isBadVersion(5) -> true
 call isBadVersion(4) -> true
 
-Then 4 is the first bad version. 
+Then 4 is the first bad version.
 ```
 [back to top](#menu)
 
@@ -2410,9 +2588,9 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 **Example:**
 ```
 Input: 4
-Output: false 
+Output: false
 Explanation: If there are 4 stones in the heap, then you will never win the game;
-             No matter 1, 2, or 3 stones you remove, the last stone will always be 
+             No matter 1, 2, or 3 stones you remove, the last stone will always be
              removed by your friend.
 ```
 [back to top](#menu)
@@ -2432,6 +2610,45 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 - Your algorithm should run in O(n2) complexity.
 
 **Follow up**: Could you improve it to O(n log n) time complexity?
+
+[back to top](#menu)
+
+---
+## [#322 Coin Change](https://leetcode.com/problems/coin-change)
+You are given coins of different denominations and a total amount of money *amount*. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return `-1`.
+
+You may assume that you have an infinite number of each kind of coin.
+
+**Example 1:**
+```
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
+```
+**Example 2:**
+```
+Input: coins = [2], amount = 3
+Output: -1
+```
+**Example 3:**
+```
+Input: coins = [1], amount = 0
+Output: 0
+```
+**Example 4:**
+```
+Input: coins = [1], amount = 1
+Output: 1
+```
+**Example 5:**
+```
+Input: coins = [1], amount = 2
+Output: 2
+```
+**Constraints:**
+- `1 <= coins.length <= 12`
+- `1 <= coins[i] <= 2^31 - 1`
+- `0 <= amount <= 10^4`
 
 [back to top](#menu)
 
@@ -2458,6 +2675,34 @@ Output: 2->3->6->7->1->5->4->NULL
 [back to top](#menu)
 
 ---
+## [#354 Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes)
+You are given a 2D array of integers `envelopes` where `envelopes[i] = [wi, hi]` represents the width and the height of an envelope.
+
+One envelope can fit into another if and only if both the width and height of one envelope is greater than the width and height of the other envelope.
+
+Return *the maximum number of envelopes can you Russian doll (i.e., put one inside the other)*.
+
+**Note:** You cannot rotate an envelope.
+
+**Example 1:**
+```
+Input: envelopes = [[5,4],[6,4],[6,7],[2,3]]
+Output: 3
+Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
+```
+**Example 2:**
+```
+Input: envelopes = [[1,1],[1,1],[1,1]]
+Output: 1
+```
+**Constraints:**
+  - `1 <= envelopes.length <= 5000`
+  - `envelopes[i].length == 2`
+  - `1 <= wi, hi <= 10^4`
+
+[back to top](#menu)
+
+---
 ## [#369 Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)
 Given a positive integer *num*, write a function which returns True if *num* is a perfect square else False.
 
@@ -2473,6 +2718,41 @@ Output: true
 Input: 14
 Output: false
 ```
+
+[back to top](#menu)
+
+---
+## [#376 Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/solution)
+Given an integer array `nums`, return *the length of the longest **wiggle sequence***.
+
+A **wiggle sequence** is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.
+
+  - For example, `[1, 7, 4, 9, 2, 5]` is a **wiggle sequence** because the differences `(6, -3, 5, -7, 3)` are alternately positive and negative.
+  - In contrast, `[1, 4, 7, 2, 5]` and `[1, 7, 4, 5, 5]` are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.
+
+A **subsequence** is obtained by deleting some elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.
+
+**Example 1:**
+```
+Input: nums = [1,7,4,9,2,5]
+Output: 6
+Explanation: The entire sequence is a wiggle sequence.
+```
+**Example 2:**
+```
+Input: nums = [1,17,5,10,13,15,10,5,16,8]
+Output: 7
+Explanation: There are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].
+```
+**Example 3:**
+```
+Input: nums = [1,2,3,4,5,6,7,8,9]
+Output: 2
+```
+**Constraints:**
+- `1 <= nums.length <= 1000`
+- `0 <= nums[i] <= 1000`
+
 [back to top](#menu)
 
 ---
@@ -2544,6 +2824,60 @@ Output: "0"
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.
 ```
 
+[back to top](#menu)
+
+---
+## [#417 Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)
+Given an `m x n` matrix of non-negative integers representing the height of each unit cell in a continent, the "Pacific ocean" touches the left and top edges of the matrix and the "Atlantic ocean" touches the right and bottom edges.
+
+Water can only flow in four directions (up, down, left, or right) from a cell to another one with height equal or lower.
+
+Find the list of grid coordinates where water can flow to both the Pacific and Atlantic ocean.
+
+**Note:**
+  1. The order of returned grid coordinates does not matter.
+  2. Both *m* and *n* are less than 150.
+
+**Example:**
+```
+Given the following 5x5 matrix:
+
+  Pacific ~   ~   ~   ~   ~
+       ~  1   2   2   3  (5) *
+       ~  3   2   3  (4) (4) *
+       ~  2   4  (5)  3   1  *
+       ~ (6) (7)  1   4   5  *
+       ~ (5)  1   1   2   4  *
+          *   *   *   *   * Atlantic
+
+Return:
+
+[[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).
+```
+
+[back to top](#menu)
+
+---
+## [#423 Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)
+Given a **non-empty** string containing an out-of-order English representation of digits `0-9`, output the digits in ascending order.
+
+**Note:**
+  1. Input contains only lowercase English letters.
+  2. Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as "abc" or "zerone" are not permitted.
+  3. Input length is less than 50,000.
+
+**Example 1:**
+```
+Input: "owoztneoer"
+
+Output: "012"
+```
+**Example 2:**
+```
+Input: "fviefuro"
+
+Output: "45"
+```
 [back to top](#menu)
 
 ---
@@ -2662,6 +2996,37 @@ Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ```
+
+[back to top](#menu)
+
+---
+## [#474 Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes)
+You are given an array of binary strings `strs` and two integers `m` and `n`.
+
+Return *the size of the largest subset of `strs` such that there are **at most** `m` `0`'s and `n` `1`'s in the subset*.
+
+A set `x` is a **subset** of a set `y` if all elements of `x` are also elements of `y`.
+
+**Example 1:**
+```
+Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
+Output: 4
+Explanation: The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so the answer is 4.
+Other valid but smaller subsets include {"0001", "1"} and {"10", "1", "0"}.
+{"111001"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.
+```
+**Example 2:**
+```
+Input: strs = ["10","0","1"], m = 1, n = 1
+Output: 2
+Explanation: The largest subset is {"0", "1"}, so the answer is 2.
+```
+**Constraints:**
+  - `1 <= strs.length <= 600`
+  - `1 <= strs[i].length <= 100`
+  - `strs[i]` consists only of digits `'0'` and `'1'`.
+  - `1 <= m, n <= 100`
+
 [back to top](#menu)
 
 ---
@@ -2689,6 +3054,67 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 [back to top](#menu)
 
 ---
+## [#478 Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle)
+Given the radius and x-y positions of the center of a circle, write a function `randPoint` which generates a uniform random point in the circle.
+
+Note:
+
+  1. input and output values are in [floating-point](https://www.webopedia.com/TERM/F/floating_point_number.html).
+  2. radius and x-y position of the center of the circle is passed into the class constructor.
+  3. a point on the circumference of the circle is considered to be in the circle.
+  4. `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order.
+
+**Example 1:**
+```
+Input:
+["Solution","randPoint","randPoint","randPoint"]
+[[1,0,0],[],[],[]]
+Output: [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
+```
+**Example 2:**
+```
+Input:
+["Solution","randPoint","randPoint","randPoint"]
+[[10,5,-7.5],[],[],[]]
+Output: [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
+```
+**Explanation of Input Syntax:**
+The input is two lists: the subroutines called and their arguments. `Solution`'s constructor has three arguments, the radius, x-position of the center, and y-position of the center of the circle. `randPoint` has no arguments. Arguments are always wrapped with a list, even if there aren't any.
+
+[back to top](#menu)
+
+---
+## [#506 Relative Ranks](https://leetcode.com/problems/relative-ranks)
+You are given an integer array `score` of size `n`, where `score[i]` is the score of the `i^th` athlete in a competition. All the scores are guaranteed to be **unique**.
+
+The athletes are **placed** based on their scores, where the `1st` place athlete has the highest score, the `2nd` place athlete has the `2nd` highest score, and so on. The placement of each athlete determines their rank:
+
+- The `1st` place athlete's rank is `"Gold Medal"`.
+- The `2nd` place athlete's rank is `"Silver Medal"`.
+- The `3rd` place athlete's rank is `"Bronze Medal"`.
+- For the `4th` place to the `nth` place athlete, their rank is their placement number (i.e., the `xth` place athlete's rank is `"x"`).
+
+Return an array `answer` of size `n` where `answer[i]` is the **rank** of the `ith` athlete.
+
+**Example 1:**
+```
+Input: score = [5,4,3,2,1]
+Output: ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
+Explanation: The placements are [1st, 2nd, 3rd, 4th, 5th].
+```
+**Example 2:**
+```
+Input: score = [10,3,8,9,4]
+Output: ["Gold Medal","5","Bronze Medal","Silver Medal","4"]
+Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
+```
+**Constraints:**
+- `n == score.length`
+- `1 <= n <= 10^4`
+- `0 <= score[i] <= 10^6`
+- All the values in `score` are **unique**.
+
+[back to top](#menu)
 ## [#525 Contiguous Array](https://leetcode.com/problems/contiguous-array)
 Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 
@@ -2709,6 +3135,16 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 [back to top](#menu)
 
 ---
+## [#535 Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl)
+> Note: This is a companion problem to the [System Design](https://leetcode.com/discuss/interview-question/system-design/) problem: [Design TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/).
+
+TinyURL is a URL shortening service where you enter a URL such as `https://leetcode.com/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`.
+
+Design the `encode` and `decode` methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
+
+[back to top](#menu)
+
+---
 ## [#540 Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
 You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
 
@@ -2723,6 +3159,40 @@ Input: [3,3,7,7,10,11,11]
 Output: 10
 ```
 **Note:** Your solution should run in O(log n) time and O(1) space.
+[back to top](#menu)
+
+---
+## [#547 Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+There are `n` cities. Some of them are connected, while some are not. If city `a` is connected directly with city `b`, and city `b` is connected directly with city `c`, then city `a` is connected indirectly with city `c`.
+
+A **province** is a group of directly or indirectly connected cities and no other cities outside of the group.
+
+You are given an `n x n` matrix `isConnected` where `isConnected[i][j] = 1` if the `ith` city and the `jth` city are directly connected, and `isConnected[i][j] = 0` otherwise.
+
+Return *the total number of **provinces***.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/12/24/graph1.jpg)
+```
+Input: isConnected = [[1,1,0],[1,1,0],[0,0,1]]
+Output: 2
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2020/12/24/graph2.jpg)
+```
+Input: isConnected = [[1,0,0],[0,1,0],[0,0,1]]
+Output: 3
+```
+**Constraints:**
+- `1 <= n <= 200`
+- `n == isConnected.length`
+- `n == isConnected[i].length`
+- `isConnected[i][j]` is `1` or `0`.
+- `isConnected[i][i] == 1`
+- `isConnected[i][j] == isConnected[j][i]`
+
 [back to top](#menu)
 
 ---
@@ -2762,6 +3232,88 @@ Output: False
 [back to top](#menu)
 
 ---
+## [#575 Distribute Candies](https://leetcode.com/problems/distribute-candies)
+Alice has `n` candies, where the `i^th` candy is of type `candyType[i]`. Alice noticed that she started to gain weight, so she visited a doctor.
+
+The doctor advised Alice to only eat `n / 2` of the candies she has (`n` is always even). Alice likes her candies very much, and she wants to eat the maximum number of different types of candies while still following the doctor's advice.
+
+Given the integer array `candyType` of length `n`, return *the **maximum** number of different types of candies she can eat if she only eats `n / 2` of them*.
+
+**Example 1:**
+```
+Input: candyType = [1,1,2,2,3,3]
+Output: 3
+Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types, she can eat one of each type.
+```
+**Example 2:**
+```
+Input: candyType = [1,1,2,3]
+Output: 2
+Explanation: Alice can only eat 4 / 2 = 2 candies. Whether she eats types [1,2], [1,3], or [2,3], she still can only eat 2 different types.
+```
+**Example 3:**
+```
+Input: candyType = [6,6,6,6]
+Output: 1
+Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 candies, she only has 1 type.
+```
+**Constraints:**
+- `n == candyType.length`
+- `2 <= n <= 10^4`
+- `n` is even.
+- `-10^5 <= candyType[i] <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#645 Set Mismatch](https://leetcode.com/problems/set-mismatch)
+You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in **repetition of one** number and **loss of another** number.
+
+You are given an integer array `nums` representing the data status of this set after the error.
+
+Find the number that occurs twice and the number that is missing and return *them in the form of an array*.
+
+**Example 1:**
+```
+Input: nums = [1,2,2,4]
+Output: [2,3]
+```
+**Example 2:**
+```
+Input: nums = [1,1]
+Output: [1,2]
+```
+**Constraints:**
+- `2 <= nums.length <= 10^4`
+- `1 <= nums[i] <= 10^4`
+
+[back to top](#menu)
+
+---
+## [#667 Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii)
+Given two integers `n` and `k`, you need to construct a list which contains `n` different positive integers ranging from `1` to `n` and obeys the following requirement:
+Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly `k` distinct integers.
+
+If there are multiple answers, print any of them.
+
+**Example 1:**
+```
+Input: n = 3, k = 1
+Output: [1, 2, 3]
+Explanation: The [1, 2, 3] has three different positive integers ranging from 1 to 3, and the [1, 1] has exactly 1 distinct integer: 1.
+```
+**Example 2:**
+```
+Input: n = 3, k = 2
+Output: [1, 3, 2]
+Explanation: The [1, 3, 2] has three different positive integers ranging from 1 to 3, and the [2, 1] has exactly 2 distinct integers: 1 and 2.
+```
+**Note:**
+  1. The `n` and `k` are in the range 1 <= k < n <= 10^4.
+
+[back to top](#menu)
+
+---
 ## [#678 Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)
 Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
 1. Any left parenthesis `'('` must have a corresponding right parenthesis `')'`.
@@ -2787,6 +3339,61 @@ Output: True
 ```
 **Note:**
 1. The string size will be in the range [1, 100].
+
+[back to top](#menu)
+
+---
+## [#714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day, and an integer `fee` representing a transaction fee.
+
+Find the maximum profit you can achieve. You may complete as many transactions as you like, but you need to pay the transaction fee for each transaction.
+
+**Note:** You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+
+**Example 1:**
+```
+Input: prices = [1,3,2,8,4,9], fee = 2
+Output: 8
+Explanation: The maximum profit can be achieved by:
+- Buying at prices[0] = 1
+- Selling at prices[3] = 8
+- Buying at prices[4] = 4
+- Selling at prices[5] = 9
+The total profit is ((8 - 1) - 2) + ((9 - 4) - 2) = 8.
+```
+**Example 2:**
+```
+Input: prices = [1,3,7,5,10,3], fee = 3
+Output: 6
+```
+**Constraints:**
+- `1 < prices.length <= 5 * 10^4`
+- `0 < prices[i], fee < 5 * 10^4`
+
+[back to top](#menu)
+
+---
+## [#720 Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary)
+Given a list of strings `words` representing an English Dictionary, find the longest word in `words` that can be built one character at a time by other words in `words`. If there is more than one possible answer, return the longest word with the smallest lexicographical order.
+
+If there is no answer, return the empty string.
+
+**Example 1:**
+```
+Input: words = ["w","wo","wor","worl", "world"]
+Output: "world"
+Explanation: The word "world" can be built one character at a time by "w", "wo", "wor", and "worl".
+```
+**Example 2:**
+```
+Input: words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
+Output: "apple"
+Explanation: Both "apply" and "apple" can be built from other words in the dictionary. However, "apple" is lexicographically smaller than "apply".
+```
+**Note:**
+- All the strings in the input will only contain lowercase letters.
+- The length of `words` will be in the range `[1, 1000]`.
+- The length of `words[i]` will be in the range `[1, 30]`.
 
 [back to top](#menu)
 
@@ -2847,6 +3454,39 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 [back to top](#menu)
 
 ---
+## [#781 Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest)
+In a forest, each rabbit has some color. Some subset of rabbits (possibly all of them) tell you how many other rabbits have the same color as them. Those `answers` are placed in an array.
+
+Return the minimum number of rabbits that could be in the forest.
+
+**Example 1:**
+```
+Input: answers = [1, 1, 2]
+Output: 5
+Explanation:
+The two rabbits that answered "1" could both be the same color, say red.
+The rabbit than answered "2" can't be red or the answers would be inconsistent.
+Say the rabbit that answered "2" was blue.
+Then there should be 2 other blue rabbits in the forest that didn't answer into the array.
+The smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn't.
+```
+**Example 2:**
+```
+Input: answers = [10, 10, 10]
+Output: 11
+```
+**Example 3:**
+```
+Input: answers = []
+Output: 0
+```
+**Note:**
+1. `answers` will have length at most `1000`.
+2. Each `answers[i]` will be an integer in the range `[0, 999]`.
+
+[back to top](#menu)
+
+---
 ## [#771 Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)
 You're given strings `J` representing the types of stones that are jewels, and `S` representing the stones you have.  Each character in `S` is a type of stone you have.  You want to know how many of the stones you have are also jewels.
 
@@ -2865,6 +3505,58 @@ Output: 0
 **Note:**
 - `S` and `J` will consist of letters and have length at most 50.
 - The characters in `J` are distinct.
+
+[back to top](#menu)
+
+---
+## [#783 Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
+Given the `root` of a Binary Search Tree (BST), return *the minimum difference between the values of any two different nodes in the tree*.
+
+**Note:** This question is the same as 530: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/02/05/bst1.jpg)
+```
+Input: root = [4,2,6,1,3]
+Output: 1
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2021/02/05/bst2.jpg)
+```
+Input: root = [1,0,48,null,null,12,49]
+Output: 1
+```
+**Constraints:**
+  - The number of nodes in the tree is in the range `[2, 100]`.
+  - `0 <= Node.val <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#823 Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors)
+Given an array of unique integers, `arr`, where each integer `arr[i]` is strictly greater than `1`.
+
+We make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node's value should be equal to the product of the values of its children.
+
+Return *the number of binary trees we can make*. The answer may be too large so return the answer **modulo** `10^9 + 7`.
+
+**Example 1:**
+```
+Input: arr = [2,4]
+Output: 3
+Explanation: We can make these trees: [2], [4], [4, 2, 2]
+```
+**Example 2:**
+```
+Input: arr = [2,4,5,10]
+Output: 7
+Explanation: We can make these trees: [2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2].
+```
+**Constraints:**
+- `1 <= arr.length <= 1000`
+- `2 <= arr[i] <= 10^9`
 
 [back to top](#menu)
 
@@ -2909,6 +3601,46 @@ Explanation: S becomes "c" while T becomes "b".
 [back to top](#menu)
 
 ---
+## [#851 Loud and Rich](https://leetcode.com/problems/loud-and-rich)
+In a group of N people (labelled `0, 1, 2, ..., N-1`), each person has different amounts of money, and different levels of quietness.
+
+For convenience, we'll call the person with label `x`, simply "person `x`".
+
+We'll say that `richer[i] = [x, y]` if person x definitely has more money than person `y`.  Note that `richer` may only be a subset of valid observations.
+
+Also, we'll say `quiet[x] = q` if person x has quietness `q`.
+
+Now, return `answer`, where `answer[x] = y` if `y` is the least quiet person (that is, the person `y` with the smallest value of `quiet[y]`), among all people who definitely have equal to or more money than person `x`.
+
+**Example 1:**
+```
+Input: richer = [[1,0],[2,1],[3,1],[3,7],[4,3],[5,3],[6,3]], quiet = [3,2,5,4,6,1,7,0]
+Output: [5,5,2,5,4,5,6,7]
+Explanation:
+answer[0] = 5.
+Person 5 has more money than 3, which has more money than 1, which has more money than 0.
+The only person who is quieter (has lower quiet[x]) is person 7, but
+it isn't clear if they have more money than person 0.
+
+answer[7] = 7.
+Among all people that definitely have equal to or more money than person 7
+(which could be persons 3, 4, 5, 6, or 7), the person who is the quietest (has lower quiet[x])
+is person 7.
+
+The other answers can be filled out with similar reasoning.
+```
+**Note:**
+  1. `1 <= quiet.length = N <= 500`
+  2. `0 <= quiet[i] < N`, all `quiet[i]` are different.
+  3. `0 <= richer.length <= N * (N-1) / 2`
+  4. `0 <= richer[i][j] < N`
+  5. `richer[i][0] != richer[i][1]`
+  6. `richer[i]`'s are all different.
+  7. The observations in `richer` are all logically consistent.
+
+[back to top](#menu)
+
+---
 ## [#869 Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2)
 Starting with a positive integer `N`, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
@@ -2941,6 +3673,29 @@ Output: true
 ```
 **Note:**
 1. `1 <= N <= 10^9`
+
+[back to top](#menu)
+
+---
+## [#870 Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle)
+Given two arrays `A` and `B` of equal size, the *advantage of `A` with respect to `B`* is the number of indices `i` for which `A[i] > B[i]`.
+
+Return **any** permutation of `A` that maximizes its advantage with respect to `B`.
+
+**Example 1:**
+```
+Input: A = [2,7,11,15], B = [1,10,4,11]
+Output: [2,11,7,15]
+```
+**Example 2:**
+```
+Input: A = [12,24,8,32], B = [13,25,32,11]
+Output: [24,32,8,12]
+```
+**Note:**
+  1. `1 <= A.length = B.length <= 10000`
+  2. `0 <= A[i] <= 10^9`
+  3. `0 <= B[i] <= 10^9`
 
 [back to top](#menu)
 
@@ -2981,7 +3736,7 @@ For example, if the price of a stock over the next 7 days were `[100, 80, 60, 70
 ```
 Input: ["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]
 Output: [null,1,1,1,2,1,4,6]
-Explanation: 
+Explanation:
 First, S = StockSpanner() is initialized.  Then:
 S.next(100) is called and returns 1,
 S.next(80) is called and returns 1,
@@ -2995,10 +3750,52 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
 (including today's price of 75) were less than or equal to today's price.
 ```
 **Note:**
-1. Calls to `StockSpanner.next(int price)` will have `1 <= price <= 10^5`.
-2. There will be at most `10000` calls to `StockSpanner.next` per test case.
-3. There will be at most `150000` calls to `StockSpanner.next` across all test cases.
-4. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
+  1. Calls to `StockSpanner.next(int price)` will have `1 <= price <= 10^5`.
+  2. There will be at most `10000` calls to `StockSpanner.next` per test case.
+  3. There will be at most `150000` calls to `StockSpanner.next` across all test cases.
+  4. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
+
+---
+## [#916 Word Subsets](https://leetcode.com/problems/word-subsets)
+We are given two arrays `A` and `B` of words.  Each word is a string of lowercase letters.
+
+Now, say that word `b` is a subset of word `a` if every letter in `b` occurs in `a`, **including multiplicity**.  For example, `"wrr"` is a subset of `"warrior"`, but is not a subset of `"world"`.
+
+Now say a word `a` from `A` is *universal* if for every `b` in `B`, `b` is a subset of `a`.
+
+Return a list of all universal words in `A`.  You can return the words in any order.
+
+**Example 1:**
+```
+Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["e","o"]
+Output: ["facebook","google","leetcode"]
+```
+**Example 2:**
+```
+Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["l","e"]
+Output: ["apple","google","leetcode"]
+
+```
+**Example 3:**
+```
+Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["e","oo"]
+Output: ["facebook","google"]
+```
+**Example 4:**
+```
+Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["lo","eo"]
+Output: ["google","leetcode"]
+```
+**Example 5:**
+```
+Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["ec","oc","ceo"]
+Output: ["facebook","leetcode"]
+```
+**Note:**
+1. `1 <= A.length`, `B.length <= 10000`
+2. `1 <= A[i].length`, `B[i].length <= 10`
+3. `A[i]` and `B[i]` consist only of lowercase letters.
+4. All words in `A[i]` are unique: there isn't `i != j` with `A[i] == A[j]`.
 
 [back to top](#menu)
 
@@ -3043,6 +3840,84 @@ Explanation: Subarray [-1] has maximum sum -1
 **Note:**
 1. `-30000 <= A[i] <= 30000`
 2. `1 <= A.length <= 30000`
+
+[back to top](#menu)
+
+---
+## [#953 Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)
+In an alien language, surprisingly they also use english lowercase letters, but possibly in a different `order`. The `order` of the alphabet is some permutation of lowercase letters.
+
+Given a sequence of `words` written in the alien language, and the `order` of the alphabet, return `true` if and only if the given `words` are sorted lexicographicaly in this alien language.
+
+**Example 1:**
+```
+Input: words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
+Output: true
+Explanation: As 'h' comes before 'l' in this language, then the sequence is sorted.
+```
+**Example 2:**
+```
+Input: words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
+Output: false
+Explanation: As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
+```
+**Example 3:**
+```
+Input: words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
+Output: false
+Explanation: The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character which is less than any other character (More info).
+```
+[More info](https://en.wikipedia.org/wiki/Lexicographical_order)
+**Constraints:**
+  - `1 <= words.length <= 100`
+  - `1 <= words[i].length <= 20`
+  - `order.length == 26`
+  - All characters in `words[i]` and `order` are English lowercase letters.
+[back to top](#menu)
+
+---
+## [#971 Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal)
+You are given the `root` of a binary tree with `n` nodes, where each node is uniquely assigned a value from `1` to `n`. You are also given a sequence of `n` values `voyage`, which is the **desired [pre-order traversal](https://en.wikipedia.org/wiki/Tree_traversal#Pre-order)** of the binary tree.
+
+Any node in the binary tree can be **flipped** by swapping its left and right subtrees. For example, flipping node 1 will have the following effect:
+
+![](https://assets.leetcode.com/uploads/2021/02/15/fliptree.jpg)
+
+Flip the **smallest** number of nodes so that the **pre-order traversal** of the tree **matches** `voyage`.
+
+Return *a list of the values of all **flipped** nodes. You may return the answer in **any order**. If it is **impossible** to flip the nodes in the tree to make the pre-order traversal match `voyage`, return the list* `[-1]`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/01/02/1219-01.png)
+```
+Input: root = [1,2], voyage = [2,1]
+Output: [-1]
+Explanation: It is impossible to flip the nodes such that the pre-order traversal matches voyage.
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2019/01/02/1219-02.png)
+```
+Input: root = [1,2,3], voyage = [1,3,2]
+Output: [1]
+Explanation: Flipping node 1 swaps nodes 2 and 3, so the pre-order traversal matches voyage.
+```
+**Example 3:**
+
+![](https://assets.leetcode.com/uploads/2019/01/02/1219-02.png)
+```
+Input: root = [1,2,3], voyage = [1,2,3]
+Output: []
+Explanation: The tree's pre-order traversal already matches voyage, so no nodes need to be flipped.
+```
+**Constraints:**
+  - The number of nodes in the tree is `n`.
+  - `n == voyage.length`
+  - `1 <= n <= 100`
+  - `1 <= Node.val`, `voyage[i] <= n`
+  - All the values in the tree are **unique**.
+  - All the values in `voyage` are **unique**.
 
 [back to top](#menu)
 
@@ -3177,6 +4052,44 @@ Output: [8,5,10,1,7,null,12]
 [back to top](#menu)
 
 ---
+## [#1022 Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)
+You are given the `root` of a binary tree where each node has a value `0` or `1`.  Each root-to-leaf path represents a binary number starting with the most significant bit.  For example, if the path is `0 -> 1 -> 1 -> 0 -> 1`, then this could represent `01101` in binary, which is `13`.
+
+For all leaves in the tree, consider the numbers represented by the path from the root to that leaf.
+
+Return *the sum of these numbers*. The answer is **guaranteed** to fit in a **32-bits** integer.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png)
+```
+Input: root = [1,0,1,0,1,0,1]
+Output: 22
+Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+```
+**Example 2:**
+```
+Input: root = [0]
+Output: 0
+```
+**Example 3:**
+```
+Input: root = [1]
+Output: 1
+```
+**Example 4:**
+```
+Input: root = [1,1]
+Output: 3
+```
+
+**Constraints:**
+- The number of nodes in the tree is in the range **[1, 1000]**.
+- `Node.val` is `0` or `1`.
+
+[back to top](#menu)
+
+---
 ## [#1024 Video Stitching](https://leetcode.com/problems/video-stitching)
 You are given a series of video clips from a sporting event that lasted T seconds.  These video clips can be overlapping with each other and have varied lengths.
 
@@ -3235,7 +4148,7 @@ At the end, there is at most 1 stone left.  Return the weight of this stone (or 
 ```
 Input: [2,7,4,1,8,1]
 Output: 1
-Explanation: 
+Explanation:
 We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
 we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
 we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
@@ -3257,7 +4170,7 @@ If there is no common subsequence, return 0.
 
 **Example 1:**
 ```
-Input: text1 = "abcde", text2 = "ace" 
+Input: text1 = "abcde", text2 = "ace"
 Output: 3  
 Explanation: The longest common subsequence is "ace" and its length is 3.
 ```
@@ -3278,6 +4191,46 @@ Explanation: There is no such common subsequence, so the result is 0.
 - `1 <= text1.length <= 1000`
 - `1 <= text2.length <= 1000`
 - The input strings consist of lowercase English characters only.
+
+[back to top](#menu)
+
+---
+## [#1147 Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)
+You are given a string `text`. You should split it to k substrings `(subtext1, subtext2, ..., subtextk)` such that:
+- `subtexti` is a **non-empty** string.
+- The concatenation of all the substrings is equal to `text` (i.e., `subtext1 + subtext2 + ... + subtextk == text`).
+- `subtexti == subtextk - i + 1` for all valid values of `i` (i.e., `1 <= i <= k`).
+
+Return the largest possible value of `k`.
+
+**Example 1:**
+```
+Input: text = "ghiabcdefhelloadamhelloabcdefghi"
+Output: 7
+Explanation: We can split the string on "(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)".
+```
+**Example 2:**
+```
+Input: text = "merchant"
+Output: 1
+Explanation: We can split the string on "(merchant)".
+```
+**Example 3:**
+```
+Input: text = "antaprezatepzapreanta"
+Output: 11
+Explanation: We can split the string on "(a)(nt)(a)(pre)(za)(tpe)(za)(pre)(a)(nt)(a)".
+```
+**Example 4:**
+```
+Input: text = "aaa"
+Output: 3
+Explanation: We can split the string on "(a)(a)(a)".
+```
+
+**Constraints:**
+- `1 <= text.length <= 1000`
+- `text` consists only of lowercase English characters.
 
 [back to top](#menu)
 
@@ -3304,6 +4257,247 @@ Output: false
 - `coordinates[i].length == 2`
 - `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
 - `coordinates` contains no duplicate point.
+
+[back to top](#menu)
+
+---
+## [#1302 Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum)
+Given a binary tree, return the sum of values of its deepest leaves.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/07/31/1483_ex1.png)
+```
+Input: root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
+Output: 15
+```
+**Constraints:**
+- The number of nodes in the tree is between `1` and `10^4`.
+- The value of nodes is between `1` and `100`.
+
+[back to top](#menu)
+
+---
+## [#1306 Jump Game III](https://leetcode.com/problems/jump-game-iii)
+Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach to **any** index with value 0.
+
+Notice that you can not jump outside of the array at any time.
+
+**Example 1:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 5
+Output: true
+Explanation:
+All possible ways to reach at index 3 with value 0 are:
+index 5 -> index 4 -> index 1 -> index 3
+index 5 -> index 6 -> index 4 -> index 1 -> index 3
+```
+**Example 2:**
+```
+Input: arr = [4,2,3,0,3,1,2], start = 0
+Output: true
+Explanation:
+One possible way to reach at index 3 with value 0 is:
+index 0 -> index 4 -> index 1 -> index 3
+```
+**Example 3:**
+```
+Input: arr = [3,0,2,1,2], start = 2
+Output: false
+Explanation: There is no way to reach at index 1 with value 0.
+```
+**Constraints:**
+  - `1 <= arr.length <= 5 * 10^4`
+  - `0 <= arr[i] < arr.length`
+  - `0 <= start < arr.length`
+
+[back to top](#menu)
+
+---
+## [#1337 The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix)
+You are given an `m x n` binary matrix `mat` of `1`'s (representing soldiers) and `0`'s (representing civilians). The soldiers are positioned **in front** of the civilians. That is, all the `1`'s will appear to the **left** of all the `0`'s in each row.
+
+A row `i` is **weaker** than a row `j` if one of the following is true:
+
+- The number of soldiers in row `i` is less than the number of soldiers in row `j`.
+- Both rows have the same number of soldiers and `i < j`.
+
+Return *the indices of the `k` **weakest** rows in the matrix ordered from weakest to strongest*.
+
+**Example 1:**
+```
+Input: mat =
+[[1,1,0,0,0],
+ [1,1,1,1,0],
+ [1,0,0,0,0],
+ [1,1,0,0,0],
+ [1,1,1,1,1]],
+k = 3
+Output: [2,0,3]
+Explanation:
+The number of soldiers in each row is:
+- Row 0: 2
+- Row 1: 4
+- Row 2: 1
+- Row 3: 2
+- Row 4: 5
+The rows ordered from weakest to strongest are [2,0,3,1,4].
+```
+**Example 2:**
+```
+Input: mat =
+[[1,0,0,0],
+ [1,1,1,1],
+ [1,0,0,0],
+ [1,0,0,0]],
+k = 2
+Output: [0,2]
+Explanation:
+The number of soldiers in each row is:
+- Row 0: 1
+- Row 1: 4
+- Row 2: 1
+- Row 3: 1
+The rows ordered from weakest to strongest are [0,2,3,1].
+```
+
+**Constraints:**
+- `m == mat.length`
+- `n == mat[i].length`
+- `2 <= n, m <= 100`
+- `1 <= k <= m`
+- `matrix[i][j]` is either 0 or 1.
+
+[back to top](#menu)
+
+---
+## [#1695 Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value)
+You are given an array of positive integers `nums` and want to erase a subarray containing **unique elements**. The **score** you get by erasing the subarray is equal to the **sum** of its elements.
+
+Return *the **maximum score** you can get by erasing **exactly one** subarray*.
+
+An array `b` is called to be a subarray of `a` if it forms a contiguous subsequence of `a`, that is, if it is equal to `a[l],a[l+1],...,a[r]` for some `(l,r)`.
+
+**Example 1:**
+```
+Input: nums = [4,2,4,5,6]
+Output: 17
+Explanation: The optimal subarray here is [2,4,5,6].
+```
+**Example 2:**
+```
+Input: nums = [5,2,1,2,5,2,1,2,5]
+Output: 8
+Explanation: The optimal subarray here is [5,2,1] or [1,2,5].
+```
+
+**Constraints:**
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^4`
+
+[back to top](#menu)
+
+---
+## [#1704 Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike)
+You are given a string `s` of even length. Split this string into two halves of equal lengths, and let `a` be the first half and `b` be the second half.
+
+Two strings are **alike** if they have the same number of vowels (`'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, `'U'`). Notice that `s` contains uppercase and lowercase letters.
+
+Return `true` *if `a` and `b` are **alike***. Otherwise, return `false`.
+
+**Example 1:**
+```
+Input: s = "book"
+Output: true
+Explanation: a = "bo" and b = "ok". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
+```
+**Example 2:**
+```
+Input: s = "textbook"
+Output: false
+Explanation: a = "text" and b = "book". a has 1 vowel whereas b has 2. Therefore, they are not alike.
+Notice that the vowel o is counted twice.
+```
+**Example 3:**
+```
+Input: s = "MerryChristmas"
+Output: false
+```
+**Example 4:**
+```
+Input: s = "AbCdEfGh"
+Output: true
+```
+**Constraints:**
+  - `2 <= s.length <= 1000`
+  - `s.length` is even.
+  - `s` consists of **uppercase and lowercase** letters.
+
+[back to top](#menu)
+
+---
+## [#1721 Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list)
+You are given the `head` of a linked list, and an integer `k`.
+
+Return *the head of the linked list after **swapping** the values of the `kth` node from the beginning and the `kth` node from the end (the list is **1-indexed**)*.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/09/21/linked1.jpg)
+```
+Input: head = [1,2,3,4,5], k = 2
+Output: [1,4,3,2,5]
+```
+**Example 2:**
+```
+Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5
+Output: [7,9,6,6,8,7,3,0,9,5]
+```
+**Example 3:**
+```
+Input: head = [1], k = 1
+Output: [1]
+```
+**Example 4:**
+```
+Input: head = [1,2], k = 1
+Output: [2,1]
+```
+**Example 5:**
+```
+Input: head = [1,2,3], k = 2
+Output: [1,2,3]
+```
+
+**Constraints:**
+- The number of nodes in the list is `n`.
+- `1 <= k <= n <= 10^5`
+- `0 <= Node.val <= 100`
+[back to top](#menu)
+
+---
+## [#1732 Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)
+There is a biker going on a road trip. The road trip consists of `n + 1` points at different altitudes. The biker starts his trip on point `0` with altitude equal `0`.
+
+You are given an integer array `gain` of length `n` where `gain[i]` is the `net gain in altitude` between points `i​​​​​​` and `i + 1` for all (`0 <= i < n`). Return *the **highest altitude** of a point*.
+
+**Example 1:**
+```
+Input: gain = [-5,1,5,0,-7]
+Output: 1
+Explanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
+```
+**Example 2:**
+```
+Input: gain = [-4,-3,-2,-1,4,3,2]
+Output: 0
+Explanation: The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.
+```
+
+**Constraints:**
+- `n == gain.length`
+- `1 <= n <= 100`
+- `-100 <= gain[i] <= 100`
 
 [back to top](#menu)
 
@@ -3371,13 +4565,13 @@ Implement the `FirstUnique` class:
 
 **Example 1:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","showFirstUnique","add","showFirstUnique","add","showFirstUnique"]
 [[[2,3,5]],[],[5],[],[2],[],[3],[]]
-Output: 
+Output:
 [null,2,null,2,null,3,null,-1]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([2,3,5]);
 firstUnique.showFirstUnique(); // return 2
 firstUnique.add(5);            // the queue is now [2,3,5,5]
@@ -3389,13 +4583,13 @@ firstUnique.showFirstUnique(); // return -1
 ```
 **Example 2:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","add","add","add","add","showFirstUnique"]
 [[[7,7,7,7,7,7]],[],[7],[3],[3],[7],[17],[]]
-Output: 
+Output:
 [null,-1,null,null,null,null,null,17]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([7,7,7,7,7,7]);
 firstUnique.showFirstUnique(); // return -1
 firstUnique.add(7);            // the queue is now [7,7,7,7,7,7,7]
@@ -3407,13 +4601,13 @@ firstUnique.showFirstUnique(); // return 17
 ```
 **Example 3:**
 ```
-Input: 
+Input:
 ["FirstUnique","showFirstUnique","add","showFirstUnique"]
 [[[809]],[],[809],[]]
-Output: 
+Output:
 [null,809,null,-1]
 
-Explanation: 
+Explanation:
 FirstUnique firstUnique = new FirstUnique([809]);
 firstUnique.showFirstUnique(); // return 809
 firstUnique.add(809);          // the queue is now [809,809]
