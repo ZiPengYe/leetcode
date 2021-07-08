@@ -10,9 +10,9 @@
  * @return {ListNode}
  */
 const middleNode = (head) => {
-  const stack = [];
-  for (let p = head; p; p = p.next) {
-    stack.push(p);
+  let [slow, fast] = [head, head];
+  while (fast && fast.next) {
+    [slow, fast] = [slow.next, fast.next.next];
   }
-  return stack[Math.ceil(stack.length >>> 1)];
+  return slow;
 };
