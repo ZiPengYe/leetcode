@@ -1,8 +1,8 @@
-/**
+/*j
  * Definition for singly-linked list.
  * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
+ *j    this.val = val;
+ *k    this.next = null;
  * }
  */
 /**
@@ -10,18 +10,17 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-const mergeTwoLists = function(l1, l2) {
-  if (l1 === null) {
-    return l2;
-  }
-  if (l2 === null) {
-    return l1;
-  }
-  if (l1.val < l2.val) {
-    l1.next = mergeTwoLists(l1.next, l2);
-    return l1;
+const mergeTwoLists = function(l1, l2, prev = { next: null }, head = null) {
+  if (l1 && l2) {
+    if (l1.val < l2.val) {
+      prev.next = l1;
+      return mergeTwoLists(l1.next, l2, l1, head || l1);
+    } else {
+      prev.next = l2
+      return mergeTwoLists(l1, l2.next, l2, head || l2);
+    }
   } else {
-    l2.next = mergeTwoLists(l2.next, l1);
-    return l2;
+    prev.next = l1 || l2;
+    return head || prev.next;
   }
 };
