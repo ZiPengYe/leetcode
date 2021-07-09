@@ -127,7 +127,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#575 Distribute Candies](#575-distribute-candies)
-- [x] [#645 Set Mismatch](#445-set-mismatch)
+- [x] [#645 Set Mismatch](#645-set-mismatch)
 - [x] [#667 Beautiful Arrangement II](#667-beautiful-arrangement-ii)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
 - [x] [#695 Max Area of Island](#695-max-area-of-island)
