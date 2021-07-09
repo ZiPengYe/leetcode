@@ -11,17 +11,18 @@
  * @return {ListNode}
  */
 const mergeTwoLists = function(l1, l2) {
-  let ans = p = { next: null };
+  const prehead = { next: null };
+  let prev = prehead;
   while(l1 && l2) {
     if (l1.val <= l2.val) {
-      p.next = l1;
+      prev.next = l1;
       l1 = l1.next;
     } else {
-      p.next = l2;
+      prev.next = l2;
       l2 = l2.next;
     }
-    p = p.next;
+    prev = prev.next;
   }
-  p.next = l1 || l2;
-  return ans.next;
+  prev.next = l1 || l2;
+  return prehead.next;
 };
