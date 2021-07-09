@@ -130,6 +130,7 @@
 - [x] [#645 Set Mismatch](#445-set-mismatch)
 - [x] [#667 Beautiful Arrangement II](#667-beautiful-arrangement-ii)
 - [x] [#678 Valid Parenthesis String](#678-valid-parenthesis-string)
+- [x] [#695 Max Area of Island](#695-max-area-of-island)
 - [x] [#704 Binary Search](#704-binary-search)
 - [x] [#714 Best Time to Buy and Sell Stock with Transaction Fee](#714-best-time-to-buy-and-sell-stock-with-transaction-fee)
 - [x] [#720 Longest Word in Dictionary](#720-longest-word-in-dictionary)
@@ -3448,6 +3449,35 @@ Output: True
 ```
 **Note:**
 1. The string size will be in the range [1, 100].
+
+[back to top](#menu)
+
+---
+## [#695 Max Area of Island](https://leetcode.com/problems/max-area-of-island)
+You are given an `m x n` binary matrix `grid`. An island is a group of `1`'s (representing land) connected **4-directionally** (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+The **area** of an island is the number of cells with a value `1` in the island.
+
+Return *the maximum **area** of an island in `grid`*. If there is no island, return `0`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/05/01/maxarea1-grid.jpg)
+```
+Input: grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
+Output: 6
+Explanation: The answer is not 11, because the island must be connected 4-directionally.
+```
+**Example 2:**
+```
+Input: grid = [[0,0,0,0,0,0,0,0]]
+Output: 0
+```
+**Constraints:**
+  - `m == grid.length`
+  - `n == grid[i].length`
+  - `1 <= m, n <= 50`
+  - `grid[i][j]` is either `0` or `1`.
 
 [back to top](#menu)
 
