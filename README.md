@@ -123,6 +123,7 @@
 - [x] [#525 Contiguous Array](#525-contiguous-array)
 - [x] [#535 Encode and Decode TinyURL](#535-encode-and-decode-tinyurl)
 - [x] [#540 Single Element in a Sorted Array](#540-single-element-in-a-sorted-array)
+- [x] [#542 01 Matrix](#542-01-matrix)
 - [x] [#547 Number of Provinces](#547-number-of-provinces)
 - [x] [#557 Reverse Words in a String III](#557-reverse-words-in-a-string-iii)
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
@@ -3283,6 +3284,37 @@ Input: [3,3,7,7,10,11,11]
 Output: 10
 ```
 **Note:** Your solution should run in O(log n) time and O(1) space.
+
+[back to top](#menu)
+
+---
+## [#542 01 Matrix](https://leetcode.com/problems/01-matrix)
+Given an `m x n` binary matrix `mat`, return *the distance of the nearest `0` for each cell*.
+
+The distance between two adjacent cells is `1`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/04/24/01-1-grid.jpg)
+```
+Input: mat = [[0,0,0],[0,1,0],[0,0,0]]
+Output: [[0,0,0],[0,1,0],[0,0,0]]
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2021/04/24/01-2-grid.jpg)
+```
+Input: mat = [[0,0,0],[0,1,0],[1,1,1]]
+Output: [[0,0,0],[0,1,0],[1,2,1]]
+```
+**Constraints:**
+  - `m == mat.length`
+  - `n == mat[i].length`
+  - `1 <= m, n <= 10^4`
+  - `1 <= m * n <= 10^4`
+  - `mat[i][j]` is either `0` or `1`.
+  - There is at least one `0` in `mat`.
+
 [back to top](#menu)
 
 ---
