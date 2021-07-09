@@ -156,6 +156,7 @@
 - [x] [#977 Squares of a Sorted Array](#977-squares-of-a-sorted-array)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
+- [x] [#994 Rotting Oranges](#994-rotting-oranges)
 - [x] [#997 Find the Town Judge](#997-find-the-town-judge)
 - [x] [#1008 Construct Binary Search Tree from Preorder Traversal](#1008-construct-binary-search-tree-from-preorder-traversal)
 - [x] [#1022 Sum of Root To Leaf Binary Numbers](#1022-sum-of-root-to-leaf-binary-numbers)
@@ -4267,6 +4268,44 @@ Output: false
 **Note:**
 1. The number of nodes in the tree will be between `2` and `100`.
 2. Each node has a unique integer value from `1` to `100`.
+
+[back to top](#menu)
+
+---
+## [#994 Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
+You are given an `m x n` grid where each cell can have one of three values:
+  - `0` representing an empty cell,
+  - `1` representing a fresh orange, or
+  - `2` representing a rotten orange.
+
+Every minute, any fresh orange that is **4-directionally adjacent** to a rotten orange becomes rotten.
+
+Return *the minimum number of minutes that must elapse until no cell has a fresh orange*. If *this is impossible, return `-1`*.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/02/16/oranges.png)
+```
+Input: grid = [[2,1,1],[1,1,0],[0,1,1]]
+Output: 4
+```
+**Example 2:**
+```
+Input: grid = [[2,1,1],[0,1,1],[1,0,1]]
+Output: -1
+Explanation: The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
+```
+**Example 3:**
+```
+Input: grid = [[0,2]]
+Output: 0
+Explanation: Since there are already no fresh oranges at minute 0, the answer is just 0.
+```
+**Constraints:**
+  - `m == grid.length`
+  - `n == grid[i].length`
+  - `1 <= m, n <= 10`
+  - `grid[i][j]` is `0`, `1`, or `2`.
 
 [back to top](#menu)
 
