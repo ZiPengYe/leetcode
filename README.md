@@ -28,6 +28,7 @@
 - [x] [#67 Add Binary](#67-add-binary)
 - [x] [#69 Sqrt(x)](#69-sqrtx)
 - [x] [#70 Climbing Stairs](#70-climbing-stairs)
+- [x] [#77 Combinations](#77-combinations)
 - [x] [#83 Remove Duplicates from Sorted List](#83-remove-duplicates-from-sorted-list)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#100 Same Tree](#100-same-tree)
@@ -911,6 +912,37 @@ Explanation: There are three ways to climb to the top.
 2. 1 step + 2 steps
 3. 2 steps + 1 step
 ```
+
+[back to top](#menu)
+
+---
+## [#77 Combinations](https://leetcode.com/problems/combinations)
+Given two integers `n` and `k`, return *all possible combinations of `k` numbers out of the range `[1, n]`*.
+
+You may return the answer in **any order**.
+
+**Example 1:**
+```
+Input: n = 4, k = 2
+Output:
+[
+  [2,4],
+  [3,4],
+  [2,3],
+  [1,2],
+  [1,3],
+  [1,4],
+]
+```
+**Example 2:**
+```
+Input: n = 1, k = 1
+Output: [[1]]
+```
+**Constraints:**
+  - `1 <= n <= 20`
+  - `1 <= k <= n`
+
 [back to top](#menu)
 
 ---
