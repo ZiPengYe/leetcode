@@ -4,12 +4,12 @@
  * @return {boolean}
  */
 const isIsomorphic = (s, t) => {
-  const map1 = {};
-  const map2 = {};
-  for (let i = 0; i < s.length; i++) {
-    if (map1[s[i]] !== map2[t[i]]) return false;
-    map1[s[i]] = i;
-    map2[t[i]] = i;
+  const sIdx = Array(128);
+  const tIdx = Array(128);
+  for (let i = 0, len = s.length; i < len; ++i) {
+    if (sIdx[s.charCodeAt(i)] !== tIdx[t.charCodeAt(i)]) return false;
+    sIdx[s.charCodeAt(i)] = i;
+    tIdx[t.charCodeAt(i)] = i;
   }
   return true;
 };
