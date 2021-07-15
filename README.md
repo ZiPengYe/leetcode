@@ -146,6 +146,7 @@
 - [x] [#771 Jewels and Stones](#771-jewels-and-stones)
 - [x] [#781 Rabbits in Forest](#781-rabbits-in-forest)
 - [x] [#783 Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [x] [#784 Letter Case Permutation](#784-letter-case-permutation)
 - [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
 - [x] [#851 Loud and Rich](#851-loud-and-rich)
@@ -3925,6 +3926,38 @@ Output: 1
 **Constraints:**
   - The number of nodes in the tree is in the range `[2, 100]`.
   - `0 <= Node.val <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#784 Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)
+Given a string `s`, we can transform every letter individually to be lowercase or uppercase to create another string.
+
+Return *a list of all possible strings we could create*. You can return the output in **any order**.
+
+**Example 1:**
+```
+Input: s = "a1b2"
+Output: ["a1b2","a1B2","A1b2","A1B2"]
+```
+**Example 2:**
+```
+Input: s = "3z4"
+Output: ["3z4","3Z4"]
+```
+**Example 3:**
+```
+Input: s = "12345"
+Output: ["12345"]
+```
+**Example 4:**
+```
+Input: s = "0"
+Output: ["0"]
+```
+**Constraints:**
+  - `s` will be a string with length between `1` and `12`.
+  - `s` will consist only of letters or digits.
 
 [back to top](#menu)
 
