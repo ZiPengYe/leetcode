@@ -3,11 +3,12 @@
  * @return {number}
  */
 const rob = (nums) => {
-  let ans = 0;
-  for (let i = 0, prev = ans; i < nums.length; i++) {
-    let tmp = ans;
-    ans = Math.max(prev + nums[i], ans);
-    prev = tmp;
+  const len = nums.length;
+  if (!len) return 0;
+  if (len === 1) return nums[0];
+  let [first, second] = [nums[0], Math.max(nums[0], nums[1])];
+  for (let i = 2; i < len; ++i) {
+    [first, second] = [second, Math.max(first + nums[i], second)];
   }
-  return ans;
+  return second;
 };
