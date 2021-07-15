@@ -19,6 +19,7 @@
 - [x] [#33 Search in Rotated Sorted Array](#33-search-in-rotated-sorted-array)
 - [x] [#35 Search Insert Position](#35-search-insert-position)
 - [x] [#38 Count and Say](#38-count-and-say)
+- [x] [#46 Permutations](#46-permutations)
 - [x] [#49 Group Anagrams](#49-group-anagrams)
 - [x] [#53 Maximum Subarray](#53-maximum-subarray)
 - [x] [#55 Jump Game](#55-jump-game)
@@ -727,6 +728,34 @@ Input: 4
 Output: "1211"
 Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 ```
+
+[back to top](#menu)
+
+---
+## [#46 Permutations](https://leetcode.com/problems/permutations)
+Given an array `nums` of distinct integers, return *all the possible permutations*. You can return the answer in **any order**.
+
+**Example 1:**
+```
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+```
+**Example 2:**
+```
+Input: nums = [0,1]
+Output: [[0,1],[1,0]]
+```
+**Example 3:**
+```
+Input: nums = [1]
+Output: [[1]]
+```
+
+**Constraints:**
+  - `1 <= nums.length <= 6`
+  - `-10 <= nums[i] <= 10`
+  - All the integers of `nums` are **unique**.
+
 [back to top](#menu)
 
 ---
