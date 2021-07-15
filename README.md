@@ -43,6 +43,7 @@
 - [x] [#116 Populating Next Right Pointers in Each Node](#116-Pascal's Triangle)
 - [x] [#118 Pascal's Triangle](#118-pascals-triangle)
 - [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
+- [x] [#120 Triangle](#120-triangle)
 - [x] [#121 Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [x] [#122 Best Time to Buy and Sell Stock II](#122-best-time-to-buy-and-sell-stock-ii)
 - [x] [#124 Binary Tree Maximum Path Sum](#124-binary-tree-maximum-path-sum)
@@ -1294,6 +1295,38 @@ Output: [1,3,3,1]
 **Follow up:**
 
 Could you optimize your algorithm to use only *O*(k) extra space?
+
+[back to top](#menu)
+
+---
+## [#120 Triangle](https://leetcode.com/problems/triangle)
+Given a `triangle` array, return *the minimum path sum from top to bottom*.
+
+For each step, you may move to an adjacent number of the row below. More formally, if you are on index `i` on the current row, you may move to either index `i` or index `i + 1` on the next row.
+
+**Example 1:**
+```
+Input: triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
+Output: 11
+Explanation: The triangle looks like:
+   2
+  3 4
+ 6 5 7
+4 1 8 3
+The minimum path sum from top to bottom is 2 + 3 + 5 + 1 = 11 (underlined above).
+```
+**Example 2:**
+```
+Input: triangle = [[-10]]
+Output: -10
+```
+**Constraints:**
+  - `1 <= triangle.length <= 200`
+  - `triangle[0].length == 1`
+  - `triangle[i].length == triangle[i - 1].length + 1`
+  - `-10^4 <= triangle[i][j] <= 10^4`
+
+**Follow up:** Could you do this using only `O(n)` extra space, where `n` is the total number of rows in the triangle?
 
 [back to top](#menu)
 
