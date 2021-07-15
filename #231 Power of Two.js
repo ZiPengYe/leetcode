@@ -3,6 +3,5 @@
  * @return {boolean}
  */
 const isPowerOfTwo = (n) => {
-  if (n < 1) n = 1 / n;
-  return /^10*$/g.test(n.toString(2));
+  return n > 0 && (n & (n - 1)) === 0;
 };
