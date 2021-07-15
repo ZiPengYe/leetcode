@@ -17,6 +17,7 @@
 - [x] [#27 Remove Element](#27-remove-element)
 - [x] [#28 Implement strStr()](#28-implement-strstr)
 - [x] [#33 Search in Rotated Sorted Array](#33-search-in-rotated-sorted-array)
+- [x] [#34 Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
 - [x] [#35 Search Insert Position](#35-search-insert-position)
 - [x] [#38 Count and Say](#38-count-and-say)
 - [x] [#46 Permutations](#46-permutations)
@@ -669,6 +670,38 @@ Output: 4
 Input: nums = [4,5,6,7,0,1,2], target = 3
 Output: -1
 ```
+
+[back to top](#menu)
+
+---
+## [#34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
+
+If `target is not found in the array, return `[-1, -1]`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+**Example 1:**
+```
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+```
+*Example 2:*
+```
+Input: nums = [5,7,7,8,8,10], target = 6
+Output: [-1,-1]
+```
+**Example 3:**
+```
+Input: nums = [], target = 0
+Output: [-1,-1]
+```
+**Constraints:**
+  - `0 <= nums.length <= 10^5`
+  - `-10^9 <= nums[i] <= 10^9`
+  - `nums` is a non-decreasing array.
+  - `-10^9 <= target <= 10^9`
+
 [back to top](#menu)
 
 ---
