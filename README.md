@@ -94,6 +94,7 @@
 - [x] [#235 Lowest Common Ancestor of a Binary Search Tree](#235-lowest-common-ancestor-of-a-binary-search-tree)
 - [x] [#237 Delete Node in a Linked List](#237-delete-node-in-a-linked-list)
 - [x] [#238 Product of Array Except Self](#238-product-of-array-except-self)
+- [x] [#240 Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [x] [#242 Valid Anagram](#242-valid-anagram)
 - [x] [#257 Binary Tree Paths](#257-binary-tree-paths)
 - [x] [#258 Add Digits](#258-add-digits)
@@ -2580,6 +2581,37 @@ Output: [24,12,8,6]
 **Follow up:**
 
 Could you solve it with constant space complexity? (The output array **does not** count as extra space for the purpose of space complexity analysis.)
+
+[back to top](#menu)
+
+---
+## [#240 Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)
+Write an efficient algorithm that searches for a `target` value in an `m x n` integer `matrix`. The `matrix` has the following properties:
+  - Integers in each row are sorted in ascending from left to right.
+  - Integers in each column are sorted in ascending from top to bottom.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/11/24/searchgrid2.jpg)
+```
+Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5
+Output: true
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2020/11/24/searchgrid.jpg)
+```
+Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20
+Output: false
+```
+**Constraints:**
+  - `m == matrix.length`
+  - `n == matrix[i].length`
+  - `1 <= n, m <= 300`
+  - `-10^9 <= matix[i][j] <= 10^9`
+  - All the integers in each row are **sorted** in ascending order.
+  - All the integers in each column are **sorted** in ascending order.
+  - `-10^9 <= target <= 10^9`
 
 [back to top](#menu)
 
