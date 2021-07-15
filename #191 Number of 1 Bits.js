@@ -1,12 +1,17 @@
+const M1 = 0x55555555, // 0b1010101010101010101010101010101
+      M2 = 0x33333333, // 0b110011001100110011001100110011
+      M3 = 0x0f0f0f0f, // 0b1111000011110000111100001111
+      M4 = 0x00ff00ff, // 0b111111110000000011111111
+      M5 = 0x0000ffff; // 0b1111111111111111
 /**
  * @param {number} n - a positive integer
  * @return {number}
  */
-const hammingWeight = n => {
-  let count = 0;
-  while (n) {
-    count++;
-    n &= n - 1;
-  }
-  return count;
+const hammingWeight = (n) => {
+  n = (n & M1) + ((n >>> 1) & M1);
+  n = (n & M2) + ((n >>> 2) & M2);
+  n = (n & M3) + ((n >>> 4) & M3);
+  n = (n & M4) + ((n >>> 8) & M4);
+  n = (n & M5) + ((n >>> 16) & M5);
+  return n;
 };
