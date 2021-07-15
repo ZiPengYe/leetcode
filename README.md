@@ -135,6 +135,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#575 Distribute Candies](#575-distribute-candies)
+- [x] [#611 Valid Triangle Number](#611-valid-triangle-number)
 - [x] [#617 Merge Two Binary Trees](#617-merge-two-binary-trees)
 - [x] [#645 Set Mismatch](#645-set-mismatch)
 - [x] [#667 Beautiful Arrangement II](#667-beautiful-arrangement-ii)
@@ -3639,6 +3640,30 @@ Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 can
 - `2 <= n <= 10^4`
 - `n` is even.
 - `-10^5 <= candyType[i] <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#611 Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number)
+Given an integer array `nums`, return *the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle*.
+
+**Example 1:**
+```
+Input: nums = [2,2,3,4]
+Output: 3
+Explanation: Valid combinations are:
+2,3,4 (using the first 2)
+2,3,4 (using the second 2)
+2,2,3
+```
+**Example 2:**
+```
+Input: nums = [4,2,3,4]
+Output: 4
+```
+**Constraints:**
+  - `1 <= nums.length <= 1000`
+  - `0 <= nums[i] <= 1000`
 
 [back to top](#menu)
 
