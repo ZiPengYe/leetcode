@@ -32,6 +32,7 @@
 - [x] [#70 Climbing Stairs](#70-climbing-stairs)
 - [x] [#74 Search a 2D Matrix](#74-search-a-2d-matrix)
 - [x] [#77 Combinations](#77-combinations)
+- [x] [#82 Remove Duplicates from Sorted List II](#82-remove-duplicates-from-sorted-list-ii)
 - [x] [#83 Remove Duplicates from Sorted List](#83-remove-duplicates-from-sorted-list)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
 - [x] [#100 Same Tree](#100-same-tree)
@@ -1038,6 +1039,31 @@ Output: [[1]]
 **Constraints:**
   - `1 <= n <= 20`
   - `1 <= k <= n`
+
+[back to top](#menu)
+
+---
+## [#82 Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+Given the `head` of a sorted linked list, *delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list*. Return *the linked list **sorted** as well*.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg)
+```
+Input: head = [1,2,3,3,4,4,5]
+Output: [1,2,5]
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2021/01/04/linkedlist2.jpg)
+```
+Input: head = [1,1,1,2,3]
+Output: [2,3]
+```
+**Constraints:**
+  - The number of nodes in the list is in the range `[0, 300]`.
+  - `-100 <= Node.val <= 100`
+  - The list is guaranteed to be **sorted** in ascending order.
 
 [back to top](#menu)
 
