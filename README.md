@@ -9,6 +9,7 @@
 - [x] [#9 Palindrome Number](#9-palindrome-number)
 - [x] [#13 Roman to Integer](#13-roman-to-integer)
 - [x] [#14 Longest Common Prefix](#14-longest-common-prefix)
+- [x] [#15 3Sum](#15-3sum)
 - [x] [#17 Letter Combinations of a Phone Number](#17-letter-combinations-of-a-phone-number)
 - [x] [#19 Remove Nth Node From End of List](#19-remove-nth-node-from-end-of-list)
 - [x] [#20 Valid Parentheses](#20-valid-parentheses)
@@ -432,6 +433,33 @@ Explanation: There is no common prefix among the input strings.
 ```
 **Note:**
 - All given inputs are in lowercase letters `a-z`.
+
+[back to top](#menu)
+
+---
+## [#15 3Sum](https://leetcode.com/problems/3sum)
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+
+Notice that the solution set must not contain duplicate triplets.
+
+**Example 1:**
+```
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+```
+**Example 2:**
+```
+Input: nums = []
+Output: []
+```
+**Example 3:**
+```
+Input: nums = [0]
+Output: []
+```
+**Constraints:**
+  - `0 <= nums.length <= 3000`
+  - `-10^5 <= nums[i] <= 10^5`
 
 [back to top](#menu)
 
