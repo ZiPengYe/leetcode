@@ -30,6 +30,7 @@
 - [x] [#67 Add Binary](#67-add-binary)
 - [x] [#69 Sqrt(x)](#69-sqrtx)
 - [x] [#70 Climbing Stairs](#70-climbing-stairs)
+- [x] [#74 Search a 2D Matrix](#74-search-a-2d-matrix)
 - [x] [#77 Combinations](#77-combinations)
 - [x] [#83 Remove Duplicates from Sorted List](#83-remove-duplicates-from-sorted-list)
 - [x] [#88 Merge Sorted Array](#88-merge-sorted-array)
@@ -979,6 +980,34 @@ Explanation: There are three ways to climb to the top.
 2. 1 step + 2 steps
 3. 2 steps + 1 step
 ```
+
+[back to top](#menu)
+
+---
+## [#74 Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)
+Write an efficient algorithm that searches for a value in an `m x n` matrix. This matrix has the following properties:
+  - Integers in each row are sorted from left to right.
+  - The first integer of each row is greater than the last integer of the previous row.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/10/05/mat.jpg)
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
+Output: true
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2020/10/05/mat2.jpg)
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
+Output: false
+```
+**Constraints:**
+  - `m == matrix.length`
+  - `n == matrix[i].length`
+  - `1 <= m, n <= 100`
+  - `-10^4 <= matrix[i][j], target <= 10^4`
 
 [back to top](#menu)
 
