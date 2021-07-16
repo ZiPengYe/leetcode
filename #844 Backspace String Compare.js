@@ -10,7 +10,7 @@ const backspaceCompare = (S, T) => {
   let s = t = 0;
 
   while (i >= 0 || j >=0) {
-    
+
     // 处理 S 的退格操作
     while (i >= 0) {
       if (S[i] === '#') {
@@ -25,7 +25,7 @@ const backspaceCompare = (S, T) => {
         break;
       }
     }
-    
+
     // 处理 T 的退格操作
     while (j >= 0) {
       if (T[j] === '#') {
