@@ -4,24 +4,31 @@
  * @return {number}
  */
 const search = (nums, target) => {
-  // 二分找 转点
-  let i = 0;
-  let j = nums.length - 1;
-  while(i < j) {
-    const mid = Math.floor((i + j) / 2);
-    if (nums[mid] > nums[j]) i = mid + 1;
-    else j = mid;
-  }
-  const rotate = i;
-  // 二分找 目标值
-  i = 0;
-  j = nums.length - 1;
-  while(i <= j) {
-    const mid = Math.floor((i + j) / 2);
-    const realMid = (mid + rotate) % nums.length;
-    if (nums[realMid] === target) return realMid;
-    if (nums[realMid] < target) i = mid + 1;
-    else j = mid - 1;
+  const len = nums.length;
+  let l = 0,
+    r = len - 1;
+
+  while (l <= r) {
+    const mid = (l + r) >>> 1;
+    if (nums[mid] === target) {
+      return mid;
+    }
+    // 选转点 不在左侧
+    if (nums[0] <= nums[mid]) {
+      // 目标值 在 0 到 mid
+      if (nums[0] <= target && target < nums[mid]) {
+        r = mid - 1;
+      } else {
+        l = mid + 1;
+      }
+    } else {
+      // 目标值 在 mid 到 len - 1
+      if (nums[mid] < target && target <= nums[len - 1]) {
+        l = mid + 1;
+      } else {
+        r = mid - 1;
+      }
+    }
   }
   return -1;
 };
