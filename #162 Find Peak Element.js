@@ -3,14 +3,15 @@
  * @return {number}
  */
 const findPeakElement = (nums) => {
-  let [l, r] = [0, nums.length - 1];
-  while (l < r) {
-    const mid = (l + r) >>> 1;
+  let left = 0,
+    right = nums.length - 1;
+  while (left < right) {
+    const mid = (left + right) >>> 1;
     if (nums[mid] > nums[mid + 1]) {
-      r = mid;
+      right = mid;
     } else {
-      l = mid + 1;
+      left = mid + 1;
     }
   }
-  return l;
+  return left;
 };
