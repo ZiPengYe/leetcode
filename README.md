@@ -11,6 +11,7 @@
 - [x] [#14 Longest Common Prefix](#14-longest-common-prefix)
 - [x] [#15 3Sum](#15-3sum)
 - [x] [#17 Letter Combinations of a Phone Number](#17-letter-combinations-of-a-phone-number)
+- [x] [#18 4Sum](#18-4sum)
 - [x] [#19 Remove Nth Node From End of List](#19-remove-nth-node-from-end-of-list)
 - [x] [#20 Valid Parentheses](#20-valid-parentheses)
 - [x] [#21 Merge Two Sorted Lists](#21-merge-two-sorted-lists)
@@ -489,6 +490,32 @@ Output: ["a","b","c"]
 **Constraints:**
   - `0 <= digits.length <= 4`
   - `digits[i]` is a digit in the range `['2', '9']`.
+
+[back to top](#menu)
+
+---
+## [#18 4Sum](https://leetcode.com/problems/4sum)
+Given an array `nums` of `n` integers, return *an array of all the **unique** quadruplets `[nums[a], nums[b], nums[c], nums[d]]`* such that:
+  - `0 <= a, b, c, d < n`
+  - `a`, `b`, `c`, and `d` are **distinct**.
+  - `nums[a] + nums[b] + nums[c] + nums[d] == target`
+
+You may return the answer in **any order**.
+
+**Example 1:**
+```
+Input: nums = [1,0,-1,0,-2,2], target = 0
+Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+```
+**Example 2:**
+```
+Input: nums = [2,2,2,2,2], target = 8
+Output: [[2,2,2,2]]
+```
+**Constraints:**
+  - `1 <= nums.length <= 200`
+  - `-10^9 <= nums[i] <= 10^9`
+  - `-10^9 <= target <= 10^9`
 
 [back to top](#menu)
 
