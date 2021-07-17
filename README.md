@@ -167,6 +167,7 @@
 - [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
 - [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
 - [x] [#977 Squares of a Sorted Array](#977-squares-of-a-sorted-array)
+- [x] [#986 Interval List Intersections](#986-interval-list-intersections)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [x] [#994 Rotting Oranges](#994-rotting-oranges)
@@ -4601,6 +4602,48 @@ Output: [4,9,9,49,121]
   - `1 <= nums.length <= 10^4`
   - `-10^4 <= nums[i] <= 10^4`
   - `nums` is sorted in **non-decreasing** order.
+
+[back to top](#menu)
+
+---
+## [#986 Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)
+You are given two lists of closed intervals, `firstList` and `secondList`, where `firstList[i] = [start[i], end[i]]` and `secondList[j] = [start[j], end[j]]`. Each list of intervals is pairwise **disjoint** and in **sorted order**.
+
+Return *the intersection of these two interval lists*.
+
+A **closed interval** `[a, b]` (with `a < b`) denotes the set of real numbers `x` with `a <= x <= b`.
+
+The **intersection** of two closed intervals is a set of real numbers that are either empty or represented as a closed interval. For example, the intersection of `[1, 3]` and `[2, 4]` is `[2, 3]`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/01/30/interval1.png)
+```
+Input: firstList = [[0,2],[5,10],[13,23],[24,25]], secondList = [[1,5],[8,12],[15,24],[25,26]]
+Output: [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
+```
+**Example 2:**
+```
+Input: firstList = [[1,3],[5,9]], secondList = []
+Output: []
+```
+**Example 3:**
+```
+Input: firstList = [], secondList = [[4,8],[10,12]]
+Output: []
+```
+**Example 4:**
+```
+Input: firstList = [[1,7]], secondList = [[3,10]]
+Output: [[3,7]]
+```
+**Constraints:**
+  - `0 <= firstList.length, secondList.length <= 1000`
+  - `firstList.length + secondList.length >= 1`
+  - `0 <= start[i] < end[i] <= 10^9`
+  - `end[i] < start[i+1]`
+  - `0 <= start[j] < end[j] <= 10^9`
+  - `end[j] < start[j+1]`
 
 [back to top](#menu)
 
