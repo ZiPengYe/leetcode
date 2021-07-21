@@ -120,6 +120,7 @@
 - [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
 - [x] [#378 Kth Smallest Element in a Sorted Matrix](#378-kth-smallest-element-in-a-sorted-matrix)
 - [x] [#383 Ransom Note](#383-ransom-note)
+- [x] [#384 Shuffle an Array](#384-shuffle-an-array)
 - [x] [#387 First Unique Character in a String](#387-first-unique-character-in-a-string)
 - [x] [#402 Remove K Digits](#402-remove-k-digits)
 - [x] [#417 Pacific Atlantic Water Flow](#417-pacific-atlantic-water-flow)
@@ -3290,6 +3291,39 @@ Output: true
 ```
 **Constraints:**
 - You may assume that both strings contain only lowercase letters.
+
+[back to top](#menu)
+
+---
+## [#384 Shuffle an Array](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/610/week-3-july-15th-july-21st/3820)
+Given an integer array `nums`, design an algorithm to randomly shuffle the array. All permutations of the array should be **equally likely** as a result of the shuffling.
+
+Implement the `Solution` class:
+  - `Solution(int[] nums)` Initializes the object with the integer array nums.
+  - `int[] reset()` Resets the array to its original configuration and returns it.
+  - `int[] shuffle()` Returns a random shuffling of the array.
+
+**Example 1:**
+```
+Input
+["Solution", "shuffle", "reset", "shuffle"]
+[[[1, 2, 3]], [], [], []]
+Output
+[null, [3, 1, 2], [1, 2, 3], [1, 3, 2]]
+
+Explanation
+Solution solution = new Solution([1, 2, 3]);
+solution.shuffle();    // Shuffle the array [1,2,3] and return its result.
+                       // Any permutation of [1,2,3] must be equally likely to be returned.
+                       // Example: return [3, 1, 2]
+solution.reset();      // Resets the array back to its original configuration [1,2,3]. Return [1, 2, 3]
+solution.shuffle();    // Returns the random shuffling of array [1,2,3]. Example: return [1, 3, 2]
+```
+**Constraints:**
+  - `1 <= nums.length <= 200`
+  - `-10^6 <= nums[i] <= 10^6`
+  - All the elements of `nums` are unique.
+  - At most `5 * 10^4` calls **in total** will be made to `reset` and `shuffle`.
 
 [back to top](#menu)
 
