@@ -167,6 +167,7 @@
 - [x] [#870 Advantage Shuffle](#870-advantage-shuffle)
 - [x] [#876 Middle of the Linked List](#876-middle-of-the-linked-list)
 - [x] [#901 Online Stock Span](#901-online-stock-span)
+- [x] [#915 Partition Array into Disjoint Intervals](#915-partition-array-into-disjoint-intervals)
 - [x] [#916 Word Subsets](#916-word-subsets)
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
 - [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
@@ -4598,6 +4599,36 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
   2. There will be at most `10000` calls to `StockSpanner.next` per test case.
   3. There will be at most `150000` calls to `StockSpanner.next` across all test cases.
   4. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
+
+[back to top](#menu)
+
+---
+## [#915 Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals)
+Given an array `nums`, partition it into two (contiguous) subarrays `left` and `right` so that:
+  - Every element in `left` is less than or equal to every element in `right`.
+  - `left` and `right` are non-empty.
+  - `left` has the smallest possible size.
+
+Return the **length** of `left` after such a partitioning.  It is guaranteed that such a partitioning exists.
+
+**Example 1:**
+```
+Input: nums = [5,0,3,8,6]
+Output: 3
+Explanation: left = [5,0,3], right = [8,6]
+```
+**Example 2:**
+```
+Input: nums = [1,1,1,0,6,12]
+Output: 4
+Explanation: left = [1,1,1,0], right = [6,12]
+```
+**Note:**
+  1. `2 <= nums.length <= 30000`
+  2. `0 <= nums[i] <= 10^6`
+  3. It is guaranteed there is at least one way to partition `nums` as described.
+
+[back to top](#menu)
 
 ---
 ## [#916 Word Subsets](https://leetcode.com/problems/word-subsets)
