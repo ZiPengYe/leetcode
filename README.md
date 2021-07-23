@@ -192,8 +192,10 @@
 - [x] [#1704 Determine if String Halves Are Alike](#1704-determine-if-string-halves-are-alike)
 - [x] [#1721 Swapping Nodes in a Linked List](#1721-swapping-nodes-in-a-linked-list)
 - [x] [#1732 Find the Highest Altitude](#1732-find-the-highest-altitude)
+- [x] [#1893 Check if All the Integers in a Range Are Covered](#1893-check-if-all-the-integers-in-a-range-are-covered)
 - [x] [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
 - [x] [First Unique Number](#first-unique-number)
+
 ---
 ## [#1 Two Sum](https://leetcode.com/problems/two-sum)
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
@@ -2667,7 +2669,7 @@ Output:
 **Trivia:**
 
 This problem was inspired by [this original tweet](https://twitter.com/mxcl/status/608682016205344768) by [Max Howell](https://twitter.com/mxcl):
-> Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
+> Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f\*\*\* off.
 
 [back to top](#menu)
 
@@ -5451,6 +5453,7 @@ Output: [1,2,3]
 - The number of nodes in the list is `n`.
 - `1 <= k <= n <= 10^5`
 - `0 <= Node.val <= 100`
+
 [back to top](#menu)
 
 ---
@@ -5476,6 +5479,36 @@ Explanation: The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.
 - `n == gain.length`
 - `1 <= n <= 100`
 - `-100 <= gain[i] <= 100`
+
+[back to top](#menu)
+
+---
+## [#1893 Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered)
+You are given a 2D integer array `ranges` and two integers `left` and `right`. Each `ranges[i] = [start[i], end[i]]` represents an inclusive interval between `start[i]` and `end[i]`.
+
+Return `true` *if each integer in the inclusive range `[left, right]` is covered by **at least one** interval in `ranges`*. Return `false` *otherwise*.
+
+An integer `x` is covered by an interval `ranges[i] = [start[i], end[i]]` if `start[i] <= x <= end[i].`
+
+**Example 1:**
+```
+Input: ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5
+Output: true
+Explanation: Every integer between 2 and 5 is covered:
+- 2 is covered by the first range.
+- 3 and 4 are covered by the second range.
+- 5 is covered by the third range.
+```
+**Example 2:**
+```
+Input: ranges = [[1,10],[10,20]], left = 21, right = 21
+Output: false
+Explanation: 21 is not covered by any range.
+```
+**Constraints:**
+  - `1 <= ranges.length <= 50`
+  - `1 <= start[i] <= end[i] <= 50`
+  - `1 <= left <= right <= 50`
 
 [back to top](#menu)
 
