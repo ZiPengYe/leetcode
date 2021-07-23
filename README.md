@@ -89,6 +89,7 @@
 - [x] [#205 Isomorphic Strings](#205-isomorphic-strings)
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
 - [x] [#208 Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
+- [x] [#209 Minimum Size Subarray Sum](#209-minimum-size-subarray-sum)
 - [x] [#217 Contains Duplicate](#217-contains-duplicate)
 - [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
 - [x] [#221 Maximal Square](#221-maximal-square)
@@ -2529,6 +2530,35 @@ trie.search("app");     // returns true
 **Note:**
 - You may assume that all inputs are consist of lowercase letters `a-z`.
 - All inputs are guaranteed to be non-empty strings.
+
+[back to top](#menu)
+
+---
+## [#209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)
+Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a **contiguous subarray** `[nums[l], nums[l+1], ..., nums[r-1], nums[r]]` of which the sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.
+
+**Example 1:**
+```
+Input: target = 7, nums = [2,3,1,2,4,3]
+Output: 2
+Explanation: The subarray [4,3] has the minimal length under the problem constraint.
+```
+**Example 2:**
+```
+Input: target = 4, nums = [1,4,4]
+Output: 1
+```
+**Example 3:**
+```
+Input: target = 11, nums = [1,1,1,1,1,1,1,1]
+Output: 0
+```
+**Constraints:**
+  - `1 <= target <= 10^9`
+  - `1 <= nums.length <= 10^5`
+  - `1 <= nums[i] <= 10^5`
+
+**Follow up:** If you have figured out the `O(n)` solution, try coding another solution of which the time complexity is `O(n log(n))`.
 
 [back to top](#menu)
 
