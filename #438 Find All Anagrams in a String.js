@@ -1,31 +1,44 @@
+const A_CHARCODE = 'a'.charCodeAt();
 /**
  * @param {string} s
  * @param {string} p
  * @return {number[]}
  */
 const findAnagrams = (s, p) => {
-  const ans = [];
-  if (s.length < p.length) return ans;
-  const map = {};
-  for (let i = p.length - 1; i >= 0; i--) {
-    map[p[i]] = (map[p[i]] || 0) + 1;
+  const m = s.length,
+    n = p.length,
+    ans = [];
+  if (m < n) return ans;
+
+  // s字符计数集
+  const sCount = Array(26).fill(0);
+  // p字符计数集
+  const pCount = Array(26).fill(0);
+
+  // p字符计数
+  for (let i = 0; i < n; ++i) {
+    ++pCount[p.charCodeAt(i) - A_CHARCODE];
   }
-  for (
-    let l = 0,
-      r = 0,
-      c = p.length,
-      len = s.length;
-    r < len;
-  ) {
-    if (map[s[r]] > 0) c--;
-    map[s[r]] = (map[s[r]] || 0) - 1;
-    r++;
-    if (c === 0) ans.push(l);
-    if (r - l === p.length) {
-      if (map[s[l]] >= 0) c++;
-      map[s[l]]++;
-      l++;
+
+  // 双指针
+  let left = 0;
+  for (let right = 0; right < m; ++right) {
+    // s字符计数
+    const rightIdx = s.charCodeAt(right) - A_CHARCODE;
+    ++sCount[rightIdx];
+
+    // 当 s字符计数 超过 p字符计数, 则 左指针 右移
+    while (sCount[rightIdx] > pCount[rightIdx]) {
+      const leftIdx = s.charCodeAt(left) - A_CHARCODE;
+      --sCount[leftIdx];
+      ++left;
+    }
+
+    // 符合条件
+    if (right - left + 1 === n) {
+      ans.push(left);
     }
   }
+
   return ans;
 };
