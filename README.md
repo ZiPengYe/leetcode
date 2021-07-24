@@ -161,6 +161,7 @@
 - [x] [#783 Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [x] [#784 Letter Case Permutation](#784-letter-case-permutation)
 - [x] [#801 Minimum Swaps To Make Sequences Increasing](#801-minimum-swaps-to-make-sequences-increasing)
+- [x] [#814 Binary Tree Pruning](#814-binary-tree-pruning)
 - [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
 - [x] [#838 Push Dominoes](#838-push-dominoes)
 - [x] [#844 Backspace String Compare](#844-backspace-string-compare)
@@ -4375,7 +4376,7 @@ Output: ["0"]
 You are given two integer arrays of the same length `nums1` and `nums2`. In one operation, you are allowed to swap `nums1[i]` with `nums2[i]`.
   - For example, if `nums1 = [1,2,3,_8_]`, and `nums2 = [5,6,7,_4_]`, you can swap the element at `i = 3` to obtain `nums1 = [1,2,3,4]` and `nums2 = [5,6,7,8]`.
 
-Return *the minimum number of needed operations to make `nums1` and `nums2` **strictly increasing***. The test cases are generated so that the given input always makes it possible.
+Return *the minimum number of needed operations to make `nums1` and `nums2` __strictly increasing__*. The test cases are generated so that the given input always makes it possible.
 
 An array `arr` is **strictly increasing** if and only if `arr[0] < arr[1] < arr[2] < ... < arr[arr.length - 1]`.
 
@@ -4397,6 +4398,42 @@ Output: 1
   - `2 <= nums1.length <= 10^5`
   - `nums2.length == nums1.length`
   - `0 <= nums1[i], nums2[i] <= 2 * 10^5`
+
+[back to top](#menu)
+
+---
+[#814 Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)
+Given the `root` of a binary tree, return *the same tree where every subtree (of the given tree) not containing a `1` has been removed*.
+
+A subtree of a node `node` is `node` plus every node that is a descendant of `node`.
+
+**Example 1:**
+
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_2.png)
+```
+Input: root = [1,null,0,0,1]
+Output: [1,null,0,null,1]
+Explanation:
+Only the red nodes satisfy the property "every subtree not containing a 1".
+The diagram on the right represents the answer.
+```
+**Example 2:**
+
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_1.png)
+```
+Input: root = [1,0,1,0,0,0,1]
+Output: [1,null,1,null,1]
+```
+**Example 3:**
+
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png)
+```
+Input: root = [1,1,0,1,1,0,1,0]
+Output: [1,1,0,1,1,null,1]
+```
+**Constraints:**
+  - The number of nodes in the tree is in the range `[1, 200]`.
+  - `Node.val` is either `0` or `1`.
 
 [back to top](#menu)
 
