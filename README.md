@@ -144,6 +144,7 @@
 - [x] [#560 Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [x] [#567 Permutation in String](#567-permutation-in-string)
 - [x] [#575 Distribute Candies](#575-distribute-candies)
+- [x] [#600 Non-negative Integers without Consecutive Ones](#600-non-negative-integers-without-consecutive-ones)
 - [x] [#611 Valid Triangle Number](#611-valid-triangle-number)
 - [x] [#617 Merge Two Binary Trees](#617-merge-two-binary-trees)
 - [x] [#645 Set Mismatch](#645-set-mismatch)
@@ -3936,6 +3937,39 @@ Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 can
 - `2 <= n <= 10^4`
 - `n` is even.
 - `-10^5 <= candyType[i] <= 10^5`
+
+[back to top](#menu)
+
+---
+## [#600 Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones)
+Given a positive integer `n`, return the number of the integers in the range `[0, n]` whose binary representations **do not** contain consecutive ones.
+
+**Example 1:**
+```
+Input: n = 5
+Output: 5
+Explanation:
+Here are the non-negative integers <= 5 with their corresponding binary representations:
+0 : 0
+1 : 1
+2 : 10
+3 : 11
+4 : 100
+5 : 101
+Among them, only integer 3 disobeys the rule (two consecutive ones) and the other 5 satisfy the rule.
+```
+**Example 2:**
+```
+Input: n = 1
+Output: 2
+```
+**Example 3:**
+```
+Input: n = 2
+Output: 3
+```
+**Constraints:**
+  - `1 <= n <= 10^9`
 
 [back to top](#menu)
 
