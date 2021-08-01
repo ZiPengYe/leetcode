@@ -194,6 +194,7 @@
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
 - [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
 - [x] [#1704 Determine if String Halves Are Alike](#1704-determine-if-string-halves-are-alike)
+- [x] [#1713 Minimum Operations to Make a Subsequence](#1713-minimum-operations-to-make-a-subsequence)
 - [x] [#1721 Swapping Nodes in a Linked List](#1721-swapping-nodes-in-a-linked-list)
 - [x] [#1732 Find the Highest Altitude](#1732-find-the-highest-altitude)
 - [x] [#1893 Check if All the Integers in a Range Are Covered](#1893-check-if-all-the-integers-in-a-range-are-covered)
@@ -5509,7 +5510,7 @@ You are given a string `s` of even length. Split this string into two halves of 
 
 Two strings are **alike** if they have the same number of vowels (`'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, `'U'`). Notice that `s` contains uppercase and lowercase letters.
 
-Return `true` *if `a` and `b` are **alike***. Otherwise, return `false`.
+Return `true` *if `a` and `b` are __alike__*. Otherwise, return `false`.
 
 **Example 1:**
 ```
@@ -5538,6 +5539,34 @@ Output: true
   - `2 <= s.length <= 1000`
   - `s.length` is even.
   - `s` consists of **uppercase and lowercase** letters.
+
+[back to top](#menu)
+
+---
+## [#1713 Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence)
+You are given an array `target` that consists of **distinct** integers and another integer array `arr` that **can** have duplicates.
+
+In one operation, you can insert any integer at any position in `arr`. For example, if `arr = [1,4,1,2]`, you can add 3 in the middle and make it `[1,4,3,1,2]`. Note that you can insert the integer at the very beginning or end of the array.
+
+Return *the **minimum** number of operations needed to make `target` a **subsequence** of `arr`*.
+
+A **subsequence** of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements' relative order. For example, `[2,7,4]` is a subsequence of `[4,2,3,7,2,1,4]` (the underlined elements), while `[2,4,2]` is not.
+
+**Example 1:**
+```
+Input: target = [5,1,3], arr = [9,4,2,3,4]
+Output: 2
+Explanation: You can add 5 and 1 in such a way that makes arr = [5,9,4,1,2,3,4], then target will be a subsequence of arr.
+```
+**Example 2:**
+```
+Input: target = [6,4,8,1,3,2], arr = [4,7,6,2,3,8,6,1]
+Output: 3
+```
+**Constraints:**
+  - `1 <= target.length, arr.length <= 10^5`
+  - `1 <= target[i], arr[i] <= 10^9`
+  - `target` contains no duplicates.
 
 [back to top](#menu)
 
