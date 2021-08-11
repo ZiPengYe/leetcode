@@ -129,6 +129,7 @@
 - [x] [#423 Reconstruct Original Digits from English](#423-reconstruct-original-digits-from-english)
 - [x] [#434 Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [x] [#438 Find All Anagrams in a String](#438-find-all-anagrams-in-a-string)
+- [x] [#446 Arithmetic Slices II - Subsequence](#446-arithmetic-slices-ii-subsequence)
 - [x] [#451 Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [x] [#467 Unique Substrings in Wraparound String](#467-unique-substrings-in-wraparound-string)
 - [x] [#474 Ones and Zeroes](#474-ones-and-zeroes)
@@ -3549,6 +3550,46 @@ The substring with start index = 0 is "ab", which is an anagram of "ab".
 The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
 ```
+
+[back to top](#menu)
+
+---
+## [#446 Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)
+Given an integer array `nums`, return *the number of all the **arithmetic subsequences** of* `nums`.
+
+A sequence of numbers is called arithmetic if it consists of **at least three elements** and if the difference between any two consecutive elements is the same.
+
+  - For example, `[1, 3, 5, 7, 9]`, `[7, 7, 7, 7]`, and `[3, -1, -5, -9]` are arithmetic sequences.
+  - For example, `[1, 1, 2, 5, 7]` is not an arithmetic sequence.
+
+A **subsequence** of an array is a sequence that can be formed by removing some elements (possibly none) of the array.
+  - For example, `[2,5,10]` is a subsequence of `[1,2,1,2,4,1,5,10]`.
+
+The answer is guaranteed to fit in **32-bit** integer.
+
+**Example 1:**
+```
+Input: nums = [2,4,6,8,10]
+Output: 7
+Explanation: All arithmetic subsequence slices are:
+[2,4,6]
+[4,6,8]
+[6,8,10]
+[2,4,6,8]
+[4,6,8,10]
+[2,4,6,8,10]
+[2,6,10]
+```
+**Example 2:**
+```
+Input: nums = [7,7,7,7,7]
+Output: 16
+Explanation: Any subsequence of this array is arithmetic.
+```
+**Constraints:**
+  - `1  <= nums.length <= 1000`
+  - `-2^31 <= nums[i] <= 2^31 - 1`
+
 [back to top](#menu)
 
 ---
