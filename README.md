@@ -48,6 +48,7 @@
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#112 Path Sum](#112-path-sum)
 - [x] [#116 Populating Next Right Pointers in Each Node](#116-Pascal's Triangle)
+- [x] [#117 Populating Next Right Pointers in Each Node II](#117-populating-next-right-pointers-in-each-node-ii)
 - [x] [#118 Pascal's Triangle](#118-pascals-triangle)
 - [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
 - [x] [#120 Triangle](#120-triangle)
@@ -1496,6 +1497,44 @@ Explanation: Given the above perfect binary tree (Figure A), your function shoul
 [back to top](#menu)
 
 ---
+## [#117 Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)
+Given a binary tree
+```
+struct Node {
+  int val;
+  Node *left;
+  Node *right;
+  Node *next;
+}
+```
+Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to `NULL`.
+
+Initially, all next pointers are set to `NULL`.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/02/15/117_sample.png)
+```
+Input: root = [1,2,3,4,5,null,7]
+Output: [1,#,2,3,#,4,5,7,#]
+Explanation: Given the above binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
+```
+**Example 2:**
+```
+Input: root = []
+Output: []
+```
+**Constraints:**
+  - The number of nodes in the tree is in the range `[0, 6000]`.
+  - `-100 <= Node.val <= 100`
+
+**Follow-up:**
+  - You may only use constant extra space.
+  - The recursive approach is fine. You may assume implicit stack space does not count as extra space for this problem.
+
+[back to top](#menu)
+
+---
 ## [#118 Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)
 Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's triangle.
 
@@ -1892,7 +1931,7 @@ Explanation: Your function can return either index number 1 where the peak eleme
 
 ---
 ## [#167 Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
-Given an array of integers that is already ***sorted in ascending order***, find two numbers such that they add up to a specific target number.
+Given an array of integers that is already *__sorted in ascending order__*, find two numbers such that they add up to a specific target number.
 
 The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
 
@@ -2451,7 +2490,7 @@ Explanation:
 
 ---
 ## [#203 Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
-Remove all elements from a linked list of integers that have value ***val***.
+Remove all elements from a linked list of integers that have value *__val__*.
 
 **Example:**
 ```
@@ -2462,7 +2501,7 @@ Output: 1->2->3->4->5
 
 ---
 ## [#204 Count Primes](https://leetcode.com/problems/count-primes)
-Count the number of prime numbers less than a non-negative number, ***n***.
+Count the number of prime numbers less than a non-negative number, *__n__*.
 
 **Example:**
 ```
@@ -2474,9 +2513,9 @@ Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 
 ---
 ## [#205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
-Given two strings ***s*** and ***t***, determine if they are isomorphic.
+Given two strings *__s__* and *__t__*, determine if they are isomorphic.
 
-Two strings are isomorphic if the characters in ***s*** can be replaced to get ***t***.
+Two strings are isomorphic if the characters in *__s__* can be replaced to get *__t__*.
 
 All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
 
@@ -2497,7 +2536,7 @@ Output: true
 ```
 **Note:**
 
-You may assume both ***s*** and ***t*** have the same length.
+You may assume both *__s__* and *__t__* have the same length.
 
 [back to top](#menu)
 
@@ -3287,7 +3326,7 @@ Output: false
 
 ---
 ## [#376 Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/solution)
-Given an integer array `nums`, return *the length of the longest **wiggle sequence***.
+Given an integer array `nums`, return *the length of the longest __wiggle sequence__*.
 
 A **wiggle sequence** is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.
 
@@ -3864,7 +3903,7 @@ A **province** is a group of directly or indirectly connected cities and no othe
 
 You are given an `n x n` matrix `isConnected` where `isConnected[i][j] = 1` if the `ith` city and the `jth` city are directly connected, and `isConnected[i][j] = 0` otherwise.
 
-Return *the total number of **provinces***.
+Return *the total number of __provinces__*.
 
 **Example 1:**
 
