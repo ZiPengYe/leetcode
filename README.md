@@ -179,6 +179,7 @@
 - [x] [#918 Maximum Sum Circular Subarray](#918-maximum-sum-circular-subarray)
 - [x] [#926 Flip String to Monotone Increasing](#926-flip-string-to-monotone-increasing)
 - [x] [#953 Verifying an Alien Dictionary](#953-verifying-an-alien-dictionary)
+- [x] [#954 Array of Doubled Pairs](#954-array-of-doubled-pairs)
 - [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
 - [x] [#977 Squares of a Sorted Array](#977-squares-of-a-sorted-array)
 - [x] [#986 Interval List Intersections](#986-interval-list-intersections)
@@ -5019,6 +5020,39 @@ Explanation: The first three characters "app" match, and the second string is sh
   - `1 <= words[i].length <= 20`
   - `order.length == 26`
   - All characters in `words[i]` and `order` are English lowercase letters.
+
+[back to top](#menu)
+
+---
+## [#954 Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)
+Given an integer array of even length `arr`, return `true` *if it is possible to reorder `arr` such that `arr[2 * i + 1] = 2 * arr[2 * i]` for every `0 <= i < len(arr) / 2`, or `false` otherwise*.
+
+**Example 1:**
+```
+Input: arr = [3,1,3,6]
+Output: false
+```
+**Example 2:**
+```
+Input: arr = [2,1,2,6]
+Output: false
+```
+**Example 3:**
+```
+Input: arr = [4,-2,2,-4]
+Output: true
+Explanation: We can take two groups, [-2,-4] and [2,4] to form [-2,-4,2,4] or [2,4,-2,-4].
+```
+**Example 4:**
+```
+Input: arr = [1,2,4,16,8,4]
+Output: false
+```
+**Constraints:**
+  - `2 <= arr.length <= 3 * 10^4`
+  - `arr.length` is even.
+  - `-10^5 <= arr[i] <= 10^5`
+
 [back to top](#menu)
 
 ---
