@@ -191,6 +191,7 @@
 - [x] [#1022 Sum of Root To Leaf Binary Numbers](#1022-sum-of-root-to-leaf-binary-numbers)
 - [ ] [#1024 Video Stitching](#1024-video-stitching)
 - [x] [#1046 Last Stone Weight](#1046-last-stone-weight)
+- [x] [#1091 Shortest Path in Binary Matrix](#1091-shortest-path-in-binary-matrix)
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
 - [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
@@ -5440,6 +5441,44 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that's the value o
 **Note:**
 1. `1 <= stones.length <= 30`
 2. `1 <= stones[i] <= 1000`
+
+[back to top](#menu)
+
+---
+## [#1091 Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)
+Given an `n x n` binary matrix `grid`, return *the length of the shortest **clear path** in the matrix*. If there is no clear path, return `-1`.
+
+A **clear path** in a binary matrix is a path from the **top-left** cell (i.e., `(0, 0)`) to the **bottom-right** cell (i.e., `(n - 1, n - 1)`) such that:
+
+  - All the visited cells of the path are `0`.
+  - All the adjacent cells of the path are **8-directionally** connected (i.e., they are different and they share an edge or a corner).
+
+The **length of a clear path** is the number of visited cells of this path.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/02/18/example1_1.png)
+```
+Input: grid = [[0,1],[1,0]]
+Output: 2
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2021/02/18/example2_1.png)
+```
+Input: grid = [[0,0,0],[1,1,0],[1,1,0]]
+Output: 4
+```
+**Example 3:**
+```
+Input: grid = [[1,0,0],[1,1,0],[1,1,0]]
+Output: -1
+```
+**Constraints:**
+  - `n == grid.length`
+  - `n == grid[i].length`
+  - `1 <= n <= 100`
+  - `grid[i][j] is 0 or 1`
 
 [back to top](#menu)
 
