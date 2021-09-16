@@ -47,7 +47,7 @@
 - [x] [#110 Balanced Binary Tree](#110-balanced-binary-tree)
 - [x] [#111 Minimum Depth of Binary Tree](#111-minimum-depth-of-binary-tree)
 - [x] [#112 Path Sum](#112-path-sum)
-- [x] [#116 Populating Next Right Pointers in Each Node](#116-Pascal's Triangle)
+- [x] [#116 Populating Next Right Pointers in Each Node](#116-populating-next-right-pointers-in-each-node)
 - [x] [#117 Populating Next Right Pointers in Each Node II](#117-populating-next-right-pointers-in-each-node-ii)
 - [x] [#118 Pascal's Triangle](#118-pascals-triangle)
 - [x] [#119 Pascal's Triangle II](#119-pascals-triangle-ii)
@@ -63,7 +63,7 @@
 - [x] [#153 Find Minimum in Rotated Sorted Array](#153-find-minimum-in-rotated-sorted-array)
 - [x] [#155 Min Stack](#155-min-stack)
 - [x] [#160 Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
-- [x] [#162 Find Peak Element](#162-Two Sum II - Input array is sorted)
+- [x] [#162 Find Peak Element](#162-find-peak-element)
 - [x] [#167 Two Sum II - Input array is sorted](#167-two-sum-ii-input-array-is-sorted)
 - [x] [#168 Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [x] [#169 Majority Element](#169-majority-element)
@@ -835,7 +835,7 @@ Output: -1
 ## [#34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
 
-If `target is not found in the array, return `[-1, -1]`.
+If `target` is not found in the array, return `[-1, -1]`.
 
 You must write an algorithm with `O(log n)` runtime complexity.
 
@@ -844,7 +844,7 @@ You must write an algorithm with `O(log n)` runtime complexity.
 Input: nums = [5,7,7,8,8,10], target = 8
 Output: [3,4]
 ```
-*Example 2:*
+**Example 2:**
 ```
 Input: nums = [5,7,7,8,8,10], target = 6
 Output: [-1,-1]
@@ -1113,7 +1113,7 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
 [back to top](#menu)
 
 ---
-## #70 Climbing Stairs
+## [#70 Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 You are climbing a stair case. It takes *n* steps to reach to the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
