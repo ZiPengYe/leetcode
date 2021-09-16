@@ -92,6 +92,7 @@
 - [x] [#206 Reverse Linked List](#206-reverse-linked-list)
 - [x] [#208 Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [x] [#209 Minimum Size Subarray Sum](#209-minimum-size-subarray-sum)
+- [x] [#212 Word Search II](#212-word-search-ii)
 - [x] [#217 Contains Duplicate](#217-contains-duplicate)
 - [x] [#219 Contains Duplicate II](#219-contains-duplicate-ii)
 - [x] [#221 Maximal Square](#221-maximal-square)
@@ -2636,6 +2637,38 @@ Output: 0
   - `1 <= nums[i] <= 10^5`
 
 **Follow up:** If you have figured out the `O(n)` solution, try coding another solution of which the time complexity is `O(n log(n))`.
+
+[back to top](#menu)
+
+---
+## [#212 Word Search II](https://leetcode.com/problems/word-search-ii)
+Given an `m x n` `board` of characters and a list of strings `words`, return *all words on the board*.
+
+Each word must be constructed from letters of sequentially adjacent cells, where **adjacent cells** are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/11/07/search1.jpg)
+```
+Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
+Output: ["eat","oath"]
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2020/11/07/search2.jpg)
+```
+Input: board = [["a","b"],["c","d"]], words = ["abcb"]
+Output: []
+```
+**Constraints:**
+  - `m == board.length`
+  - `n == board[i].length`
+  - `1 <= m, n <= 12`
+  - `board[i][j]` is a lowercase English letter.
+  - `1 <= words.length <= 3 * 10^4`
+  - `1 <= words[i].length <= 10`
+  - `words[i]` consists of lowercase English letters.
+  - All the strings of `words` are unique.
 
 [back to top](#menu)
 
