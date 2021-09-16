@@ -183,6 +183,7 @@
 - [x] [#954 Array of Doubled Pairs](#954-array-of-doubled-pairs)
 - [x] [#971 Flip Binary Tree To Match Preorder Traversal](#971-flip-binary-tree-to-match-preorder-traversal)
 - [x] [#977 Squares of a Sorted Array](#977-squares-of-a-sorted-array)
+- [x] [#978 Longest Turbulent Subarray](#978-longest-turbulent-subarray)
 - [x] [#986 Interval List Intersections](#986-interval-list-intersections)
 - [x] [#992 Subarrays with K Different Integers](#992-subarrays-with-k-different-integers)
 - [x] [#993 Cousins in Binary Tree](#993-cousins-in-binary-tree)
@@ -5151,6 +5152,42 @@ Output: [4,9,9,49,121]
   - `1 <= nums.length <= 10^4`
   - `-10^4 <= nums[i] <= 10^4`
   - `nums` is sorted in **non-decreasing** order.
+
+[back to top](#menu)
+
+---
+[#978 Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)
+Given an integer array `arr`, return *the length of a maximum size turbulent subarray of `arr`*.
+
+A subarray is **turbulent** if the comparison sign flips between each adjacent pair of elements in the subarray.
+
+More formally, a subarray `[arr[i], arr[i + 1], ..., arr[j]]` of `arr` is said to be turbulent if and only if:
+- For `i <= k < j`:
+  - `arr[k] > arr[k + 1]` when `k` is odd, and
+  - `arr[k] < arr[k + 1]` when `k` is even.
+- Or, for `i <= k < j`:
+  - `arr[k] > arr[k + 1]` when `k` is even, and
+  - `arr[k] < arr[k + 1]` when `k` is odd.
+
+**Example 1:**
+```
+Input: arr = [9,4,2,10,7,8,8,1,9]
+Output: 5
+Explanation: arr[1] > arr[2] < arr[3] > arr[4] < arr[5]
+```
+**Example 2:**
+```
+Input: arr = [4,8,12,16]
+Output: 2
+```
+**Example 3:**
+```
+Input: arr = [100]
+Output: 1
+```
+**Constraints:**
+  - `1 <= arr.length <= 4 * 10^4`
+  - `0 <= arr[i] <= 10^9`
 
 [back to top](#menu)
 
