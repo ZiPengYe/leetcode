@@ -121,6 +121,7 @@
 - [x] [#322 Coin Change](#322-coin-change)
 - [x] [#328 Odd Even Linked List](#328-odd-even-linked-list)
 - [x] [#344 Reverse String](#344-reverse-string)
+- [x] [#350 Intersection of Two Arrays II](#350-intersection-of-two-arrays-ii)
 - [x] [#354 Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [x] [#369 Valid Perfect Square](#369-valid-perfect-square)
 - [x] [#376 Wiggle Subsequence](#376-wiggle-subsequence)
@@ -3367,6 +3368,32 @@ Output: ["h","a","n","n","a","H"]
   - `s[i]` is a [printable ascii character](https://en.wikipedia.org/wiki/ASCII#Printable_characters).
 
 **Follow up:** Do not allocate extra space for another array. You must do this by modifying the input array [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with `O(1)` extra memory.
+
+[back to top](#menu)
+
+---
+## [#350 Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
+Given two integer arrays `nums1` and `nums2`, return *an array of their intersection*. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
+
+**Example 1:**
+```
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2,2]
+```
+**Example 2:**
+```
+Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+Output: [4,9]
+Explanation: [9,4] is also accepted.
+```
+**Constraints:**
+  - `1 <= nums1.length, nums2.length <= 1000`
+  - `0 <= nums1[i], nums2[i] <= 1000`
+
+**Follow up:**
+  - What if the given array is already sorted? How would you optimize your algorithm?
+  - What if `nums1`'s size is small compared to `nums2`'s size? Which algorithm is better?
+  - What if elements of `nums2` are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
 [back to top](#menu)
 
