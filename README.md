@@ -201,6 +201,7 @@
 - [x] [#1143 Longest Common Subsequence](#1143-longest-common-subsequence)
 - [x] [#1147 Longest Chunked Palindrome Decomposition](#1147-longest-chunked-palindrome-decomposition)
 - [x] [#1232 Check If It Is a Straight Line](#1232-check-if-it-is-a-straight-line)
+- [x] [#1261 Find Elements in a Contaminated Binary Tree](#1261-find-elements-in-a-contaminated-binary-tree)
 - [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
 - [x] [#1306 Jump Game III](#1306-jump-game-iii)
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
@@ -5784,6 +5785,75 @@ Output: false
 - `coordinates[i].length == 2`
 - `-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4`
 - `coordinates` contains no duplicate point.
+
+[back to top](#menu)
+
+---
+## [#1261 Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree)
+Given a binary tree with the following rules:
+
+1. `root.val == 0`
+2. If `treeNode.val == x` and `treeNode.left != null`, then `treeNode.left.val == 2 * x + 1`
+3. If `treeNode.val == x` and `treeNode.right != null`, then `treeNode.right.val == 2 * x + 2`
+
+Now the binary tree is contaminated, which means all `treeNode.val` have been changed to `-1`.
+
+Implement the `FindElements` class:
+
+- `FindElements(TreeNode* root)` Initializes the object with a contaminated binary tree and recovers it.
+- `bool find(int target)` Returns `true` if the `target` value exists in the recovered binary tree.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2019/11/06/untitled-diagram-4-1.jpg)
+```
+Input
+["FindElements","find","find"]
+[[[-1,null,-1]],[1],[2]]
+Output
+[null,false,true]
+Explanation
+FindElements findElements = new FindElements([-1,null,-1]);
+findElements.find(1); // return False
+findElements.find(2); // return True
+```
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2019/11/06/untitled-diagram-4.jpg)
+```
+Input
+["FindElements","find","find","find"]
+[[[-1,-1,-1,-1,-1]],[1],[3],[5]]
+Output
+[null,true,true,false]
+Explanation
+FindElements findElements = new FindElements([-1,-1,-1,-1,-1]);
+findElements.find(1); // return True
+findElements.find(3); // return True
+findElements.find(5); // return False
+```
+**Example 3:**
+
+![](https://assets.leetcode.com/uploads/2019/11/07/untitled-diagram-4-1-1.jpg)
+```
+Input
+["FindElements","find","find","find","find"]
+[[[-1,null,-1,-1,null,-1]],[2],[3],[4],[5]]
+Output
+[null,true,false,false,true]
+Explanation
+FindElements findElements = new FindElements([-1,null,-1,-1,null,-1]);
+findElements.find(2); // return True
+findElements.find(3); // return False
+findElements.find(4); // return False
+findElements.find(5); // return True
+```
+**Constraints:**
+- `TreeNode.val == -1`
+- The height of the binary tree is less than or equal to `20`
+- The total number of nodes is between `[1, 10^4]`
+- Total calls of `find()` is between `[1, 10^4]`
+- ^0 <= target <= 10^6^
 
 [back to top](#menu)
 
