@@ -204,6 +204,7 @@
 - [x] [#1302 Deepest Leaves Sum](#1302-deepest-leaves-sum)
 - [x] [#1306 Jump Game III](#1306-jump-game-iii)
 - [x] [#1337 The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
+- [x] [#1356 Sort Integers by The Number of 1 Bits](#1356-sort-integers-by-the-number-of-1-bits)
 - [x] [#1695 Maximum Erasure Value](#1695-maximum-erasure-value)
 - [x] [#1704 Determine if String Halves Are Alike](#1704-determine-if-string-halves-are-alike)
 - [x] [#1713 Minimum Operations to Make a Subsequence](#1713-minimum-operations-to-make-a-subsequence)
@@ -5893,6 +5894,36 @@ The rows ordered from weakest to strongest are [0,2,3,1].
 - `2 <= n, m <= 100`
 - `1 <= k <= m`
 - `matrix[i][j]` is either 0 or 1.
+
+[back to top](#menu)
+
+---
+## [#1356 Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)
+You are given an integer array `arr`. Sort the integers in the array in ascending order by the number of `1`'s in their binary representation and in case of two or more integers have the same number of `1`'s you have to sort them in ascending order.
+
+Return *the array after sorting it*.
+
+**Example 1:**
+```
+Input: arr = [0,1,2,3,4,5,6,7,8]
+Output: [0,1,2,4,8,3,5,6,7]
+Explantion: [0] is the only integer with 0 bits.
+[1,2,4,8] all have 1 bit.
+[3,5,6] have 2 bits.
+[7] has 3 bits.
+The sorted array by bits is [0,1,2,4,8,3,5,6,7]
+```
+
+**Example 2:**
+```
+Input: arr = [1024,512,256,128,64,32,16,8,4,2,1]
+Output: [1,2,4,8,16,32,64,128,256,512,1024]
+Explantion: All integers have 1 bit in the binary representation, you should just sort them in ascending order.
+```
+
+**Constraints:**
+- `1 <= arr.length <= 500`
+- `0 <= arr[i] <= 10^4`
 
 [back to top](#menu)
 
