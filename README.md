@@ -169,6 +169,7 @@
 - [x] [#781 Rabbits in Forest](#781-rabbits-in-forest)
 - [x] [#783 Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [x] [#784 Letter Case Permutation](#784-letter-case-permutation)
+- [x] [#790 Domino and Tromino Tiling](#790-domino-and-tromino-tiling)
 - [x] [#801 Minimum Swaps To Make Sequences Increasing](#801-minimum-swaps-to-make-sequences-increasing)
 - [x] [#814 Binary Tree Pruning](#814-binary-tree-pruning)
 - [x] [#823 Binary Trees With Factors](#823-binary-trees-with-factors)
@@ -4685,6 +4686,36 @@ Output: ["0"]
 **Constraints:**
   - `s` will be a string with length between `1` and `12`.
   - `s` will consist only of letters or digits.
+
+[back to top](#menu)
+
+---
+##[#790 Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)
+You have two types of tiles: a `2 x 1` domino shape and a tromino shape. You may rotate these shapes.
+
+![](https://assets.leetcode.com/uploads/2021/07/15/lc-domino.jpg)
+
+Given an integer n, return *the number of ways to tile an `2 x n` board*. Since the answer may be very large, return it **modulo** `10^9 + 7`.
+
+In a tiling, every square must be covered by a tile. Two tilings are different if and only if there are two 4-directionally adjacent cells on the board such that exactly one of the tilings has both squares occupied by a tile.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/07/15/lc-domino1.jpg)
+```
+Input: n = 3
+Output: 5
+Explanation: The five different ways are show above.
+```
+**Example 2:**
+```
+Input: n = 1
+Output: 1
+```
+
+**Constraints:**
+
+- `1 <= n <= 1000`
 
 [back to top](#menu)
 
